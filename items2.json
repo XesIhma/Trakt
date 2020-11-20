@@ -1,0 +1,633 @@
+{
+	{
+		[2, 0, 0] :
+		[
+			{
+				"class" : "Furniture",
+				"name" : "Regał",
+				"description" : "Stary drewniany regał na butelki wina z półkami lekko pochylonymi w stronę ściany",
+				"weight" : 60,
+				"price" : 0,
+				"id" : 001
+			},
+			{
+			  "class" : "Drink",
+				"name" : "Wino gronowe",
+				"description" : "Butelka z zielonego szkła z puntem w denku. Znajduje się w niej wytrawne wino z winogron z osadem na dnie.",
+				"nourish" : 2,
+				"alcohol" : 13,
+				"weight" : 2.5,
+				"price" : 100,
+				"id" : [501, 502, 503, 504, 505]
+			},
+			{
+			  "class" : "Drink",
+				"name" : "Wino gronowe",
+				"description" : "Butelka z zielonego szkła z puntem w denku. Znajduje się w niej półsłodkie wino z winogron z osadem na dnie.",
+				"nourish" : 8,
+				"alcohol" : 10,
+				"weight" : 2.5,
+				"price" : 100,
+				"id" : [506, 507, 508, 509]
+			},
+			{
+			  "class" : "Drink",
+				"name" : "Wino z jeżyn",
+				"description" : "Butelka z ciemnego szkła. Znajduje się w niej słodkie wino z jeżyn.",
+				"nourish" : 10,
+				"alcohol" : 10,
+				"weight" : 2.5,
+				"price" : 100,
+				"id" : [510, 511]
+			},
+			{
+			  "class" : "Drink",
+				"name" : "Białe wino",
+				"description" : "Przezroczysta butelka z resztkami etykiety. Znajduje się w niej wino z białych winogron.",
+				"nourish" : 8,
+				"alcohol" : 11,
+				"weight" : 2.5,
+				"price" : 100,
+				"id" : [512, 513, 514]
+			},
+		]
+	},
+	{
+		[4, 0, 0] :
+		[
+			{
+				"class" : "Furniture",
+				"name" : "Skrzynia",
+				"description" : "Solidna dębowa skrzynia z okuciami.",
+				"weight" : 60,
+				"price" : 0,
+				"id" : 002
+			},
+			{
+				"class" : "Furniture",
+				"name" : "Kufer",
+				"description" : "Średniej wielkości kufer obity skórą. Posiada dwa uchwyty. ",
+				"weight" : 60,
+				"price" : 0,
+				"id" : 003
+			},
+			{
+			  "class" : "CloseRange",
+				"name" : "Królewski miecz",
+				"description" : "Długi miecz obosieczny. Na końcach jelca oraz w głowni umieszczono klejnoty. W zbroczu znajduje się otwór.",
+				"type" : "sword",
+				"damage" : 50,
+				"strength_req" : 15,
+				"agility_req" : 10,
+				"condition" : 0.95,
+				"weight" : 3.5,
+				"thoughness" : 80,
+				"strike" : 1,
+				"stab" : 1.5,
+				"price" : 0,
+				"id" : 200
+			},
+			{
+			  "class" : "CloseRange",
+				"name" : "Berło",
+				"description" : "Symbol władzy królewskiej wykonany ze złota. Zakończone okrągłą gałką poniżej której są ornamenty.",
+				"type" : "cudgel"
+				"damage" : 5,
+				"strength_req" : 10,
+				"agility_req" : 5,
+				"condition" : 1,
+				"weight" : 3,
+				"thoughness" : 80,
+				"strike" : 2,
+				"stab" : 0,
+				"price" : 0,
+				"id" : 201
+			},
+			{
+				"class" : "Jewellery",
+				"name" : "Korona",
+				"description" : "Symbol władzy królewskiej. Jest to obręcz otoczona zbobieniami przypominającymi kwiat lilii.",
+				"weight" : 1,
+				"body_part" : "forehead"
+				"price" : 0,
+				"id" : 300
+			},
+			{
+				"class" : "Container",
+				"name" : "Goblet",
+				"description" : "Złoty kielich, ozdobiony klejnotami.",
+				"weight" : 0.4,
+				"capacity" : 0.3,
+				"current_amount" : 0,
+				"for_liquids" : "true",
+				"price" : 0,
+				"id" : 100
+			},
+			{
+			  "class" : "CloseRange",
+				"name" : "Topór Halaarda",
+				"description" : "Ciężka broń, widać na niej ślady wielu bitwe w których brała udział. Drzewiec jest mocno zniszczony, a ostrze wyszczerbane.",
+				"type" : "axe",
+				"damage" : 50,
+				"strength_req" : 25,
+				"agility_req" : 10,
+				"condition" : 0.40,
+				"weight" : 5,
+				"thoughness" : 60,
+				"strike" : 2,
+				"stab" : 0.4,
+				"price" : 0,
+				"id" : 202
+			},
+			{
+			  "class" : "CloseRange",
+				"name" : "Młot krasnoludów",
+				"description" : "Bardzo ciężki oręż, Bijak ma kształt prostopadłościanu z zaokrąglonymi krawędziami, dookoła znajdują się inskrypcje w nieznanym języku.",
+				"type" : "hammer",
+				"damage" : 30,
+				"strength_req" : 45,
+				"agility_req" : 20,
+				"condition" : 0.95,
+				"weight" : 18,
+				"thoughness" : 50,
+				"strike" : 2,
+				"stab" : 0,
+				"price" : 0,
+				"id" : 203
+			},
+			{
+			  "class" : "Clothes",
+				"name" : "Kontusz",
+				"description" : "Monarsza szata z rozciętymi rękawami.",
+				"weight" : 1.5,
+				"body_part" : "torso",
+				"condition" : 0.8,
+				"cold_protection" : 6,
+				"water_protection" : 3,
+				"fire_protection" : 1,
+				"price" : 0,
+				"id" : 400
+			},
+			{
+			  "class" : "Clothes",
+				"name" : "Szeroki pas",
+				"description" : "Skórzany pas, poszerzony w środkowej części.",
+				"weight" : .8,
+				"body_part" : "waist",
+				"condition" : 1,
+				"cold_protection" : 0,
+				"water_protection" : 0,
+				"fire_protection" : 5,
+				"price" : 0,
+				"id" : 401
+			},
+			{
+			  "class" : "Clothes",
+				"name" : "Kapelusz z rondem",
+				"description" : "Dostojne nakrycie głowy, wykonany ze skóry, przewiazany opaską.",
+				"weight" : 0.3,
+				"body_part" : "waist",
+				"condition" : 0.5,
+				"cold_protection" : 2,
+				"water_protection" : 9,
+				"fire_protection" : 0,
+				"price" : 0,
+				"id" : 402
+			},
+			{
+			  "class" : "Clothes",
+				"name" : "Kozaki",
+				"description" : "Buty wykonane z wysokiej jakości skóry, mają wysokie cholwey.",
+				"weight" : 0.3,
+				"body_part" : "feet",
+				"condition" : 0.6,
+				"cold_protection" : 6,
+				"water_protection" : 8,
+				"fire_protection" : 5,
+				"price" : 0,
+				"id" : 403
+			},
+		]
+	},
+	{
+		[4, 1, 0] :
+		[
+			{
+			  "class" : "Furniture",
+				"name" : "Sarkofag",
+				"description" : "Wielki kamienny prostopadłościan. Przykrytaq ciężkim wiekiem, na którym znajduje się płaskorzeźba przedstawiająca mężczyznę w koronie.",
+				"weight" : 2000,
+				"price" : 0,
+				"id" : 004
+			},
+			{
+			  "class" : "Container",
+				"name" : "Amfora",
+				"description" : "Duży dzban z dwoma uchwytami i bardzo wąską szyjką, wydaje się być pusta.",
+				"weight" : 20,
+				"capacity" : 10,
+				"current_amount" : 0,
+				"for_liquids" : "true",
+				"price" : 0,
+				"id" : 101
+			},
+			{
+			  "class" : "Container",
+				"name" : "Amfora",
+				"description" : "Duży dzban z dwoma uchwytami i bardzo wąską szyjką. Otwór jest zalakowany żywicą.",
+				"weight" : 20,
+				"capacity" : 26,,
+				"current_amount" : 20,
+				"for_liquids" : "true",
+				"stored" : "Czerwień z czerwców"
+				"price" : 0,
+				"id" : 102
+			},
+		]
+	},
+	{
+		[3, 3, 0] :
+		[
+			{
+				"class" : "Furniture",
+				"name" : "Stołek",
+				"description" : "Mały, trójnogi, drewniany stołek.",
+				"weight" : 8,
+				"price" : 10,
+				"id" : 005
+			},
+		]
+	},
+	{
+		[4, 3, 0] :
+		[
+			{
+				"class" : "Furniture",
+				"name" : "Łóżko",
+				"description" : "Srewniane jednoosobowe łóżko",
+				"weight" : 8,
+				"price" : 50,
+				"id" : 005
+			},
+			{
+				"class" : "Furniture",
+				"name" : "Szafka",
+				"description" : "Mała drewniana szafka nocna, z drzwiczkami.",
+				"weight" : 8,
+				"price" : 10,
+				"id" : 007
+			},
+		]
+	},
+	{
+		[0, 0, 1] :
+		[
+			{
+				"class" : "Heap",
+				"name" : "Stos rzepy",
+				"description" : "",
+				"weight" : 0,
+				"price" : 0,
+				"id" : 009
+			},
+			{
+				"class" : "Heap",
+				"name" : "Stos korpieli",
+				"description" : "",
+				"weight" : 0,
+				"price" : 0,
+				"id" : 010
+			},
+			{
+				"class" : "Heap",
+				"name" : "Stos buraków",
+				"description" : "",
+				"weight" : 0,
+				"price" : 0,
+				"id" : 011
+			},
+			{
+				"class" : "Container",
+				"name" : "Dębowa beczka",
+				"description" : "Duża beczka z dwiema obręczami",
+				"weight" : 0,
+				"capacity" : 500,
+				"current_amount" : 400,
+				"for_liquids" : "true",
+				"price" : 0,
+				"id" : [103, 104, 105]
+			},
+			{
+				"class" : "Furniture",
+				"name" : "Skrzynia",
+				"description" : "Zwykła jesionowa skrzynia",
+				"weight" : 40,
+				"price" : 30,
+				"id" : [012, 013]
+			},
+			{
+				"class" : "Container",
+				"name" : "Worek konopny",
+				"description" : "Średniej wielkości worek z włókna konopnego",
+				"weight" : 0.5,
+				"capacity" : 50,
+				"current_amount" : 0,
+				"for_liquids" : "false",
+				"price" : 3,
+				"id" : [106, 107, 108, 109, 110, 111, 112]
+			},
+			{
+				"class" : "Container",
+				"name" : "Worek konopny",
+				"description" : "Średniej wielkości worek z włókna konopnego",
+				"weight" : 0.5,
+				"condition" : 0.8,
+				"capacity" : 50,
+				"current_amount" : 0,
+				"for_liquids" : "false",
+				"price" : 3,
+				"id" : [113, 114]
+			},
+			{
+				"class" : "Container",
+				"name" : "Worek lniany",
+				"description" : "Mały worek z włókna lnu",
+				"weight" : 0.3,
+				"condition" : 0.9,
+				"capacity" : 20,
+				"current_amount" : 0,
+				"for_liquids" : "false",
+				"price" : 2,
+				"id" : [115, 116, 117, 118, 119, 120, 121]
+			},
+			{
+				"class" : "Tool",
+				"name" : "Motyka",
+				"description" : "Proste narzędzie ogrodnicze, zbudowana z ostrza prostopadłego do trzonka.",
+				"weight" : 4,
+				"condition" : 0.8,
+				"task" : []
+				"price" : 15,
+				"id" : [700, 701]
+			},
+			{
+				"class" : "Tool",
+				"name" : "Nóż ogrodniczy",
+				"description" : "Nóż służący do wycinania chwastów.",
+				"weight" : 1,
+				"condition" : 0.8,
+				"task" : []
+				"price" : 15,
+				"id" : [702, 703]
+			},
+			{
+				"class" : "Tool",
+				"name" : "Łopatka",
+				"description" : "Małe narzędzie do kopania.",
+				"weight" : 0.5,
+				"condition" : 1,
+				"task" : []
+				"price" : 5,
+				"id" : [704, 705, 706]
+			},
+			{
+				"class" : "Container",
+				"name" : "Metalowe wiaderko",
+				"description" : "Pojemnik ma metalową rączkę",
+				"weight" : 1,
+				"condition" : 0.6,
+				"capacity" : 10,
+				"current_amount" : 0,
+				"for_liquids" : "true",
+				"price" : 8,
+				"id" : [122, 123]
+			},
+		]
+	},
+	{
+		[2, 0, 0] :
+		[
+			{
+				"class" : "Furniture",
+				"name" : "Regał",
+				"description" : "Drewniany regał na butelki wina z półkami lekko pochylonymi w stronę ściany",
+				"weight" : 60,
+				"price" : 0,
+				"id" : [014, 015]
+			},
+			{
+			  "class" : "Drink",
+				"name" : "Wino gronowe",
+				"description" : "Butelka z zielonego szkła z puntem w denku. Znajduje się w niej wytrawne wino z winogron z osadem na dnie.",
+				"nourish" : 1.5,
+				"alcohol" : 12,
+				"weight" : 2.5,
+				"price" : 20,
+				"id" : [515, 516, 517, 518, 518, 520, 521, 522]
+			},
+			{
+			  "class" : "Drink",
+				"name" : "Wino gronowe",
+				"description" : "Butelka z zielonego szkła z puntem w denku. Znajduje się w niej półsłodkie wino z winogron z osadem na dnie.",
+				"nourish" : 6,
+				"alcohol" : 10,
+				"weight" : 2.5,
+				"price" : 25,
+				"id" : [523, 524, 525, 526]
+			},
+			{
+			  "class" : "Drink",
+				"name" : "Białe wino",
+				"description" : "Przezroczysta butelka. Znajduje się w niej wino z białych winogron.",
+				"nourish" : 6,
+				"alcohol" : 9,
+				"weight" : 2.5,
+				"price" : 25,
+				"id" : [527, 528, 528, 530]
+			},
+			{
+				"class" : "Container",
+				"name" : "Beczka z piewem",
+				"description" : "Średniej wielkości drewnina beczka z dwiema obręczami",
+				"weight" : 20,
+				"condition" : 0.9,
+				"capacity" : 100,
+				"current_amount" : 100,
+				"for_liquids" : "true",
+				"price" : 30,
+				"id" : [124, 125]
+			},
+			{
+				"class" : "Container",
+				"name" : "Beczułka",
+				"description" : "Mała leżąca beczka na piwo, wyposażona w podpórki i kranik.
+				"weight" : 8,
+				"condition" : 1,
+				"capacity" : 20,
+				"current_amount" : 20,
+				"for_liquids" : "true",
+				"price" : 40,
+				"id" : [126, 127, 128]
+			},
+		]
+	},
+		{
+		[3, 0, 1] :
+		[
+			{
+				"class" : "Container",
+				"name" : "Worek marchwii",
+				"description" : "Worek z włókna lnu wypełniony marchewką",
+				"weight" : 0.3,
+				"condition" : 0.9,
+				"capacity" : 20,
+				"current_amount" : 20,
+				"for_liquids" : "false",
+				"price" : 2,
+				"id" : [129, 130]
+			},
+			{
+				"class" : "Container",
+				"name" : "Worek pietruszki",
+				"description" : "Worek z włókna lnu wypełniony pietruszką",
+				"weight" : 0.3,
+				"condition" : 0.9,
+				"capacity" : 20,
+				"current_amount" : 20,
+				"for_liquids" : "false",
+				"price" : 2,
+				"id" : [131]
+			},
+			{
+				"class" : "Container",
+				"name" : "Worek mąki",
+				"description" : "Worek z gęstej tkaniny do przechowywania mąki",
+				"weight" : 0.2,
+				"condition" : 1,
+				"capacity" : 10,
+				"current_amount" : 10,
+				"for_liquids" : "false",
+				"price" : 2,
+				"id" : [131, 132, 133]
+			},
+			{
+				"class" : "Container",
+				"name" : "Worek kaszy",
+				"description" : "Worek z kaszą",
+				"weight" : 0.2,
+				"condition" : 1,
+				"capacity" : 10,
+				"current_amount" : 10,
+				"for_liquids" : "false",
+				"price" : 2,
+				"id" : [134, 135]
+			},
+			{
+				"class" : "Food",
+				"name" : "Wiązka cebuli",
+				"description" : "Główki cebuli uwiązane na sznurku",
+				"weight" : 0.4,
+				"quality" : 1
+				"nourish" : 20,
+				"stamina_suppl" : 2,
+				"price" : 3,
+				"id" : [800, 801, 802, 803]
+			},
+		]
+	},
+	{
+		[4, 0, 1] :
+		[
+			{
+			    "class" : "Furniture",
+				"name" : "Skrzynia ze złotem",
+				"description" : "Skrzynia z płaską pokrywą i okuciami.",
+				"weight" : 20,
+				"price" : 50,
+				"id" : 016, 017
+			},
+			{
+			    "class" : "Furniture",
+				"name" : "Skrzynia ze srebrem",
+				"description" : "Skrzynia z płaską pokrywą i okuciami.",
+				"weight" : 20,
+				"price" : 50,
+				"id" : 018, 019
+			},
+			{
+			    "class" : "Furniture",
+				"name" : "Regał",
+				"description" : "Szeroki regał z wieloma półkami.",
+				"weight" : 25,
+				"price" : 20,
+				"id" : 020
+			},
+			{
+			    "class" : "Furniture",
+				"name" : "Szkatułka",
+				"description" : "Mała skrzyneczka obita aksamitem",
+				"weight" : 2,
+				"price" : 40,
+				"id" : 021, 22, 23
+			},
+			{
+			    "class" : "Furniture",
+				"name" : "Kuferek",
+				"description" : "Trochę zniszczony kuferek.",
+				"weight" : 5,
+				"price" : 20,
+				"id" : 024
+			},
+			{
+			    "class" : "Container",
+				"name" : "Sakiewka",
+				"description" : "Materiałowy woreczek z monetami.",
+				"weight" : 0.2,
+				"price" : 2,
+				"id" : 136, 137, 138, 139
+			},
+		]
+	},
+	{
+		[0, 0, 2] :
+		[
+			{
+				"class" : "Heap",
+				"name" : "Stos rzodkiewki",
+				"description" : "",
+				"weight" : 0,
+				"price" : 0,
+				"id" : 010
+			},
+			{
+				"class" : "Heap",
+				"name" : "Stos marchwi",
+				"description" : "",
+				"weight" : 0,
+				"price" : 0,
+				"id" : 011
+			},
+			{
+			    "class" : "Furniture",
+				"name" : "Skrzynia",
+				"description" : "Szeroka sjkrzynia pomalowana zieloną farbą.",
+				"weight" : 30,
+				"price" : 20,
+				"id" : 025
+			},
+		]
+	},
+	{
+		[4, 1, 1] :
+		[
+			{
+			    "class" : "Furniture",
+				"name" : "Biurko",
+				"description" : "Biurko skarbnika, w dobrym stanie.",
+				"weight" : 30,
+				"price" : 80,
+				"id" : 026
+			},
+		]
+	},
+}

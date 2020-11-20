@@ -1,0 +1,728 @@
+    {
+      "name" : "Spichlerz",
+      "description" : "Znalaz³eœ siê w budynku, w którym przechowywana jest ¿ywnoœæ dla mieszkañców zamku. Mo¿esz st¹d wyjœæ na wschód przez szerokie drzwi, albo przejœæ w g³¹b budynku na po³udnie.",
+      "coords" : {"x" : 0, "y" : 0, "z" : 2},
+      "surface" : 2,
+      "exits" : [0,0,1,0,1,0,0,0,0,0]
+    },
+    {
+      "name" : "Przejœcie",
+      "description" : "Stoisz w pobli¿u zamku. Na pó³nocy jest wyjœcie do miasta, na wschodzie wznosz¹ siê mury zamku, na zachodzie jest wejœcie do Spichlerza. Id¹c na po³udnie dotrzesz do placu zamkowego.",
+      "coords" : {"x" : 1, "y" : 0, "z" : 2},
+      "surface" : 1,
+      "exits" : [1,0,0,0,1,0,1,0,0,0]
+    },
+    {
+      "name" : "Jadalnia",
+      "description" : "Znalaz³eœ siê w rozleg³ym pomieszczeniu. Stoj¹ tu dwa rzêdy sto³ów. Przy zachodniej œcianie na podwy¿szeniu stoi jeszcze jeden stó³ z bogato zdobionym obrusem. Jadalnia przechodzi w salê tronow¹ na wschodzie. Na po³udniu s¹ drzwi do kuchni.",
+      "coords" : {"x" : 2, "y" : 0, "z" : 2},
+      "surface" : 2,
+      "exits" : [0,0,1,0,1,0,0,0,0,0]
+    },
+    {
+      "name" : "Sala Tronowa",
+      "description" : "Stoisz wewn¹trz wielkiej sali, na podwy¿szeniu ustawiono tu tron. Na œcianach wisz¹ obrazy oraz god³a. Na zachodzie jest Jadalnia. Na po³udniu ciê¿kie drzwi prowadz¹ do westybulu.",
+      "coords" : {"x" : 3, "y" : 0, "z" : 2},
+      "surface" : 2,
+      "exits" : [0,0,0,0,1,0,1,0,0,0]
+    },
+    {
+      "name" : "Biblioteka",
+      "description" : "Wszed³eœ do Królewskiej Biblioteki, jednego z najwiêszych zbiorów pism na kontynencie. Na rega³ach ustawione s¹ równo ksi¹zki. Przy drzwiach od po³udnia jest biurko.",
+      "coords" : {"x" : 4, "y" : 0, "z" : 2},
+      "surface" : 2,
+      "exits" : [0,0,0,0,1,0,0,0,0,0]
+    },
+    {
+      "name" : "Przejœcie",
+      "description" : "Stoisz w pobli¿u zamku. Na pó³nocy jest wyjœcie do miasta, na zachodzie wznosz¹ siê mury zamku. Id¹c na po³udnie dotrzesz do placu zamkowego.",
+      "coords" : {"x" : 5, "y" : 0, "z" : 2},
+      "surface" : 1,
+      "exits" : [1,0,0,0,1,0,0,0,0,0]
+    },
+    {
+      "name" : "Mieszkanie Zarz¹dcy",
+      "description" : "Wszed³eœ do przytulnego mieszkanka. Jest tu ³ó¿ko, stó³, krzes³a i skrzynia. Na po³udniu s¹ drzwi do holu.",
+      "coords" : {"x" : 6, "y" : 0, "z" : 2},
+      "surface" : 2,
+      "exits" : [0,0,0,0,1,0,0,0,0,0]
+    },
+    {
+      "name" : "Spichlerz",
+      "description" : "Znalaz³eœ siê w g³êbi spichlerza. Dooko³a pod œcianami stoj¹ s¹sieki i worki. Na górê prowadzi drabina, z otworu w suficie zwisa lina ko³owrotu. Na pó³nocy znajduje siê dlasza czêœæ spichlerza. W k¹cie znajduj¹ siê kamienne schody na dó³.",
+      "coords" : {"x" : 0, "y" : 1, "z" : 2},
+      "surface" : 2,
+      "exits" : [1,0,0,0,0,0,0,0,1,1]
+    },
+    {
+      "name" : "Przejœcie",
+      "description" : "Znajdujesz siê pomiêdzy spichlerzem a zamkiem. Mo¿esz przejsæ dalej na pó³noc lub do placu zamkowego na po³udnie.",
+      "coords" : {"x" : 1, "y" : 1, "z" : 2},
+      "surface" : 1,
+      "exits" : [1,0,0,0,1,0,0,0,0,0]
+    },
+    {
+      "name" : "Kuchnia",
+      "description" : "Wszed³eœ do zamkowej kuchni. Dooko³a stoj¹ szafki kuchenne i blaty. Pod zachodni¹ œcian¹ jest du¿e palenisko. Na pó³noc jest przejœcie do Jadalni, na wschód wyjœcie do Westybulu.",
+      "coords" : {"x" : 2, "y" : 1, "z" : 2},
+      "surface" : 2,
+      "exits" : [1,0,1,0,0,0,0,0,0,0]
+    },
+    {
+      "name" : "Westybul",
+      "description" : "Stoisz w centralnej czêœci zamku. Na ka¿dej œcianie s¹ drzwi, na górê prowadz¹ piêkne schody biegn¹ce po obu stronach pomieszczenia, pod jednymi z nich znajduj¹ siê mniejsze schody do podziemi zamku. MO¿esz przejœæ na pó³noc do sali tronowej, na wschód do gabinetu, na zachód do kuchni.",
+      "coords" : {"x" : 3, "y" : 1, "z" : 2},
+      "surface" : 2,
+      "exits" : [1,0,1,0,1,0,1,0,1,1]
+    },
+    {
+      "name" : "Gabinet",
+      "description" : "Wszed³eœ do miejsca urzêdowania sekretarza. Stoi tu biurko, rega³, skrzynia. W rogu pomieszczenia na pó³nocy s¹ drzwi do biblioteki.",
+      "coords" : {"x" : 4, "y" : 1, "z" : 2},
+      "surface" : 2,
+      "exits" : [1,0,0,0,0,0,1,0,0,0]
+    },
+    {
+      "name" : "Przejœcie",
+      "description" : "Stoisz w pobli¿u zamku. Na pó³nocy jest wyjœcie do miasta, na zachodzie wznosz¹ siê mury zamku. Na wschodzie jest wejœcie do kamienicy. Id¹c na po³udnie dotrzesz do placu zamkowego.",
+      "coords" : {"x" : 5, "y" : 1, "z" : 2},
+      "surface" : 1,
+      "exits" : [1,0,1,0,1,0,0,0,0,0]
+    },
+    {
+      "name" : "Hol",
+      "description" : "Wszed³eœ do kamienicy, wnêtrze jest skromne ale zadbane. W górê prowadz¹ schody. Na pó³nocy znajduj¹ siê drzwi do mieszkania zarz¹dcy, na po³udniu przejœcie do kuchni.",
+      "coords" : {"x" : 6, "y" : 1, "z" : 2},
+      "surface" : 2,
+      "exits" : [1,0,0,0,1,0,1,0,1,0]
+    },
+    {
+      "name" : "Browar",
+      "description" : "Znalaz³eœ siê we wnêtrzu browaru zamkowego. Stoj¹ tu dwie kadzie i kilka beczek. Na górê i na dó³ prowadz¹ schody.",
+      "coords" : {"x" : 0, "y" : 2, "z" : 2},
+      "surface" : 2,
+      "exits" : [0,0,1,0,0,0,0,0,1,1]
+    },
+    {
+      "name" : "Plac Zamkowy",
+      "description" : "Dotar³eœ do pó³nocno-zachodniego rogu placu zamkowego. Dociera do ciebie zapach fermentuj¹cego piwa z browaru na zachodzie. Id¹c na pó³noc dotrzesz do wyjœcia do miasta. Na pó³nocym wschodzie wznosi siê zamek.",
+      "coords" : {"x" : 1, "y" : 2, "z" : 2},
+      "surface" : 1,
+      "exits" : [1,0,1,1,1,0,1,0,0,0]
+    },
+    {
+      "name" : "Plac Zamkowy",
+      "description" : "Znajdujesz siê w zachodniej czêœci placu zamkowego, przed tob¹ na pó³nocy wznosi siê zamek, jego zachodnia wie¿a wygl¹da majestatycznie. Mo¿esz st¹d przejœæ na wschód, po³udnie i zachód.",
+      "coords" : {"x" : 2, "y" : 2, "z" : 2},
+      "surface" : 1,
+      "exits" : [0,0,1,1,1,1,1,0,0,0]
+    },
+    {
+      "name" : "Plac Zamkowy",
+      "description" : "Znajdujesz siê w centralnej czêœci placu zamkowego, na pó³nocy znajduje siê wejœcie do zamku, poprzedzone piêcioma marmurowymi stopniami. Na ka¿dym z nich po obu stronach stoi kamienny lew. Mo¿esz st¹d przejœæ na wschód, po³udnie i zachód.",
+      "coords" : {"x" : 3, "y" : 2, "z" : 2},
+      "surface" : 1,
+      "exits" : [1,0,1,1,1,1,1,0,0,0]
+    },
+    {
+      "name" : "Plac Zamkowy",
+      "description" : "Znajdujesz siê we wschodniej czêœci placu zamkowego, przed tob¹ na pó³nocy wznosi siê wschodnia wie¿a zamku. Mo¿esz st¹d przejœæ na wschód, po³udnie i zachód.",
+      "coords" : {"x" : 4, "y" : 2, "z" : 2},
+      "surface" : 1,
+      "exits" : [0,0,1,1,1,1,1,0,0,0]
+    },
+    {
+      "name" : "Plac Zamkowy",
+      "description" : "Dotar³eœ do pó³nocno wschodniego rogu placu zamkowego. Zamek znajduje siê na pó³nocym-zachodzie od ciebie. Id¹c na pó³noc dotrzesz do wyjœcia do miasta. Id¹c na wschód dotrzesz do bramy g³ównej.",
+      "coords" : {"x" : 5, "y" : 2, "z" : 2},
+      "surface" : 1,
+      "exits" : [1,0,0,0,1,1,1,0,0,0]
+    },
+    {
+      "name" : "Kuchnia w kamienicy",
+      "description" : "Jesteœ w kuchni, w której przygotowuje siê jedzenie dla mieszkañców kamienicy. Jest tu palenisko, sto³y, szafki. W k¹cie jest zejœcie po drabinie do spi¿arni. Mo¿esz st¹d wyjœc na pó³noc.",
+      "coords" : {"x" : 6, "y" : 2, "z" : 2},
+      "surface" : 2,
+      "exits" : [1,0,0,0,0,0,0,0,0,1]
+    },
+    {
+      "name" : "Sk³ad kupca",
+      "description" : "Wszed³eœ do magazynku kupca. Znjaduj¹ siê tu skrzynie, worki, dokumenty. Na górê prowadz¹ drewniane schody. Mozesz st¹d wyjœæ na wschód.",
+      "coords" : {"x" : 0, "y" : 3, "z" : 2},
+      "surface" : 2,
+      "exits" : [0,0,1,0,0,0,0,0,1,0]
+    },
+    {
+      "name" : "Plac Zamkowy",
+      "description" : "Dotar³eœ do po³udniowo-zachodniego rogu placu zamkowego. Na zachodzie jest mieszkanie kupca, na po³udniu wejscie do kuŸni.",
+      "coords" : {"x" : 1, "y" : 3, "z" : 2},
+      "surface" : 1,
+      "exits" : [1,1,1,0,1,0,1,0,0,0]
+    },
+    {
+      "name" : "Plac Zamkowy",
+      "description" : "Znajdujesz siê w zachodniej czêœci placu zamkowego. Na po³udniu jest wejœcie do zbrojowni, która znajduje siena najni¿szym pietrze wie¿y przy bramie. Mo¿esz st¹d przejœæ na pó³noc, wschód i zachód.",
+      "coords" : {"x" : 2, "y" : 3, "z" : 2},
+      "surface" : 1,
+      "exits" : [1,1,1,0,1,0,1,1,0,0]
+    },
+    {
+      "name" : "Plac Zamkowy",
+      "description" : "Znajdujesz siê w centralnej czêœci placu zamkowego. Na po³udniu jest brama. Mo¿esz st¹d przejœæ na pó³noc, wschód i zachód.",
+      "coords" : {"x" : 3, "y" : 3, "z" : 2},
+      "surface" : 1,
+      "exits" : [1,1,1,0,1,0,1,1,0,0]
+    },
+    {
+      "name" : "Plac Zamkowy",
+      "description" : "Znajdujesz siê we wschodniej czêœci placu zamkowego. Na po³udniu wznosi siê wie¿a przy bramie. Mo¿esz st¹d przejœæ na pó³noc, wschód i zachód.",
+      "coords" : {"x" : 4, "y" : 3, "z" : 2},
+      "surface" : 1,
+      "exits" : [1,1,1,0,0,0,1,1,0,0]
+    },
+    {
+      "name" : "Plac Zamkowy",
+      "description" : "Dotar³eœ do po³udniowo-zachodniego rogu placu zamkowego. Na wschodzie jest wejscie do Gospody. Na po³udniu jest wejœcie do kwatery stra¿y. Id¹c na pó³noc dotrzesz do wyjœcia do miasta. Id¹c na zachód dotrzesz do bramy g³ównej.",
+      "coords" : {"x" : 5, "y" : 3, "z" : 2},
+      "surface" : 1,
+      "exits" : [1,0,1,0,1,0,1,1,0,0]
+    },
+    {
+      "name" : "Gospoda",
+      "description" : "Wszed³eœ do gospody, wnêtrze jest zadbane, jak na obiekt tego przeznaczenia, w kilku rzêdach stoj¹ ³awy, od po³udnia stoi bar, za którym jest przejscie do kuchni. Na górê prowadz¹ schody.",
+      "coords" : {"x" : 6, "y" : 3, "z" : 2},
+      "surface" : 2,
+      "exits" : [0,0,0,0,1,0,1,0,1,0]
+    },
+    {
+      "name" : "Zaplecze KuŸni",
+      "description" : "Znalaz³eœ siê w g³êbi warsztatu kowala, stoi tu stó³, kilka skrzyñ, oraz stojaków na broñ. Le¿y tu trochê zniszczonego sprzêtu jak miechy, m³oty i tym podobne. Mo¿esz stt¹d przejœæ do kuŸni na wschód.",
+      "coords" : {"x" : 0, "y" : 4, "z" : 2},
+      "surface" : 2,
+      "exits" : [0,0,1,0,0,0,0,0,0,0]
+    },
+    {
+      "name" : "KuŸnia",
+      "description" : "Wszed³eœ do kuŸni. Na œrodku ustawione jest kowad³o, pod po³udniow¹ œcian¹ wielkie palenisko z miechem, znajduje siê tu te¿ wiadro z wod¹. Na piêtro prowadz¹ kamienne schody. Mo¿esz st¹d przejœæ na zachód na zaplecze lub do placu zamkowego, gdy¿ kuŸnia w zasadzie nie posiada pó³nocnej œciany.",
+      "coords" : {"x" : 1, "y" : 4, "z" : 2},
+      "surface" : 2,
+      "exits" : [1,0,0,0,0,0,1,0,1,0]
+    },
+    {
+      "name" : "Zbrojownia",
+      "description" : "W najni¿szym pomieszczeniu wie¿y urz¹dzono zbrojowniê stra¿y. Ustawiono tu stojaki na miecze i ³uki. Strome schody prowadz¹ na górê. Wiêksze drzwi prowadz¹ na pó³noc, na plac zamkowy, mniejsze na wschód, do bramy g³ównej.",
+      "coords" : {"x" : 2, "y" : 4, "z" : 2},
+      "surface" : 2,
+      "exits" : [1,0,1,0,0,0,0,0,1,0]
+    },
+    {
+      "name" : "Brama g³ówna",
+      "description" : "Jesteœ we wnêtrzu bramy g³ównej, od pó³nocy znajduje siê wyjœcie na plac zamkowy, na po³udniu do miasta. Obydwa s¹ zamkniête kamiennym ³ukiem od góry. Stalowe kraty mog¹ byæ opuszczone w razie potrzeby. W zachodniej œcianie znajduj¹ siê ma³e drzwi do zbrojowni.",
+      "coords" : {"x" : 3, "y" : 4, "z" : 2},
+      "surface" : 2,
+      "exits" : [1,0,0,0,1,0,1,0,0,0]
+    },
+    {
+      "name" : "Kwatera Stra¿y",
+      "description" : "Znajdujesz siê w pokoju, w którym nocuj¹ stra¿nicy, s¹ tu ³ó¿ka i szafki, dalsza czêœæ pomieszczenia znajduje siê na wschodzie.",
+      "coords" : {"x" : 4, "y" : 4, "z" : 2},
+      "surface" : 2,
+      "exits" : [0,0,1,0,0,0,0,0,1,0]
+    },
+    {
+      "name" : "Kwatera Stra¿y",
+      "description" : "Wszed³eœ do budynku, w którym mieszkaja stra¿nicy, stoi tu kilka ³ó¿ek i szafek, w których ¿o³nierze przechowuj¹ swoj¹ w³asnoœæ. Na górê prowadz¹ w¹skie strome schody. Dalsza czêœæ pomieszczenia znajduje siê na zachodzie. Mo¿esz st¹d wyjœæ drzwiami na pó³noc.",
+      "coords" : {"x" : 5, "y" : 4, "z" : 2},
+      "surface" : 2,
+      "exits" : [1,0,0,0,0,0,1,0,1,0]
+    },
+    {
+      "name" : "Kuchnia",
+      "description" : "Przeszed³eœ do kuchni, w której przygotowywane jest jedzenie dla goœci Gospody. Na palenisku jest tu ustawiony wielki kocio³, oprócz tego stoi tu stó³, szafki. W¹skie schody prowadz¹ w dó³ do spi¿arni.",
+      "coords" : {"x" : 6, "y" : 4, "z" : 2},
+      "surface" : 2,
+      "exits" : [1,0,0,0,0,0,0,0,0,1]
+    },
+    {
+      "name" : "Spi¿arnia",
+      "description" : "Dotar³eœ do dalszej czêœci podziemi spichlerza, z³o¿ona w stos le¿y tu rzepa, korpiele i buraki. W beczkach fermentuje kapusta. Stoi tu tak¿e kilka skrzyñ. Mo¿esz wróciæ na po³udnie.",
+      "coords" : {"x" : 0, "y" : 0, "z" : 1},
+      "surface" : 2,
+      "exits" : [0,0,0,0,1,0,0,0,0,0]
+    },
+    {
+      "name" : "Piwnica",
+      "description" : "Wszed³eœ do zamkowej piwnicy. Kucharze przechowuj¹ tu trunki dla bywalców zamku, w regale le¿¹ butelki wina, obok ustawione s¹ beczki z piwem. Dalsza czêœæ piwnicy znajduje siê na wschodzie. Mo¿esz st¹d przejœæ do korytarza na po³udnie. W k¹cie jest ma³e zejœcie ni¿ej.",
+      "coords" : {"x" : 2, "y" : 0, "z" : 1},
+      "surface" : 2,
+      "exits" : [0,0,1,0,1,0,0,0,0,1]
+    },
+    {
+      "name" : "Piwnica",
+      "description" : "Znalaz³eœ siê w g³êbi piwnicy. W workach przechowywana jest marchew, pietruszka, a takze zapasy maki. Pod sklepieniem wisi cebula i czosnek.",
+      "coords" : {"x" : 3, "y" : 0, "z" : 1},
+      "surface" : 2,
+      "exits" : [0,0,0,0,0,0,1,0,0,0]
+    },
+    {
+      "name" : "Skarbiec",
+      "description" : "Znalaz³eœ sie w ciemnym pomieszczeniu. Dooko³a stoj¹ skrzynie ze z³otem, srebrem i kamieniami szlachetnymi. Na regale ustawione s¹ sakwy i kuferki, a tak¿e plik papierów wartoœciowych. W kamiennej pod³odze znajduje siê stalowa klapa. Mo¿esz st¹d przejœæ na po³udnie do gabinetu skarbnika.",
+      "coords" : {"x" : 4, "y" : 0, "z" : 1},
+      "surface" : 2,
+      "exits" : [0,0,0,0,1,0,0,0,0,1]
+    },
+    {
+      "name" : "Spi¿arnia",
+      "description" : "Zszed³eœ do podziemi spichlerza. Przechowuje siê tu warzywa, czêœæ w workach, czêœæ luzem. Stoi tu skrzynia. Mo¿esz st¹d przejœæw g³¹b spi¿arni na pó³noc, lub wróciæ na górê.",
+      "coords" : {"x" : 0, "y" : 1, "z" : 1},
+      "surface" : 2,
+      "exits" : [1,0,0,0,0,0,0,0,1,0]
+    },
+    {
+      "name" : "Korytarz",
+      "description" : "Stoisz w podziemnym przejsciu. Id¹c na wschód dotrzesz do schodów na górê. Na pó³nocy znajduje siê wejœcie do piwnicy, a na po³udniu do lochów.",
+      "coords" : {"x" : 2, "y" : 1, "z" : 1},
+      "surface" : 2,
+      "exits" : [1,0,1,0,1,0,0,0,0,0]
+    },
+    {
+      "name" : "Korytarz",
+      "description" : "Znalaz³eœ siê w podziemiach zamku. Na górê prowadz¹ kamienne schody. Na wschodzie jest biuro skarbnika, na zachodzie dlasza czêœæ korytarza, mo¿esz dojœæ nim do lochów lub piwnicy.",
+      "coords" : {"x" : 3, "y" : 1, "z" : 1},
+      "surface" : 2,
+      "exits" : [0,0,1,0,0,0,1,0,1,0]
+    },
+    {
+      "name" : "Biuro Skarbnika",
+      "description" : "Wszed³eœ do miejsca urzêdowania skarbnika. Pomieszczenie jest bardzo skromne. Na wyposa¿enie sk³ada siê g³ównie biurko i rega³. Pe³no tu papierów, przy biurku stoi kuferek. Na pó³nocnej œcianie znajduj¹ siê pancerne drzwi do skarbca. Mo¿esz st¹d wyjœæna zachód.",
+      "coords" : {"x" : 4, "y" : 1, "z" : 1},
+      "surface" : 2,
+      "exits" : [1,0,0,0,0,0,1,0,0,0]
+    },
+    {
+      "name" : "Piwnica Browaru",
+      "description" : "Zszed³eœ do miejsca w którym dojrzewa piwo uwarzone pietro wy¿ej, a w kadziach fermentuje m³ode piwo. Mo¿esz wróciæ na górê.",
+      "coords" : {"x" : 0, "y" : 2, "z" : 1},
+      "surface" : 2,
+      "exits" : [0,0,0,0,0,0,0,0,1,0]
+    },
+    {
+      "name" : "Cela",
+      "description" : "Stoisz w ciasnym pomieszczeniu, z zimnymi kamiennymi œcianami. Stoj¹ tu dwie prycze i wiadro. Od wschodu pomieszczenie ograniczone jest kratami z drzwiami po œrodku.",
+      "coords" : {"x" : 1, "y" : 2, "z" : 1},
+      "surface" : 2,
+      "exits" : [0,0,1,0,0,0,0,0,0,0]
+    },
+    {
+      "name" : "Lochy",
+      "description" : "Idziesz podziemnym korytarzem, dotar³eœ do pocz¹tkowej czêœci lochów, na wschodzie znajduje siê cela. Mo¿esz przejœæ dalej na po³udnie, lub wróciæ do korytarza na pó³noc.",
+      "coords" : {"x" : 2, "y" : 2, "z" : 1},
+      "surface" : 2,
+      "exits" : [1,0,0,0,1,0,1,0,0,0]
+    },
+    {
+      "name" : "Cela",
+      "description" : "Stoisz w wiêziennej celi, ustawiono tu piêtrow¹ pryczê. Od po³udnia pomieszczenie ograniczone jest kratami z drzwiami po œrodku.",
+      "coords" : {"x" : 3, "y" : 2, "z" : 1},
+      "surface" : 2,
+      "exits" : [0,0,0,0,1,0,0,0,0,0]
+    },
+    {
+      "name" : "Cela",
+      "description" : "Stoisz w wiêziennej celi, ustawiono tu piêtrow¹ pryczê. Od po³udnia pomieszczenie ograniczone jest kratami z drzwiami po œrodku.",
+      "coords" : {"x" : 4, "y" : 2, "z" : 1},
+      "surface" : 2,
+      "exits" : [0,0,0,0,1,0,0,0,0,0]
+    },
+    {
+      "name" : "Spi¿arnia",
+      "description" : "Zszed³eœ do malutkiej spi¿arni, w której przechowywana jest ¿ywnoœæ dla mieszkañców kamienicy. Mo¿esz wróciæ na górê.",
+      "coords" : {"x" : 6, "y" : 2, "z" : 1},
+      "surface" : 2,
+      "exits" : [0,0,0,0,0,0,0,0,1,0]
+    },
+    {
+      "name" : "Cela",
+      "description" : "Stoisz w wiêziennej celi, znajduje siê tu jedna prycza. W kamiennej œcianie od wschodu wstawiono wzmocnione dêbowe drzwi z ma³¹ kratk¹ na wysokoœci oczu i pod³u¿nym otworem przy ziemi.",
+      "coords" : {"x" : 1, "y" : 3, "z" : 1},
+      "surface" : 2,
+      "exits" : [0,0,1,0,0,0,0,0,0,0]
+    },
+    {
+      "name" : "Lochy",
+      "description" : "Dotar³eœ do zakrêtu podziemnego korytarza. Na zachodzie i po³udniu znajduj¹ siê cele. Korytarz biegnie dalej na wschód. Stoi tu sto³ek stra¿nika. Ma³e kamienne schody prowadz¹ piêtro ni¿ej.",
+      "coords" : {"x" : 2, "y" : 3, "z" : 1},
+      "surface" : 2,
+      "exits" : [1,0,1,0,1,0,1,0,0,1]
+    },
+    {
+      "name" : "Lochy",
+      "description" : "Idziesz podziemnym korytarzem, na pó³nocy widzisz za kratami wnêtrze celi, na po³udniu w kamiennej œcianie dostêpu do nastêpnej broni¹ solidne drzwi. Dalej na wschodzie jest koniec korytarza.",
+      "coords" : {"x" : 3, "y" : 3, "z" : 1},
+      "surface" : 2,
+      "exits" : [1,0,1,0,1,0,1,0,0,0]
+    },
+    {
+      "name" : "Lochy",
+      "description" : "Dotar³eœ do koñca korytarza. Na pó³nocy i po³udniu s¹ cele wiêzienne. Mo¿esz st¹d wróciæ na zachód.",
+      "coords" : {"x" : 4, "y" : 3, "z" : 1},
+      "surface" : 2,
+      "exits" : [0,0,0,0,0,0,1,0,0,0]
+    },
+    {
+      "name" : "Cela",
+      "description" : "Stoisz w celi, znajduje siê tu jedna prycza i jeden materac le¿¹cy na posadzce. Wyjœcie na pó³noc ograniczaj¹ ciê¿kie dêbowe drzwi.",
+      "coords" : {"x" : 2, "y" : 4, "z" : 1},
+      "surface" : 2,
+      "exits" : [1,0,0,0,0,0,0,0,0,0]
+    },
+    {
+      "name" : "Cela",
+      "description" : "Stoisz w celi, znajduje siê tu dwie prycze i stolik. Wyjœcie na pó³noc ograniczaj¹ ciê¿kie dêbowe drzwi.",
+      "coords" : {"x" : 3, "y" : 4, "z" : 1},
+      "surface" : 2,
+      "exits" : [1,0,0,0,0,0,0,0,0,0]
+    },
+    {
+      "name" : "Cela",
+      "description" : "Stoisz w celi, znajduje siê tu dwie prycze i stolik. Wyjœcie na pó³noc ograniczaj¹ ciê¿kie dêbowe drzwi.",
+      "coords" : {"x" : 4, "y" : 4, "z" : 1},
+      "surface" : 2,
+      "exits" : [1,0,0,0,0,0,0,0,0,0]
+    },
+    {
+      "name" : "Spi¿arnia",
+      "description" : "Zszed³eœ do pomieszczenia w którym karczmarz przechowuje ¿ywnoœæ i alkohol.",
+      "coords" : {"x" : 6, "y" : 4, "z" : 1},
+      "surface" : 2,
+      "exits" : [0,0,0,0,0,0,0,0,1,0]
+    },
+    {
+      "name" : "G³êbsza spi¿arnia",
+      "description" : "Stoi tu w³asciwie tylko jeden rega³ a na nim kilka butelek wina datowanych na wiele lat wstecz. Mo¿esz wróciæ na górê.",
+      "coords" : {"x" : 2, "y" : 0, "z" : 0},
+      "surface" : 2,
+      "exits" : [0,0,0,0,0,0,0,0,1,0]
+    },
+    {
+      "name" : "Tajny Skarbiec",
+      "description" : "Znalaz³eœ siê w najg³êbszej czêœci zamku. Sufit jest tu bardzo nisko. Stoi tu skrzynia i kufer. Mo¿esz przejœæ w g³¹b na po³udnie.",
+      "coords" : {"x" : 4, "y" : 0, "z" : 0},
+      "surface" : 2,
+      "exits" : [0,0,0,0,1,0,0,0,1,0]
+    },
+    {
+      "name" : "Tajny Skarbiec",
+      "description" : "Dotar³eœ w g³¹b skarbca stoj¹ tu dwie amfory i sarkofag. Mo¿esz wróciæ na pó³noc.",
+      "coords" : {"x" : 4, "y" : 1, "z" : 0},
+      "surface" : 2,
+      "exits" : [1,0,0,0,0,0,0,0,0,0]
+    },
+    {
+      "name" : "Ni¿szy loch",
+      "description" : "Znalaz³eœ siê na pocz¹tku w¹skiego korytarza prowadz¹cego do celi na wschodzie. Mo¿esz wróciæ kamiennymi schodami na górê.",
+      "coords" : {"x" : 2, "y" : 3, "z" : 0},
+      "surface" : 2,
+      "exits" : [0,0,1,0,0,0,0,0,1,0]
+    },
+    {
+      "name" : "Ni¿szy loch",
+      "description" : "Idziesz korytarzem prowadz¹cym na wschód do pojedynczej celi, która znajduje siê za grub¹ œcian¹ i podwójnymi drzwiami. Mo¿esz wróciæ na zachód.",
+      "coords" : {"x" : 3, "y" : 3, "z" : 0},
+      "surface" : 2,
+      "exits" : [0,0,1,0,0,0,1,0,0,0]
+    },
+    {
+      "name" : "Samotna cela",
+      "description" : "Stoisz w celi. Jest tu drewniane ³ó¿ko, szafka i stolik. Wyjœcia na zachód broni¹ potê¿ne podwójne drzwi.",
+      "coords" : {"x" : 4, "y" : 3, "z" : 0},
+      "surface" : 2,
+      "exits" : [0,0,0,0,0,0,1,0,0,0]
+    },
+    {
+      "name" : "Spichlerz",
+      "description" : "Znajdujesz siê na piêtrze spichlerza. Przechowywany jest tu len, konopie oraz susz¹ siê cebula oraz czosnek. Mo¿esz przejœæ do dalszej czêœci spichlerza na po³udnie.",
+      "coords" : {"x" : 0, "y" : 0, "z" : 3},
+      "surface" : 2,
+      "exits" : [0,0,0,0,1,0,0,0,0,0]
+    },
+    {
+      "name" : "Pokój",
+      "description" : "Wszed³eœ do jednego z zamkowych pokoi. Mieszka tu doradca lorda. Jest tu ustawione dwuosobowe ³ó¿ko i inne meble. Mo¿esz st¹d wyjsæ na wschód.",
+      "coords" : {"x" : 2, "y" : 0, "z" : 3},
+      "surface" : 2,
+      "exits" : [0,0,1,0,0,0,0,0,0,0]
+    },
+    {
+      "name" : "Korytarz",
+      "description" : "Znajdujesz siê na piêtrze zamku. Na œcianach wisz¹ obrazy. Na wschodzie i zachodzie s¹ drzwi do komnat. MO¿esz przejsæ w stronê schodów na po³udnie.",
+      "coords" : {"x" : 3, "y" : 0, "z" : 3},
+      "surface" : 2,
+      "exits" : [0,0,1,0,1,0,1,0,0,0]
+    },
+    {
+      "name" : "Komnata Lorda",
+      "description" : "Wszed³eœ do pokoju Lorda. Na œrodku stoi wielkie ³ó¿ko z baldachimem. Po obu stronach stoi stolik, na jednym stoi œwiecznik. Mo¿esz st¹d wyjsæ na zachód.",
+      "coords" : {"x" : 4, "y" : 0, "z" : 3},
+      "surface" : 2,
+      "exits" : [0,0,0,0,0,0,1,0,0,0]
+    },
+    {
+      "name" : "Pokój w kamienicy",
+      "description" : "Prosty pokój w którym mieszkaj¹ osoby pracuj¹ce na terenie zamku. S¹ tu dwa piêtrowe ³ó¿ka. Mo¿na st¹d wyjsæ na klatkê schodow¹ na po³udnie.",
+      "coords" : {"x" : 6, "y" : 0, "z" : 3},
+      "surface" : 2,
+      "exits" : [0,0,0,0,1,0,0,0,0,0]
+    },
+    {
+      "name" : "Spichlerz",
+      "description" : "Stoisz na piêtrze spichlerza. Przechowuje siê tu przede wszystkim zbo¿e w s¹siekach i workach. Pod po³udniow¹ œcian¹ znajduje siê winda towarowa. Mo¿esz przejœæ w g³¹b na pó³noc, lub u¿yæ schodów by wejœæ w górê lub w dó³.",
+      "coords" : {"x" : 0, "y" : 1, "z" : 3},
+      "surface" : 2,
+      "exits" : [1,0,0,0,0,0,0,0,1,1]
+    },
+    {
+      "name" : "Pokój",
+      "description" : "Wszed³eœ do jednego z zamkowych pokoi. Mieszka tu sekretarz. Jest tu ustawione dwuosobowe ³ó¿ko rega³ pe³ny dokumentów i ksi¹¿ek. Mo¿esz st¹d wyjsæ na wschód.",
+      "coords" : {"x" : 2, "y" : 1, "z" : 3},
+      "surface" : 2,
+      "exits" : [0,0,1,0,0,0,0,0,0,0]
+    },
+    {
+      "name" : "Korytarz",
+      "description" : "Znajdujesz siê na piêtze zamku. W to miejsce prowadz¹ podwójne schody. Mo¿esz wejœæ do pomieszczenia na wschodzie i zachodzie albo przjeœæ dalej korytarzem na pó³noc lub skorzystaæ ze schodów by zejœæ piêtro ni¿ej lub wy¿ej.",
+      "coords" : {"x" : 3, "y" : 1, "z" : 3},
+      "surface" : 2,
+      "exits" : [1,0,1,0,0,0,1,0,1,1]
+    },
+    {
+      "name" : "Pokój",
+      "description" : "Wszed³eœ do jednego z zamkowych pokoi. Mieszka tu namiestnik. Na pod³odze le¿y wyprawiona skóra z dzika. Znajduje siê tu du¿e ³ó¿ko. Mo¿esz opuœciæ to pomieszczenie kieruj¹c siê na zachód.",
+      "coords" : {"x" : 4, "y" : 1, "z" : 3},
+      "surface" : 2,
+      "exits" : [0,0,0,0,0,0,1,0,0,0]
+    },
+    {
+      "name" : "Klatka schodowa",
+      "description" : "Zmajdujesz siê na schodach w kamienicy. Mo¿esz wejœædo jednego z pokoi na pó³noc lub po³udnie, lub przejœæ w górê albo w dó³.",
+      "coords" : {"x" : 6, "y" : 1, "z" : 3},
+      "surface" : 2,
+      "exits" : [1,0,0,0,1,0,0,0,1,1]
+    },
+    {
+      "name" : "Browar Zamkowy",
+      "description" : "Znalaz³eœ siê na poddaszu browaru. Piwowarzy przechowuj¹ tu sypkie surowce takie jak s³ód, ziarno, chmiele i zio³a. W k¹tach le¿¹ zu¿yte naczynia niegdyœ u¿ywane w tym budynku. Mo¿esz wróciæ schodami w dó³.",
+      "coords" : {"x" : 0, "y" : 2, "z" : 3},
+      "surface" : 2,
+      "exits" : [0,0,0,0,0,0,0,0,0,1]
+    },
+    {
+      "name" : "Pokój w kamienicy",
+      "description" : "W tym pokoju trzy ³ó¿ka s¹ ustawione w literê U. Obok ka¿dego stoi szafka, a w k¹cie umieszczono wielk¹ szafê. Mo¿esz st¹d przejsæ na klatkê schodow¹ na pó³noc.",
+      "coords" : {"x" : 6, "y" : 2, "z" : 3},
+      "surface" : 2,
+      "exits" : [1,0,0,0,0,0,0,0,0,0]
+    },
+    {
+      "name" : "Mieszkanie kupca",
+      "description" : "Wszed³eœ do schludnego mieszkania, gdzie nad swoim sk³adem rezyduje kupiec. Widaæ tu du¿e ³ó¿ko, szafê, skrzynie, rega³ z papierami i ksi¹¿kami. Na pod³odze le¿y dywan, na œcianie rozpiêty arras. Mo¿esz st¹d zejœæw dó³.",
+      "coords" : {"x" : 0, "y" : 3, "z" : 3},
+      "surface" : 2,
+      "exits" : [0,0,0,0,0,0,0,0,0,1]
+    },
+    {
+      "name" : "Gospoda",
+      "description" : "Znalaz³eœ siê na piêtrze gospody, gdzie znajduj¹ siê miejsca do spania. W rzêdzie ustawiono kilka ³ó¿ek, przy ka¿dym jest ma³a skrzynka, w której podró¿ny mo¿e z³o¿yæ swoje rzeczy. Pomieszczenie ci¹gnie siê dalej na po³udnie. Mo¿esz zejsæ schodami w dó³.",
+      "coords" : {"x" : 6, "y" : 2, "z" : 3},
+      "surface" : 2,
+      "exits" : [0,0,0,0,1,0,0,0,0,1]
+    },
+    {
+      "name" : "Mieszkanie Kowala",
+      "description" : "Wszed³eœ do mieszkania nale¿¹cego do zamkowego kowala. Jest tu ³ó¿ko o metalowej konstrukcji, stó³ na którym le¿a ró¿ne projekty i prototypy, a tak¿e skrzynia. Mo¿esz st¹d wyjœæ na wschód.",
+      "coords" : {"x" : 0, "y" : 4, "z" : 3},
+      "surface" : 2,
+      "exits" : [0,0,1,0,0,0,0,0,0,0]
+    },
+    {
+      "name" : "Pokój z przejœciem",
+      "description" : "Znalaz³eœ siê na piêtrze kuŸni. Ustawiono tu trzy ³ó¿ka. Przy œcianie znajduje siê oddzielone przejœcie prowadz¹ce na zachód do pokoju Kowala. Mo¿esz tak¿e zejœæ schodami w dó³.",
+      "coords" : {"x" : 1, "y" : 4, "z" : 3},
+      "surface" : 2,
+      "exits" : [0,0,1,0,0,0,0,0,0,1]
+    },
+    {
+      "name" : "Pokój Zbrojmistrza",
+      "description" : "Znalaz³eœ siê w mieszkaniu osoby pe³ni¹cej pieczê nad orê¿em stra¿y. Znajduje siê tu ³ó¿ko, stó³ i krzes³a. Na stole le¿y kilka ksi¹¿ek traktuj¹cych o ró¿nych rodzajach broni. W k¹cie stoi skrzynia. Mo¿esz zejœæ schodami w dó³, lub przejœæ w¹skimi drzwiami na wschód.",
+      "coords" : {"x" : 2, "y" : 4, "z" : 3},
+      "surface" : 2,
+      "exits" : [0,0,1,0,0,0,0,0,0,1]
+    },
+    {
+      "name" : "Brama g³ówna",
+      "description" : "Stoisz nad g³ównym wejsciem prowadz¹cym do zamku. W kierunku po³udniowym wychodzi wiele otwórów przez które ³ucznicy mog¹ prowadziæ ostrza³ w razie przedarcia siê wroga. Pod œcian¹ znajduje siê ko³owrót umo¿liwiajacy sterowanie bram¹. Mo¿esz st¹d przejœæ na wschód, lub zachód ma³ymi drzwiami.",
+      "coords" : {"x" : 3, "y" : 4, "z" : 3},
+      "surface" : 2,
+      "exits" : [0,0,1,0,0,0,1,0,0,0]
+    },
+    {
+      "name" : "Kwatera Stra¿y",
+      "description" : "Znalaz³eœ siê w pokoju o drewnianej pod³odze. Na ustawionych w rzêdach ³ó¿kach nocuj¹ stra¿nicy. Mo¿esz przejœæ do dalszej czêœci pomieszczenia lub opuœciæ je drzwiami na zachodzie. W dó³ prowadz¹ drewniane schody..",
+      "coords" : {"x" : 4, "y" : 4, "z" : 3},
+      "surface" : 2,
+      "exits" : [0,0,1,0,0,0,1,0,0,1]
+    },
+    {
+      "name" : "Kwatera Stra¿y",
+      "description" : "Jesteœ na piêtrze budynku stra¿y. Stoi tu kilka ³ó¿ek i sto³ów. Na górê prowadz¹ schody. Mo¿esz przejœæ do dalszej czêœci pomieszczenia na zachód.",
+      "coords" : {"x" : 5, "y" : 4, "z" : 3},
+      "surface" : 2,
+      "exits" : [0,0,0,0,0,0,1,0,1,0]
+    },
+    {
+      "name" : "Gospoda",
+      "description" : "Dotar³eœ do dalszej czêœci pomieszczenia, w którym nocuj¹ goœcie gospody. Znajduj¹ siê tu ³ó¿ka i skrzynie. Na po³udniowej œcianie wisi obraz.",
+      "coords" : {"x" : 6, "y" : 4, "z" : 3},
+      "surface" : 2,
+      "exits" : [1,0,0,0,0,0,0,0,0,0]
+    },
+    {
+      "name" : "S³odownia",
+      "description" : "Dotar³eœ w po³o¿on¹ najwy¿ej czêœæ spichlerza. Ziarno miêdzy innymi jêczmienia jest tu zwil¿ane, by zrobiæ z niego s³ód. Gotowy s³ód jest sk³adowany w workach. Mo¿esz st¹d przejœæna po³udnie.",
+      "coords" : {"x" : 0, "y" : 0, "z" : 4},
+      "surface" : 2,
+      "exits" : [0,0,0,0,1,0,0,0,0,0]
+    },
+    {
+      "name" : "Pokój Skarbnika",
+      "description" : "Wszed³eœ do pomieszczenia, w którym mieszka skarbnik. Stoi tu ³ó¿ko, stó³, rega³ z ksi¹¿kami. Na po³udniu znajduj¹ siê drzwi.",
+      "coords" : {"x" : 2, "y" : 0, "z" : 4},
+      "surface" : 2,
+      "exits" : [0,0,0,0,1,0,0,0,0,0]
+    },
+    {
+      "name" : "Pokój s³u¿by",
+      "description" : "Znalaz³eœ siêna koñcu d³ugiego pokoju, w którym nocuje s³u¿ba i pracownicy zamku. Stoj¹ tu ³ó¿ka, szafki. Mozesz przjeœæ dalej na po³udnie.",
+      "coords" : {"x" : 4, "y" : 0, "z" : 4},
+      "surface" : 2,
+      "exits" : [0,0,0,0,1,0,0,0,0,0]
+    },
+    {
+      "name" : "Poddasze",
+      "description" : "Przeszed³eœ na pó³nocn¹ czêœæ ostatniego piêtra kamienicy. Le¿¹ tu ró¿ne graty, stare ³ó¿ko, beczki. Wszêdzie jest du¿o pajêczyn. Mo¿esz wyjœæ st¹d drzwiami na po³udnie.",
+      "coords" : {"x" : 6, "y" : 0, "z" : 4},
+      "surface" : 2,
+      "exits" : [0,0,0,0,1,0,0,0,0,0]
+    },
+    {
+      "name" : "Spichlerz",
+      "description" : "Znalaz³eœ siê na najwy¿szym piêtrze spichlerza. Stoj¹ tu worki ró¿nej wielkoœci. Przy po³udniowej œcianie znajduje siê otwór w pod³odze dla windy towarowej, nad nim ko³owrót umo¿liwiaj¹cy sterowanie. Mo¿esz przejœæ na pó³noc do s³odowni. Lub zejœæ schodami w dó³.",
+      "coords" : {"x" : 0, "y" : 1, "z" : 4},
+      "surface" : 2,
+      "exits" : [1,0,0,0,0,0,0,0,0,1]
+    },
+    {
+      "name" : "Pokój",
+      "description" : "Wszed³eœ do przytulnego pomieszczenia, znajduj¹ siê tu ³awa, kilka krzese³, rega³. Na ³awie le¿y roz³o¿ona plansza. Na pó³nocnej œcianie znajduj¹ siê drzwi. Do klapy w suficie prowadzi drabina. Mo¿esz st¹d wyjœæ na wschód.",
+      "coords" : {"x" : 2, "y" : 1, "z" : 4},
+      "surface" : 2,
+      "exits" : [1,0,1,0,0,0,0,0,1,0]
+    },
+    {
+      "name" : "Przejœcie",
+      "description" : "Dotar³eœ do przejœcia na drugim piêtrze zamku. Na wschód i zachód prowadz¹ drzwi. Na po³udniu przez szerokie okno otwiera siê widok na plac zamkowy, na pó³nocnej œcianie wisz¹ god³a i obrazy. Schody prowadz¹ w dó³.",
+      "coords" : {"x" : 3, "y" : 1, "z" : 4},
+      "surface" : 2,
+      "exits" : [0,0,1,0,0,0,1,0,0,1]
+    },
+    {
+      "name" : "Pokój s³u¿by",
+      "description" : "Przeszed³eœ do pod³ó¿nego pomieszczenia, zastawionego w dwóch rzêdach ³ó¿kami. Przy drzwiach stoi szafa. Na pod³odze le¿y dywanik. Mo¿esz przejœæ w g³¹b pomieszczenia na pó³noc, wróciæ do przejœcia na zachód. Do klapy w suficie prowadzi drabina.",
+      "coords" : {"x" : 4, "y" : 1, "z" : 4},
+      "surface" : 2,
+      "exits" : [1,0,0,0,0,0,1,0,1,0]
+    },
+    {
+      "name" : "Poddasze",
+      "description" : "Wszed³eœ na strych kamienicy. Dwuspadowy dach schodzi siê u szczytu tworz¹c trójk¹tn¹ przestrzeñ. Stoi tu skrzynia i szafa. Na pó³nocy s¹ drzwi, na po³udniu skonstruowano przegrodê za któr¹ mo¿na przejœæ do dalszej czêœci. Mo¿esz wróciæ schodami w dó³.",
+      "coords" : {"x" : 6, "y" : 1, "z" : 4},
+      "surface" : 2,
+      "exits" : [1,0,0,0,1,0,0,0,0,1]
+    },
+    {
+      "name" : "Poddasze",
+      "description" : "Wszed³eœ za przegrodê. Znajduje siê tu ciasny ale bardzo przytulny k¹cik. Pod opadaj¹cym stropem ustawiono le¿ankê, obok której stoi stolik. Po drugiej stronie stoi niewielka szafa. Na œrodku pomieszczenia wisi umocowany u szczytu kocio³ek, a pod nim na blasze palenisko. W k¹cie stoi lutnia.",
+      "coords" : {"x" : 6, "y" : 2, "z" : 4},
+      "surface" : 2,
+      "exits" : [1,0,0,0,0,0,0,0,0,0]
+    },
+    {
+      "name" : "Warsztat",
+      "description" : "Przeszed³eœ w g³¹b warsztatu. Stoj¹ tu narzêdzia œlusarskie, imad³a. Na stole le¿¹ roz³o¿one m³otki i pilniki. Mo¿esz cofn¹æ siê na zachód.",
+      "coords" : {"x" : 0, "y" : 4, "z" : 4},
+      "surface" : 2,
+      "exits" : [0,0,1,0,0,0,0,0,0,0]
+    },
+    {
+      "name" : "Warsztat",
+      "description" : "Wszes³eœ do warsztatu, znajduj¹cego siê nad czêœci¹ mieszkaln¹. Znajduj¹ siê tu urz¹dzenia i materia³y potrzebne do wytwarzania kusz, czêœci ruchomych i tym podobnych. Mo¿esz przejsæ dalej na zachód, lub zejsæ po schodach w dó³.",
+      "coords" : {"x" : 1, "y" : 4, "z" : 4},
+      "surface" : 2,
+      "exits" : [0,0,0,0,0,0,1,0,0,1]
+    },
+    {
+      "name" : "Wie¿a",
+      "description" : "Wspi¹³eœ siê na przedostatnie piêtro wie¿y przy bramie. Nie ma tu zbyt wiele miejsca, pod œcian¹ stoi stojak na ³uki, na po³udnie wychodzi ma³e okienko. Na dó³ prowadz¹ strome drewniane schody, na górê drabina.",
+      "coords" : {"x" : 2, "y" : 4, "z" : 4},
+      "surface" : 2,
+      "exits" : [0,0,0,0,0,0,0,0,1,1]
+    },
+    {
+      "name" : "Wie¿a",
+      "description" : "Znalaz³eœ siê w wie¿y przy bramie. Stoi tu skrzynia. Na dó³ prowadz¹ strome drewniane schody, na górê drabina.",
+      "coords" : {"x" : 4, "y" : 4, "z" : 4},
+      "surface" : 2,
+      "exits" : [0,0,0,0,0,0,0,0,1,1]
+    },
+    {
+      "name" : "Kwatera Stra¿y",
+      "description" : "Wszed³eœ do pomieszczenia w którym nocuj¹ m³odsi sta¿em stra¿nicy. S¹ tu w¹skie piêtrowe ³ó¿ka. Mo¿esz przejœæ na wschód do dalszej czêœci pomieszczenia lub zejœæ schodami w dó³.",
+      "coords" : {"x" : 5, "y" : 4, "z" : 4},
+      "surface" : 2,
+      "exits" : [0,0,1,0,0,0,0,0,0,1]
+    },
+    {
+      "name" : "Kwatera Stra¿y",
+      "description" : "Przeszed³eœ do dalszej czêœci pomieszczenia. Tu takze s¹ ³ó¿ka, ale pod wschodni¹ œcian¹ znajduje siê szeroki stó³ a przy nim kilka krzese³. Mo¿esz wróciæ na zachód.",
+      "coords" : {"x" : 6, "y" : 4, "z" : 4},
+      "surface" : 2,
+      "exits" : [0,0,0,0,0,0,1,0,0,0]
+    },
+    {
+      "name" : "Wie¿a",
+      "description" : "Wspi¹³eœ siê na sam szczyt wie¿y zamkowej. Rozci¹ga siê st¹d widok na ca³y teren zamku, ale widoczne s¹ te¿ miejscie zabudowania. P³aska pod³oga otoczona jest niskim murem zwieñczonym blankami.",
+      "coords" : {"x" : 2, "y" : 1, "z" : 5},
+      "surface" : 2,
+      "exits" : [0,0,0,0,0,0,0,0,0,1]
+    },
+    {
+      "name" : "Wie¿a",
+      "description" : "Dosta³eœ siê na sam szczyt wie¿y zamkowej. Rozci¹ga siê st¹d widok na ca³y teren zamku, ale widoczne s¹ te¿ miejscie zabudowania. P³aska pod³oga otoczona jest niskim murem zwieñczonym blankami.",
+      "coords" : {"x" : 4, "y" : 1, "z" : 5},
+      "surface" : 2,
+      "exits" : [0,0,0,0,0,0,0,0,0,1]
+    },
+    {
+      "name" : "Wie¿a",
+      "description" : "Wspi¹³eœ siê na sam szczyt wie¿y przy bramie. Rozci¹ga siê st¹d widok na plac zamkowy na pó³nocy oraz na po³udniow¹ czêœæ miasta. Mur siêga tu do brzucha, a blanki wznosz¹ siê na wysokoœæ wyprostowanego cz³owieka.",
+      "coords" : {"x" : 2, "y" : 4, "z" : 5},
+      "surface" : 2,
+      "exits" : [0,0,0,0,0,0,0,0,0,1]
+    },
+    {
+      "name" : "Wie¿a",
+      "description" : "Wszed³eœ siê na sam szczyt wie¿y przy bramie. Rozci¹ga siê st¹d widok na plac zamkowy na pó³nocy oraz na po³udniow¹ czêœæ miasta. Mur siêga tu do brzucha, a blanki wznosz¹ siê na wysokoœæ wyprostowanego cz³owieka.",
+      "coords" : {"x" : 4, "y" : 4, "z" : 5},
+      "surface" : 2,
+      "exits" : [0,0,0,0,0,0,0,0,0,1]
+    },
