@@ -19,7 +19,7 @@ class Item:
 		self.description = desc
 		self.is_static = False
 		self.owner = None
-		being = None
+		#being = None
 		self.x = x
 		self.y = y
 		self.z = z
@@ -47,6 +47,7 @@ class Item:
 	def get_name(self):
 		name = self.name
 		return name
+
 class Consumable(Item):
 	def __init__(self, n, desc, x, y, z, loc, w, price):
 		super(Consumable, self).__init__(n, desc, x, y, z, loc, w, price)
@@ -187,6 +188,7 @@ class Armor(Item):
 		self.agility_minus = kwargs["agl_min"]
 		self.speed_minus = kwargs["spd_min"]
 	#def put_on
+
 class Shield(Armor):
 	def __init__(self, n, desc, x, y, z, loc, w, price, **kwargs):
 		super(Shield, self).__init__(n, desc, x, y, z, loc, w, price, **kwargs)
@@ -200,11 +202,11 @@ class Clothes(Item):
 		self.body_part = kwargs["body"]
 		self.cold_protection = kwargs["cold"]
 		self.water_protection = kwargs["water"]
-	#def dress_up
 
 class Tool(Item):
 	def __init__(self, n, desc, x, y, z, loc, w, price, **kwargs):
 		super(Tool, self).__init__(n, desc, x, y, z, loc, w, price)
+		self.actions.append("dobądź")
 		self.task = []
 
 class Jewellery(Item):
@@ -216,12 +218,14 @@ class Jewellery(Item):
 class Machine(Item):
 	def __init__(self, n, desc, x, y, z, loc, w, price, **kwargs):
 		super(Machine, self).__init__(n, desc, x, y, z, loc, w, price)
-		#components
+		self.actions.remove("podnieś")
+		self.actions.append("użyj")
 
 class Vehicle(Item):
 	def __init__(self, n, desc, x, y, z, loc, w, price, **kwargs):
 		super(Vehicle, self).__init__(n, desc, x, y, z, loc, w, price)
 		self.actions.append("prowadź")
+		self.actions.remove("podnieś")
 		self.strength_req = kwargs["str_r"]
 		#self.capacity = kwargs["capacity"]
 		#self.stored = None

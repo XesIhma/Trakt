@@ -6,10 +6,14 @@ class Character(Being):
         self.right_hand = None
         self.left_hand = None
         self.head = None
-        self.torso = None
+        self.torso1 = None
+        self.torso2 = None
         self.hands = None
         self.legs = None
-        self.feet = None
+        self.boots = None
+        self.finger1 = None
+        self.finger2 = None
+        self.neck = None
 
 
 class Human(Character):

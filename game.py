@@ -20,6 +20,7 @@ class Game:
 		self.world = None
 		self.hero = None
 		self.items = []
+		#self.hi_id = 0 #id ostatniego stworzonego przedmiotu
 		
 	def time_progress(self, sec):
 		self.time["s"] += sec
@@ -80,7 +81,7 @@ class Game:
 			#POKAZUJE ITEMY
 			for i in range(len(self.items)):
 				if self.items[i].compare_coords(self.hero):
-					print(Fore.BLUE + Style.BRIGHT + self.items[i].name + Style.RESET_ALL)
+					print(Fore.LIGHTCYAN_EX + self.items[i].name + Style.RESET_ALL)
 			#POKAZUJE NPC
 
 			#UPŁYW CZASU
@@ -115,6 +116,7 @@ class Game:
 			data_temp['x'] = self.items[i].x
 			data_temp['y'] = self.items[i].y
 			data_temp['z'] = self.items[i].z
+			data_temp['id'] = self.items[i].id
 			if data_temp['class'] == "Food":
 				data_temp['nourish'] = self.items[i].nourish
 				data_temp['stamina_suppl'] = self.items[i].stamina_suppl
@@ -155,7 +157,7 @@ class Game:
 				data_temp['agility_req'] = self.items[i].agility_req
 				data_temp['ammo_type'] = self.items[i].ammo_type
 				data_temp['range'] = self.items[i].range
-			elif data_temp['class'] == "Armor":
+			elif data_temp['class'] == "Armor" or data_temp['class'] == "Shield":
 				data_temp['body_part'] = self.items[i].body_part
 				data_temp['material'] = self.items[i].material
 				data_temp['defence'] = self.items[i].defence
@@ -192,7 +194,7 @@ class Game:
 
 
 #DODATKOWE FUNKCJE
-def set_items(path, location):
+def set_items(path, world):
 	items = []
 	with open(path, "r", encoding='utf-8') as f:
 		data = json.loads(f.read())
@@ -205,8 +207,8 @@ def set_items(path, location):
 			x = data[i]['x']
 			y = data[i]['y']
 			z = data[i]['z']
-			loc = location
-			#item_id = data[i]['id']
+			loc = world
+			item_id = data[i]['id']
 			if class_name == "Food":
 				temp_item = Food(name, description, x, y, z, loc, weight, price, data[i]['nourish'], data[i]['stamina_suppl'])
 				items.append(temp_item)

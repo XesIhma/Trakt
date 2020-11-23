@@ -6,8 +6,8 @@ import json
 class Being:
 	def __init__(self):
 		self.current_location = None
-		self.x = 3
-		self.y = 2
+		self.x = 10
+		self.y = 7
 		self.z = 2
 		self.name = "Istota"
 		self.species = "Domyślna"
@@ -114,9 +114,13 @@ class Being:
 		if item.weight + equip_weight <= self.lift:
 			self.equip.append(item)
 			item.z = -10
-			item.actions.append("upuść")
-			item.actions.remove("podnieś")
+			if "upuść" not in item.actions: 
+				item.actions.append("upuść")
+			if "podnieś" in item.actions: 
+				item.actions.remove("podnieś")
 			print("Podniosłeś "+ item.name)
+		elif item.weight > self.lift:
+			print("To jest dla ciebie za ciężkie")
 		else:
 			print("Twój ekwipunek waży za dużo. Wyrzuć coś innego aby to podnieść")
 	def drop(self, item_name):

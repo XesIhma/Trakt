@@ -10,6 +10,7 @@ import math
 import json
 import copy
 
+
 init(convert=True)
 
 
@@ -34,13 +35,11 @@ while not correct:
 		game = Game()
 		hero = Hero()
 		game.hero = hero
-		maps = ["initial/castle.json"]
+		maps = ["initial/castle.json","initial/castle2.json","initial/castle3.json","initial/castle4.json","initial/castle5.json","initial/castle6.json",]
 		world = World(maps)
 		game.world = world
-		game.items = set_items("initial/items.json", game.world.location[0])
-		#print("DŻEJSON")
-		#print(hero.toJSON())
-		hero.current_location = game.world.location[0]
+		game.items = set_items("initial/items.json", game.world)
+		hero.current_location = game.world
 		hero.current_location.show_location(hero.x,hero.y,hero.z)
 	elif choice=="2":
 		correct = True
@@ -58,12 +57,12 @@ while not correct:
 
 is_playing = True
 while is_playing:
-	print(Fore.GREEN + Style.BRIGHT+"<HP: {}/{} Stamina: {}/{}>".format(hero.param["hp"], hero.param["hp_max"], math.ceil(hero.param["stamina"]), math.ceil(hero.param["stamina_aviable"]))+Style.RESET_ALL, end="")
+	print(Fore.LIGHTGREEN_EX+"<HP: {}/{} Stamina: {}/{}>".format(hero.param["hp"], hero.param["hp_max"], math.ceil(hero.param["stamina"]), math.ceil(hero.param["stamina_aviable"]))+Style.RESET_ALL, end="")
 	decision = input().lower()
 	command = decision.split()
 	if len(command) == 0:
 		print("Co chcesz zrobić?")
-	elif command[0] == "north" or command[0] == "n" or command[0] == "8":
+	elif command[0] == "north" or command[0] == "n" or command[0] == "a" or command[0] == "8":
 		 game.player_travel(8)
 	elif command[0] == "northeast" or command[0] == "ne" or command[0] == "9":
 		game.player_travel(9)
@@ -79,7 +78,7 @@ while is_playing:
 		game.player_travel(4)
 	elif command[0] == "northwest" or command[0] == "nw" or command[0] == "7":
 		game.player_travel(7)
-	elif command[0] == "up" or command[0] == "u" or command[0] == "5":
+	elif command[0] == "up" or command[0] == "u" or command[0] == "r" or command[0] == "5":
 		game.player_travel(5)
 	elif command[0] == "down" or command[0] == "d" or command[0] == "0":
 		game.player_travel(0)
@@ -197,6 +196,16 @@ while is_playing:
 		else:
 			print("Nie masz takiej broni")
 	
+	elif command[0] == "schowaj" or command[0] == "stow":
+		if game.find_item(command, False):
+			that_item = game.find_item(command, False)
+			if hero.right_hand == that_item:
+				hero.right_hand = None
+				print("Schowałeś "+that_item.name)
+			elif hero.right_hand == that_item:
+				hero.letf_hand = None
+				print("Schowałeś "+that_item.name)
+
 	elif command[0] == "załóż" or command[0] == "zaloz" or command[0] == "put":
 		if game.find_item(command, False):
 			that_item = game.find_item(command, False)
@@ -208,38 +217,99 @@ while is_playing:
 					elif that_item.body_part == "hands":
 						hero.hands = that_item
 						print("Założyłeś "+that_item.name)
-					elif that_item.body_part == "torso":
-						hero.torso = that_item
+					elif that_item.body_part == "torso1":
+						hero.torso1 = that_item
+					elif that_item.body_part == "torso2":
+						hero.torso2 = that_item
 						print("Założyłeś "+that_item.name)
 					elif that_item.body_part == "legs":
 						hero.legs = that_item
 						print("Założyłeś "+that_item.name)
-					elif that_item.body_part == "feet":
-						hero.feet = that_item
+					elif that_item.body_part == "boots":
+						hero.boots = that_item
 						print("Założyłeś "+that_item.name)
+				elif isinstance(that_item, Jewellery):
+					if that_item.body_part == "finger":
+						if hero.finger1 is not None:
+							if hero.finger2 is not None:
+								print("Masz już maksymalną liczbę pierścieni, zdjemij jeden")
+							else:
+								hero.finger2 = that_item
+								print("Założyłeś "+that_item.name)
+						else: 
+							hero.finger1 = that_item
+							print("Założyłeś "+that_item.name)
+					elif that_item.body_part == "neck":
+						hero.neck = that_item
+						print("Założyłeś "+that_item.name)
+
+
 				else:
-					print("To nie jest pancerz")
+					print("To nie jest pancerz ani biżuteria")
 			else:
-				print("Nie masz takiego pancerza")
+				print("Nie masz czegoś takiego")
 		else:
 			print("Nie masz takiego pancerza")
 
-	elif command[0] == "schowaj" or command[0] == "stow":
+	elif command[0] == "zdejmij" or command[0] == "zdejm" or command[0] == "take_off":
 		if game.find_item(command, False):
 			that_item = game.find_item(command, False)
 			if hero.right_hand == that_item:
 				hero.right_hand = None
 				print("Schowałeś "+that_item.name)
-			elif hero.right_hand == that_item:
-				hero.letf_hand = None
-				print("Schowałeś "+that_item.name)
-
-	elif command[0] == "ubierz":
+			elif hero.head == that_item:
+				hero.head = None
+				print("Zdjąłeś "+that_item.name)
+			elif hero.torso1 == that_item:
+				hero.torso1 = None
+				print("Zdjąłeś "+that_item.name)
+			elif hero.torso2 == that_item:
+				hero.torso2 = None
+				print("Zdjąłeś "+that_item.name)
+			elif hero.hands == that_item:
+				hero.hands = None
+				print("Zdjąłeś "+that_item.name)
+			elif hero.legs == that_item:
+				hero.legs = None
+				print("Zdjąłeś "+that_item.name)
+			elif hero.boots == that_item:
+				hero.boots = None
+				print("Zdjąłeś "+that_item.name)
+			elif hero.finger1 == that_item:
+				hero.finger1 = None
+				print("Zdjąłeś "+that_item.name)
+			elif hero.finger2 == that_item:
+				hero.finger2 = None
+				print("Zdjąłeś "+that_item.name)
+			elif hero.neck == that_item:
+				hero.neck = None
+				print("Zdjąłeś "+that_item.name)
+	
+	elif command[0] == "ubierz" or command[0] == "dress":
 		if game.find_item(command, False):
 			that_item = game.find_item(command, False)
 			if that_item in hero.equip:
 				if isinstance(that_item, Clothes):
 					if that_item.body_part == "head":
+						hero.head = that_item
+					elif that_item.body_part == "torso1":
+						hero.torso1 = that_item
+					elif that_item.body_part == "torso2":
+						hero.torso2 = that_item
+					elif that_item.body_part == "hands":
+						hero.hands = that_item
+					elif that_item.body_part == "legs":
+						hero.legs = that_item
+					elif that_item.body_part == "boots":
+						hero.boots = that_item
+
+	elif command[0] == "chwyć" or command[0] == "chwyc":
+		if game.find_item(command, False):
+			that_item = game.find_item(command, False)
+			if that_item in hero.equip:
+				if isinstance(that_item, Tool):
+					hero.right_hand = that_item
+					print("Wziąłeś do ręki "+that_item.name)
 
 	elif command[0] == "statystyki" or command[0] == "stats" or command[0] == "stat":
 		hero.parameters()
@@ -416,17 +486,15 @@ while is_playing:
 			temp_item = game.find_item(command, False)
 			if temp_item:
 				that_item = copy.deepcopy(temp_item)
-				print(that_item.name)
+				that_item.id = game.items[-1].id+1 #id ostatniego itemu w liście itemów w grze jest najwyższe, więc po dodaniu 1 dostaniemy niezajęte id 
+				print(that_item.id)
 				that_item.x = hero.x
 				that_item.y = hero.y
 				that_item.z = hero.z
 				that_item.current_location = hero.current_location
 				game.items.append(that_item)
 				print("Dodałeś przedmiot: "+ that_item.name)
-				print(game.items[-1].name)
-				print(game.items[-1].x)
-				print(game.items[-1].y)
-				print(game.items[-1].z)
+				print(str(id(that_item)))
 			else:
 				print("Taki przedmiot jeszcze nie istnieje")
 
@@ -441,7 +509,42 @@ while is_playing:
 			hero.current_location.show_location(x, y, z)
 		else:
 			print("Nie możesz tego zrobić")
-	
+
+	elif command[0] == "colorama":
+		print(Fore.BLUE + 'BLUE')
+		print(Fore.CYAN + 'CYAN')
+		print(Fore.GREEN + 'GREEN')
+		print(Fore.LIGHTBLACK_EX + 'LIGHTBLACK_EX')
+		print(Fore.LIGHTBLUE_EX + 'LIGHTBLUE_EX')
+		print(Fore.LIGHTCYAN_EX + 'LIGHTCYAN_EX')
+		print(Fore.LIGHTGREEN_EX + 'LIGHTGREEN_EX')
+		print(Fore.LIGHTMAGENTA_EX + 'LIGHTMAGENTA_EX')
+		print(Fore.LIGHTRED_EX + 'LIGHTRED_EX')
+		print(Fore.LIGHTWHITE_EX + 'LIGHTWHITE_EX')
+		print(Fore.LIGHTYELLOW_EX + 'LIGHTYELLOW_EX')
+		print(Fore.MAGENTA + 'MAGENTA')
+		print(Fore.RED + 'RED')
+		print(Fore.RESET + 'RESET')
+		print(Fore.WHITE + 'WHITE')
+		print(Fore.YELLOW + 'YELLOW' + Style.RESET_ALL)
+		print("")
+		print(Back.BLUE + 'BLUE')
+		print(Back.CYAN + 'CYAN')
+		print(Back.GREEN + 'GREEN')
+		print(Back.LIGHTBLACK_EX + 'LIGHTBLACK_EX')
+		print(Back.LIGHTBLUE_EX + 'LIGHTBLUE_EX')
+		print(Back.LIGHTCYAN_EX + 'LIGHTCYAN_EX')
+		print(Back.LIGHTGREEN_EX + 'LIGHTGREEN_EX')
+		print(Back.LIGHTMAGENTA_EX + 'LIGHTMAGENTA_EX')
+		print(Back.LIGHTRED_EX + 'LIGHTRED_EX')
+		print(Back.LIGHTWHITE_EX + 'LIGHTWHITE_EX')
+		print(Back.LIGHTYELLOW_EX + 'LIGHTYELLOW_EX')
+		print(Back.MAGENTA + 'MAGENTA')
+		print(Back.RED + 'RED')
+		print(Back.RESET + 'RESET')
+		print(Back.WHITE + 'WHITE')
+		print(Back.YELLOW + 'YELLOW' + Style.RESET_ALL)
+
 	elif command[0] == "help" or command[0] == "pomoc" or command[0] == "?":
 		print("DOSTĘPNE KOMENDY: ")
 		print("> KIERUNKI: ")
