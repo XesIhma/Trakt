@@ -1,26 +1,83 @@
-from human import Human
-import math
-from colorama import init, Fore, Back, Style
+from humanoid import Humanoid
+from konsola import Konsola
 
-class Hero(Human):
-	def __init__(self):
-		super().__init__()
-		self.name="Erlod"
-		self.lift = 70
-	def travel_show(self):
-		#self.current_location.show_location(self.x, self.y, self.z)
-		pass
+class Hero(Humanoid):
+	def __init__(self, i, xx, yy, zz, n, a, d, sp, lft, itId,**kwargs):
+		super(Hero, self).__init__(i, xx, yy, zz, n, a, d, sp, lft, itId, **kwargs)
+
 	def parameters(self):
-		print("HP:         "+Style.BRIGHT+str(self.param["hp"])+"/"+str(self.param["hp_max"])+Style.RESET_ALL)
-		print("Stamina:    "+Style.BRIGHT+str(math.ceil(self.param["stamina"]))+"/"+str(math.ceil(self.param["stamina_aviable"]))+Style.RESET_ALL)
-		print("Mana:       "+Style.BRIGHT+str(self.param["mana"])+"/"+str(self.param["mana_max"])+Style.RESET_ALL)
-		print("Najedzenie: "+Style.BRIGHT+str(self.param["nourish"])+"/"+str(self.param["nourish_max"])+Style.RESET_ALL)
-		print("")
-		print("Siła: "+Style.BRIGHT+str(self.stat["strength"])+Style.RESET_ALL)
-		print("Zręczność: "+Style.BRIGHT+str(self.stat["agility"])+Style.RESET_ALL)
-		print("Szybkość: "+Style.BRIGHT+str(self.stat["speed"])+Style.RESET_ALL)
-		print("Spostrzegawczość: "+Style.BRIGHT+str(self.stat["perceptivity"])+Style.RESET_ALL)
-		print("Widoczność: "+Style.BRIGHT+str(self.stat["visibility"])+Style.RESET_ALL)
+		Konsola.parameters(self)
+	def outfit(self):
+		anything = 0
+		if self.bodyPart["right_hand"]:
+			print("W prawej ręce     "+self.bodyPart["right_hand"].name)
+			anything+=1
+		if self.bodyPart["left_hand"]:
+			print("W lewej ręce      "+self.bodyPart["left_hand"].name)
+			anything+=1
+		if anything>0:
+			print("")
+			anything=1
 
+		if self.bodyPart["head"]:
+			print("Na głowie         "+self.bodyPart["head"].name)
+			anything+=1
+		if self.bodyPart["torso1"]:
+			print("Na torsie         "+self.bodyPart["torso1"].name)
+			anything+=1
+		if self.bodyPart["torso2"]:
+			print("Na torsie         "+self.bodyPart["torso2"].name)
+			anything+=1
+		if self.bodyPart["hands"]:
+			print("Na dłoniach       "+self.bodyPart["hands"].name)
+			anything+=1
+		if self.bodyPart["legs"]:
+			print("Na nogach         "+self.bodyPart["legs"].name)
+			anything+=1
+		if self.bodyPart["boots"]:
+			print("Buty              "+self.bodyPart["boots"].name)
+			anything+=1
+		if anything>1:
+			print("")
+			anything=2
+
+		if self.bodyPart["finger1"] and self.bodyPart["finger2"]:
+			print("Pierścienie       "+self.bodyPart["finger1"].name+" i "+self.bodyPart["finger1"].name)
+			anything+=1
+		elif self.bodyPart["finger1"]:
+			print("Pierścień         "+self.bodyPart["finger1"].name)
+			anything+=1
+		elif self.bodyPart["finger2"]:
+			print("Pierścień         "+self.bodyPart["finger2"].name)
+			anything+=1
+		if self.bodyPart["neck"]:
+			print("Naszyjnik         "+self.bodyPart["neck"].name)
+			anything+=1
+		if anything == 0:
+			print("Nie masz nic na sobie")
+	def heal(self, hp):
+		if self.param["hp"] + hp > self.param["hp_max"]:
+			self.param["hp"] = self.param["hp_max"]
+		else:
+			self.param["hp"] += hp
 	
-		
+	def rest(self, howLong):
+		for x in range(howLong):
+			self.weaking(-3, -15)
+			self.heal(2)
+			breakStatement = Konsola.prompt(self, False)
+			if breakStatement: return 0
+			Konsola.sleep(1)
+			print("Minęła godzina")
+	def sleep(self):
+		long = self.param["stamina_max"] - self.param["stamina_aviable"]
+		howLong = int(long / 10)
+		for x in range(howLong):
+			self.weaking(-11, -20)
+			self.heal(5)
+			breakStatement = Konsola.prompt(self, False)
+			if breakStatement: return 0
+			Konsola.sleep(1)
+			print("Minęła godzina")
+		print("Wyspałeś się")
+		return howLong 

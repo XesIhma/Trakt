@@ -1,0 +1,266 @@
+{
+  "name": "map3",
+  "x": 5,
+  "y": 3,
+  "size_x": 3,
+  "size_y": 3,
+  "size_z": 3,
+  "ground_level": 0,
+  "square": [
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "surface": 4,
+      "exit": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie. Na południu jest wieża.",
+      "coord": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "surface": 4,
+      "exit": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 2,
+        "y": 0,
+        "z": 0
+      },
+      "surface": 4,
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Droga do wieży",
+      "description": "Stoisz na wąskiej drodze. Na wschodzie masz dziwną wieżę i wejście do niej",
+      "coord": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surface": 1,
+      "exit": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Wieża",
+      "description": "Stoisz w podstawie wieży. Możesz wyjsć na zachód",
+      "coord": {
+        "x": 1,
+        "y": 1,
+        "z": 0
+      },
+      "surface": 2,
+      "exit": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew. Na zachodzie jest wieża",
+      "coord": {
+        "x": 2,
+        "y": 1,
+        "z": 0
+      },
+      "surface": 4,
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 0,
+        "y": 2,
+        "z": 0
+      },
+      "surface": 4,
+      "exit": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew. Na północy jest wieża",
+      "coord": {
+        "x": 1,
+        "y": 2,
+        "z": 0
+      },
+      "surface": 4,
+      "exit": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 2,
+        "y": 2,
+        "z": 0
+      },
+      "surface": 4,
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+		{
+      "name": "Wieża",
+      "description": "Idziesz po schodach w wieży.",
+      "coord": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "surface": 2,
+      "exit": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+		{
+      "name": "Wieża",
+      "description": "Dotarłeś na szczyt wieży.",
+      "coord": {
+        "x": 1,
+        "y": 1,
+        "z": 2
+      },
+      "surface": 2,
+      "exit": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "door": [
+    {
+      "id": 0,
+      "coord": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "direction": 4,
+      "open": 0,
+      "key": "qweqwe"
+    }
+  ]
+}

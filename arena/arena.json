@@ -1,0 +1,848 @@
+{
+  "name": "Arena",
+  "x": 0,
+  "y": 0,
+  "size_x": 5,
+  "size_y": 5,
+  "size_z": 1,
+  "ground_level": 0,
+	 "square": [
+    {
+      "name": "Północno-zachodni róg areny",
+      "description": "Stoisz w kącie. Arena rozciąga się daleko na południe i wschód.",
+      "coord": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "surface": 1,
+      "items": [],
+      "exit": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Północna ściana areny",
+      "description": "Stoisz pod ścianą. Nad sobą widzisz trybuny z wiwatującymi ludźmi.",
+      "coord": {
+        "x": 2,
+        "y": 0,
+        "z": 0
+      },
+      "surface": 1,
+      "items": [],
+      "exit": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Północno-wschodni róg areny",
+      "description": "Znalazłeś się w kącie. Jeśli ktoś Cię teraz napadnie to masz ograniczone pole do ucieczki.",
+      "coord": {
+        "x": 3,
+        "y": 0,
+        "z": 0
+      },
+      "surface": 1,
+      "items": [
+        6
+      ],
+      "exit": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Cela",
+      "description": "Wszedłeś do ciemnego i mrocznego pomieszczenia. Na wschodzie jest wyjście w kształcie kamiennego łuku.",
+      "coord": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surface": 2,
+      "items": [],
+      "exit": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Zachodnia ściana areny",
+      "description": "Znajdujesz się na arenie. Pod ścianą, w której widzisz zatrzaśnięte kraty. Czy ktoś lub coś się za nimi czai?",
+      "coord": {
+        "x": 1,
+        "y": 1,
+        "z": 0
+      },
+      "surface": 1,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Arena",
+      "description": "Znajdujesz się na środku areny. Z wszystkich stron widzisz ludzi na trybunach. Czy przeżyjesz zależy od twoich decyzji.  ",
+      "coord": {
+        "x": 2,
+        "y": 1,
+        "z": 0
+      },
+      "surface": 1,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Wschodnia ściana areny",
+      "description": "Znajdujesz się na arenie. Pod ścianą, w której widzisz zatrzaśnięte kraty. Czy ktoś lub coś się za nimi czai?",
+      "coord": {
+        "x": 3,
+        "y": 1,
+        "z": 0
+      },
+      "surface": 1,
+      "items": [],
+      "exit": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Cela",
+      "description": "Wszedłeś do ciemnego i mrocznego pomieszczenia. Na zachodzie jest wyjście w kształcie kamiennego łuku.",
+      "coord": {
+        "x": 4,
+        "y": 1,
+        "z": 0
+      },
+      "surface": 2,
+      "items": [],
+      "exit": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Cela",
+      "description": "Wszedłeś do ciemnego i mrocznego pomieszczenia. Na wschodzie jest wyjście w kształcie kamiennego łuku.",
+      "coord": {
+        "x": 0,
+        "y": 2,
+        "z": 0
+      },
+      "surface": 2,
+      "items": [],
+      "exit": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Zachodnia ściana areny",
+      "description": "Znajdujesz się na arenie. Pod ścianą, w której widzisz zatrzaśnięte kraty. Czy ktoś lub coś się za nimi czai?",
+      "coord": {
+        "x": 1,
+        "y": 2,
+        "z": 0
+      },
+      "surface": 1,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Arena",
+      "description": "Znajdujesz się na środku areny. Z wszystkich stron widzisz ludzi na trybunach. Czy przeżyjesz zależy od twoich decyzji.  ",
+      "coord": {
+        "x": 2,
+        "y": 2,
+        "z": 0
+      },
+      "surface": 1,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Wschodnia ściana areny",
+      "description": "Znajdujesz się na arenie. Pod ścianą, w której widzisz zatrzaśnięte kraty. Czy ktoś lub coś się za nimi czai?",
+      "coord": {
+        "x": 3,
+        "y": 2,
+        "z": 0
+      },
+      "surface": 1,
+      "items": [],
+      "exit": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Cela",
+      "description": "Wszedłeś do ciemnego i mrocznego pomieszczenia. Na zachodzie jest wyjście w kształcie kamiennego łuku.",
+      "coord": {
+        "x": 4,
+        "y": 2,
+        "z": 0
+      },
+      "surface": 2,
+      "items": [],
+      "exit": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Południowo-zachodni róg areny",
+      "description": "Stoisz w kącie. Arena rozciąga się daleko na południe i wschód.",
+      "coord": {
+        "x": 1,
+        "y": 3,
+        "z": 0
+      },
+      "surface": 1,
+      "items": [
+        5
+      ],
+      "exit": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Południowa ściana areny",
+      "description": "Stoisz pod ścianą. Nad sobą widzisz trybuny z wiwatującymi ludźmi. Na południu widzisz wyjście z areny, ale najwidoczniej drzwi są zaryglowane. ",
+      "coord": {
+        "x": 2,
+        "y": 3,
+        "z": 0
+      },
+      "surface": 1,
+      "items": [
+        1,
+        7,
+        8
+      ],
+      "exit": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Południowo-wschodni róg areny",
+      "description": "Znalazłeś się w kącie. Jeśli ktoś Cię teraz napadnie to masz ograniczone pole do ucieczki.",
+      "coord": {
+        "x": 3,
+        "y": 3,
+        "z": 0
+      },
+      "surface": 1,
+      "items": [
+        4
+      ],
+      "exit": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Wyjście z areny",
+      "description": "Idziesz korytarzem pod kamiennym łukiem. Na północy są drzwi prowadzące na arenę, a na południu... no właśnie najwidoczniej nic, korytarz znika w nieprzeniknionej czerni, w którą nie da się w żaden sposób wejść, w jakiśsposób odpycha cię na zewnątrz. ",
+      "coord": {
+        "x": 2,
+        "y": 4,
+        "z": 0
+      },
+      "surface": 2,
+      "items": [11],
+      "exit": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+ "door": [
+		{
+			"id" : 1,
+      "coord" : {"x" : 1, "y" : 1, "z" : 0},
+      "direction" : 4,
+      "open" : 0,
+			"key" : "a1"
+    },
+		{
+			"id" : 2,
+      "coord" : {"x" : 4, "y" : 1, "z" : 0},
+      "direction" : 4,
+      "open" : 0,
+			"key" : "a2"
+    },
+		{
+			"id" : 3,
+      "coord" : {"x" : 1, "y" : 2, "z" : 0},
+      "direction" : 4,
+      "open" : 0,
+			"key" : "b1"
+    },
+		{
+			"id" : 4,
+      "coord" : {"x" : 4, "y" : 2, "z" : 0},
+      "direction" : 4,
+      "open" : 0,
+			"key" : "b2"
+    },
+		{
+			"id" : 5,
+      "coord" : {"x" : 2, "y" : 4, "z" : 0},
+      "direction" : 8,
+      "open" : 1,
+			"key" : "c1"
+    }
+	],
+	"items": [
+		{
+      "id": 1,
+      "class": "CloseRange",
+      "name": "Królewski miecz",
+      "alias": [
+        "krolewski miecz",
+        "miecz",
+        "królewski miecz"
+      ],
+      "description": "Długi miecz obosieczny. Na końcach jelca oraz w głowni umieszczono klejnoty. W zbroczu znajduje się otwór.",
+      "weight": 3.5,
+      "price": 0,
+			"keywords": {
+				"type": "sword",
+				"damage": 50,
+				"strength_req": 15,
+				"agility_req": 10,
+				"thoughness": 80,
+				"cut": 80,
+				"stab": 90,
+				"crush": 30,
+				"block": 80
+			}
+    },
+		{
+      "id": 2,
+      "class": "CloseRange",
+      "name": "Zwykły miecz",
+      "alias": [
+        "zwykly miecz",
+        "miecz"
+      ],
+      "description": "Długi miecz obosieczny. Jego wygląd wskazuje na niezbyt wysoką jakość wykonania. ",
+      "weight": 2.5,
+      "price": 0,
+			"keywords": {
+				"type": "sword",
+				"damage": 20,
+				"strength_req": 10,
+				"agility_req": 10,
+				"thoughness": 50,
+				"cut": 80,
+				"stab": 90,
+				"crush": 10,
+				"block": 50
+			}
+    },
+		{
+      "id": 3,
+      "class": "CloseRange",
+      "name": "Maczuga",
+      "alias": [
+        "maczuga"
+      ],
+      "description": "Kawał drewna ponabijany kamiennymi wypustkami. ",
+      "weight": 7.5,
+      "price": 0,
+			"keywords": {
+				"type": "cudgel",
+				"damage": 30,
+				"strength_req": 20,
+				"agility_req": 10,
+				"thoughness": 50,
+				"cut": 0,
+				"stab": 0,
+				"crush": 90,
+				"block": 70
+			}
+    },
+		{
+      "id": 4,
+      "class": "CloseRange",
+      "name": "Topór wojenny",
+      "alias": [
+        "topor wojenny",
+        "topor"
+      ],
+      "description": "Wielki topór, ze zdobioną rękojeścią i inskrypcjami na metalu. ",
+      "weight": 6,
+      "price": 0,
+			"keywords": {
+				"type": "axe",
+				"damage": 35,
+				"strength_req": 18,
+				"agility_req": 12,
+				"thoughness": 70,
+				"cut": 80,
+				"stab": 10,
+				"crush": 50,
+				"block": 60
+			}
+    },
+		{
+      "id": 5,
+      "class": "CloseRange",
+      "name": "Buzdygan",
+      "alias": [
+        "buzdygan"
+      ],
+      "description": "Kawał metalu. Nikt nie chciałby tym dostać w czaszkę. ",
+      "weight": 7,
+      "price": 0,
+			"keywords": {
+				"type": "cudgel",
+				"damage": 25,
+				"strength_req": 15,
+				"agility_req": 10,
+				"thoughness": 90,
+				"cut": 0,
+				"stab": 0,
+				"crush": 80,
+				"block": 50
+			}
+    },
+		{
+      "id": 6,
+      "class": "CloseRange",
+      "name": "Włócznia",
+      "alias": [
+        "wlocznia"
+      ],
+      "description": "Drzewiec zakończony ostrym grotem. ",
+      "weight": 2,
+      "price": 0,
+			"keywords": {
+				"type": "spear",
+				"damage": 30,
+				"strength_req": 10,
+				"agility_req": 20,
+				"thoughness": 30,
+				"cut": 10,
+				"stab": 90,
+				"crush": 0,
+				"block": 10
+			}
+    }, 
+		{
+      "id": 7,
+      "class": "Armor",
+      "name": "Napierśnik",
+      "alias": [
+        "napiersnik",
+        "napierśnik"
+      ],
+      "description": "Lśniący pancerz, spięty skórzanymi rzemieniami",
+      "weight": 20.0,
+      "price": 200,
+			"keywords": {
+				"body_part": "torso2",
+				"material": "steel",
+				"defence": "20",
+				"strength_req": 20,
+				"agility_minus": 5,
+				"speed_minus": 3
+			}
+    },
+    {
+      "id": 8,
+      "class": "Shield",
+      "name": "Tarcza Północy",
+      "alias": [
+        "tarcza",
+        "tarcza polnocy",
+        "tarcza północy"
+      ],
+      "description": "Drewniana, okrąła tarcza, okuta dookoła blachą.",
+      "weight": 10.0,
+      "price": 80,
+			"keywords": {
+				"body_part": "left_hand",
+				"material": "wood",
+				"defence": "40",
+				"strength_req": 25,
+				"agility_minus": 5,
+				"speed_minus": 3
+			}
+    },
+		{
+      "id": 9,
+      "class": "CloseRange",
+      "name": "Toporek",
+      "alias": [
+        "toporek",
+				"topor"
+      ],
+      "description": "Mały toporek, w zasadzie siekierka. ",
+      "weight": 3,
+      "price": 0,
+			"keywords": {
+				"type": "axe",
+				"damage": 15,
+				"strength_req": 10,
+				"agility_req": 5,
+				"thoughness": 50,
+				"cut": 50,
+				"stab": 15,
+				"crush": 40,
+				"block": 40
+			}
+    },
+		{
+      "id": 10,
+      "class": "CloseRange",
+      "name": "Miecz kapitana",
+      "alias": [
+        "miecz"
+      ],
+      "description": "Długi, lśniący mieccz. Jest tak ostry, że można się skaleczyć patrząc na niego.",
+      "weight": 8,
+      "price": 0,
+			"keywords": {
+				"type": "sword",
+				"damage": 45,
+				"strength_req": 25,
+				"agility_req": 25,
+				"thoughness": 100,
+				"cut": 100,
+				"stab": 70,
+				"crush": 20,
+				"block": 60
+			}
+    },
+		{
+			"id": 11,
+			"class": "Elixir",
+			"name": "Mikstura wszystkiego",
+			"alias" : ["mikstura wszystkiego", "mikstura"],
+			"description": "Ma\u0142a fiolka z fioletowym p\u0142ynem.",
+			"weight": 0.5,
+			"price": 150,
+			"keywords": {
+				"duration": 3600,
+				"hp_sup": 50,
+				"st_av_sup": 10,
+				"st_sup": 0,
+				"mn_sup": 5,
+				"str": 5,
+				"agl": 4,
+				"spd": 3,
+				"dfc": 2,
+				"per": 1,
+				"stl": 0,
+				"hp_b": 10,
+				"mn_b": 5
+			}
+		}
+	],
+	"mobs" : [
+		{
+			"id" : 0,
+      "x": 2,
+      "y": 0,
+      "z": 0,
+			"name" : "Erlod",
+			"alias" : ["ja", "erlod", "hero"],
+			"description" : "Tylko ty",
+			"species" : "human",
+			"lift" : 70,
+      "current_location": 0,
+			"equip" : [
+				
+			],
+      "keywords": {
+        "hp": 60,
+        "hp_max": 70,
+        "st": 50,
+        "st_av": 90,
+        "st_max": 100,
+        "mn": 5,
+        "mn_max": 10,
+        "nou": 30,
+        "nou_max": 50,
+        "str": 10,
+        "agl": 10,
+        "spd": 20,
+        "dfc": 10,
+        "per": 20,
+        "vis": 20,
+        "sword": 5,
+        "axe": 5,
+        "spear": 5,
+        "cudgel": 5,
+        "bow": 2
+      }
+		},
+		{
+			"id" : 2,
+      "x": 2,
+      "y": 0,
+      "z": 0,
+			"name" : "Leśny troll",
+			"alias" : ["Lesny troll", "troll", "trol"],
+			"description" : "Wielki, włochaty, trochę zielonkawy stwór.",
+			"species" : "troll",
+			"lift" : 150,
+      "current_location": 0,
+			"equip" : [
+				3
+			],
+      "keywords": {
+        "hp": 100,
+        "hp_max": 100,
+        "st": 100,
+        "st_av": 100,
+        "st_max": 100,
+        "mn": 0,
+        "mn_max": 0,
+        "nou": 100,
+        "nou_max": 150,
+        "str": 30,
+        "agl": 5,
+        "spd": 5,
+        "dfc": 20,
+        "per": 10,
+        "vis": 20,
+        "sword": 5,
+        "axe": 5,
+        "spear": 5,
+        "cudgel": 25,
+        "bow": 2
+      }
+    },
+		{
+			"id" : 3,
+      "x": 2,
+      "y": 2,
+      "z": 0,
+			"name" : "Skrzat",
+			"alias" : ["skrzat"],
+			"description" : "Mały potworek z odstającymi uszami, ale nie daj się zwieść, bo może cię dotkliwie poranić",
+			"species" : "skrzat",
+			"lift" : 30,
+      "current_location": 0,
+			"equip" : [
+				6,
+				9
+			],
+      "keywords": {
+        "hp": 30,
+        "hp_max": 30,
+        "st": 100,
+        "st_av": 100,
+        "st_max": 100,
+        "mn": 0,
+        "mn_max": 0,
+        "nou": 20,
+        "nou_max": 20,
+        "str": 10,
+        "agl": 15,
+        "spd": 15,
+        "dfc": 5,
+        "per": 10,
+        "vis": 20,
+        "sword": 8,
+        "axe": 8,
+        "spear": 5,
+        "cudgel": 5,
+        "bow": 2
+      }
+    },
+		{
+			"id" : 4,
+      "x": 2,
+      "y": 4,
+      "z": 0,
+			"name" : "Kapitan areny",
+			"alias" : ["kapitan"],
+			"description" : "Zarządca tego całego biznesu. Jest uzbrojony po uszy w solidny pancerz i długi miecz. Może mieć dla ciebie ciekawe propozycje. ",
+			"species" : "human",
+			"lift" : 60,
+      "current_location": 0,
+			"equip" : [
+				10
+			],
+      "keywords": {
+        "hp": 100,
+        "hp_max": 100,
+        "st": 100,
+        "st_av": 100,
+        "st_max": 100,
+        "mn": 20,
+        "mn_max": 20,
+        "nou": 50,
+        "nou_max": 50,
+        "str": 40,
+        "agl": 40,
+        "spd": 15,
+        "dfc": 40,
+        "per": 10,
+        "vis": 20,
+        "sword": 40,
+        "axe": 20,
+        "spear": 20,
+        "cudgel": 20,
+        "bow": 10
+      }
+    }
+	]
+}

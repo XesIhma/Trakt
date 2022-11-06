@@ -1,5 +1,4 @@
-from colorama import Fore, Back, Style
-from items_dict import all_items
+from konsola import Konsola
 
 class Item:
 	id = 0
@@ -7,39 +6,34 @@ class Item:
 	def increment_ID(cls):
 		cls.id += 1 
 		return cls.id
-	#@classmethod
-	#def check(cls, attr):
-		#if isinstance(attr, list):
-			#for x in attr:
-	def __init__(self, n, desc, x, y, z, loc, w, price):
-		self.id=Item.increment_ID()
+	def __init__(self, itemId, n, ali, desc, w, price):
+		if itemId == -1:
+			self.id=Item.increment_ID()
+		else:
+			Item.increment_ID()
+			self.id = itemId
 		self.exist = True
 		self.name = n
-		self.full_name = n
+		self.alias = ali
 		self.description = desc
-		self.is_static = False
+		self.liftable = True
 		self.owner = None
-		#being = None
-		self.x = x
-		self.y = y
-		self.z = z
-		self.current_location = loc
 		self.weight = w
 		self.condition = 1
 		self.price = price
 		self.actions = ["zobacz", "podnieś"]
-		#print("ID {}".format(Item.id))
 	def see(self):
-		print(Fore.BLUE + Style.BRIGHT + self.name + Style.RESET_ALL)
+		Konsola.print(self.name, "cyan")
 		print(self.description)
+		print(self.id)
 	def possible_actions(self):
 		print("Możliwe dzałania: ")
 		for x in self.actions:
 			print(" - {}".format(x))
 	def display(self, i):
 		if i == 0:
-			print("|lp.| NAZWA          | WAGA|")
-		print("|{:<3}| {:<15}| {:4}|".format(i+1, self.name, self.weight))
+			print("|lp.| NAZWA               | WAGA|")
+		print("|{:<3}| {:<20}| {:4}|".format(i+1, self.name, self.weight))
 	def compare_coords(self, other):
 		if self.x == other.x and self.y == other.y and self.z == other.z and self.current_location == other.current_location:
 			return True
@@ -49,197 +43,203 @@ class Item:
 		return name
 
 class Consumable(Item):
-	def __init__(self, n, desc, x, y, z, loc, w, price):
-		super(Consumable, self).__init__(n, desc, x, y, z, loc, w, price)
+	def __init__(self, itemId, n, ali, desc, w, price):
+		super(Consumable, self).__init__(itemId, n, ali, desc, w, price)
 		self.actions.append("użyj")
-	def use(self, being):
+	def use(self, mob):
 		pass
 
 class Food(Consumable):
-	def __init__(self, n, desc, x, y, z, loc, w, price, nou, st_sup):
-		super(Food, self).__init__(n, desc, x, y, z, loc, w, price)
-		self.nourish = nou
-		self.stamina_suppl = st_sup
-		self.quality = 100
+	def __init__(self, itemId, n, ali, desc, w, price, **kwargs):
+		super(Food, self).__init__(itemId, n, ali, desc, w, price)
+		self.nourish = kwargs.get("nou", 5)
+		self.stamina_suppl = kwargs.get("st_sup", 0)
+		self.quality = kwargs.get("quality", 100)
 		self.actions.remove("użyj")
 		self.actions.append("zjedz")
-	def use(self, being, info):
-		being.param["nourish"]+=self.nourish
-		being.param["stamina"]+=self.stamina_suppl
-		if being.param["nourish"] > being.param["nourish_max"]:
-			#surplus = being.param["nourish"] - being.param["nourish_max"]
-			#being.param["stamina"] -= surplus
-			#being.param["stamina_aviable"] -= surplus/2
-			being.param["nourish"] = being.param["nourish_max"]
-			if info:
-				print("Zjadłeś za dużo!")
-		if info:
-			print("Zjadłeś "+self.name)
+	def use(self, mob, info=False):
+		mob.param["nourish"]+=self.nourish
+		mob.param["stamina"]+=self.stamina_suppl
+		if mob.param["nourish"] > mob.param["nourish_max"]:
+			mob.param["nourish"] = mob.param["nourish_max"]
+			if info: print("Zjadłeś za dużo!")
+		if info: print("Zjadłeś "+self.name)
+		mob.equip.remove(self)
 
 class Drink(Consumable):
-	def __init__(self, n, desc, x, y, z, loc, w, price, nou, st_sup, alc):
-		super(Drink, self).__init__(n, desc, x, y, z, loc, w, price)
-		self.nourish = nou
-		self.stamina_suppl = st_sup
-		self.alcohol = alc
-		self.quality = 100
+	def __init__(self, itemId, n, ali, desc, w, price, **kwargs):
+		super(Drink, self).__init__(itemId, n, ali, desc, w, price)
+		self.nourish = kwargs.get("nou", 5)
+		self.stamina_suppl = kwargs.get("st_sup", 0)
+		self.alcohol = kwargs.get("alc", 0)
+		self.quality = kwargs.get("quality", 100)
 		self.actions.remove("użyj")
 		self.actions.append("wypij")
-	def use(self, being, info):
-		being.param["nourish"]+=self.nourish
-		being.param["stamina"]+=self.stamina_suppl
-		if being.param["nourish"] > being.param["nourish_max"]:
-			surplus = being.param["nourish"] - being.param["nourish_max"]
-			being.param["stamina"] -= surplus
-			being.param["stamina_aviable"] -= surplus/2
-			being.param["nourish"] = being.param["nourish_max"]
-			if info:
-				print("Wypiłeś za dużo!")
-		if info:
-			print("Wypiłeś "+self.name)
+	def use(self, mob, info):
+		mob.param["nourish"]+=self.nourish
+		mob.param["stamina"]+=self.stamina_suppl
+		if mob.param["nourish"] > mob.param["nourish_max"]:
+			surplus = mob.param["nourish"] - mob.param["nourish_max"]
+			mob.param["stamina"] -= surplus
+			mob.param["stamina_aviable"] -= surplus/2
+			mob.param["nourish"] = mob.param["nourish_max"]
+			if info: print("Wypiłeś za dużo!")
+		if info: print("Wypiłeś "+self.name)
+		mob.equip.remove(self)
 
 class Heals(Consumable):
-	def __init__(self, n, desc, x, y, z, loc, w, price, hp_sup):
-		super(Heals, self).__init__(n, desc, x, y, z, loc, w, price)
-		self.hp_suppl = hp_sup
-	def use(self, being, info):
-		being.param["hp"]+=self.hp_suppl
-		if being.param["hp"] > being.param["hp_max"]:
-			being.param["hp"] = being.param["hp_max"]
+	def __init__(self, itemId, n, ali, desc, w, price, **kwargs):
+		super(Heals, self).__init__(itemId, n, ali, desc, w, price)
+		self.hp_suppl = kwargs.get("hp_sup", 0)
+	def use(self, mob, info=False):
+		mob.param["hp"]+=self.hp_suppl
+		if mob.param["hp"] > mob.param["hp_max"]:
+			mob.param["hp"] = mob.param["hp_max"]
+		if info: print("Użyłeś "+self.name)
 
 class Elixir(Consumable):
-	def __init__(self, n, desc, x, y, z, loc, w, price, dur, **kwargs):
-		super(Elixir, self).__init__(n, desc, x, y, z, loc, w, price)
+	def __init__(self, itemId, n, ali, desc, w, price, **kwargs):
+		super(Elixir, self).__init__(itemId, n, ali, desc, w, price)
 		self.bonus = {}
-		if "hp_sup" in kwargs: self.hp_suppl = kwargs["hp_sup"]
-		if "st_av_sup" in kwargs: self.stamina_aviable_suppl = kwargs["st_av_sup"]
-		if "st_sup" in kwargs: self.stamina_suppl = kwargs["st_sup"]
-		if "mn_sup" in kwargs: self.mana_suppl = kwargs["mn_sup"]
-		if "str" in kwargs: self.bonus["strength"] = kwargs["str"]
-		if "agl" in kwargs: self.bonus["agility"] = kwargs["agl"]
-		if "spd" in kwargs: self.bonus["speed"] = kwargs["spd"]
-		if "dfc" in kwargs: self.bonus["defence"] = kwargs["dfc"]
-		if "per" in kwargs: self.bonus["perceptivity"] = kwargs["per"]
-		if "stl" in kwargs: self.bonus["stealth"] = kwargs["stl"]
-		if "hp_b" in kwargs: self.bonus["hp"] = kwargs["hp_b"]
-		if "mn_b" in kwargs: self.bonus["mana"] = kwargs["mn_b"]
-		self.duration = dur
-	def use(self, being, info):
+
+		self.function = kwargs.get("function", None)
+
+		self.hp_suppl = kwargs.get("hp_sup", 0)
+		self.stamina_aviable_suppl = kwargs.get("st_av_sup", 0)
+		self.stamina_suppl = kwargs.get("st_sup", 0)
+		self.mana_suppl = kwargs.get("mn_sup", 0)
+		self.bonus["strength"] = kwargs.get("str", 0)
+		self.bonus["agility"] = kwargs.get("agl", 0)
+		self.bonus["speed"] = kwargs.get("spd", 0)
+		self.bonus["defence"] = kwargs.get("dfc", 0)
+		self.bonus["perceptivity"]  = kwargs.get("per", 0)
+		self.bonus["stealth"] = kwargs.get("stl", 0)
+		self.bonus["hp"] = kwargs.get("hp_b", 0)
+		self.bonus["mana"] = kwargs.get("str", 0)
+		self.duration = kwargs.get("duration", 0)
+	def use(self, mob, info=False):
 		if self.hp_suppl: 
-			being.param["hp"]+=self.hp_suppl
-			if being.param["hp"] > being.param["hp_max"]:
-				being.param["hp"] = being.param["hp_max"]
+			mob.param["hp"]+=self.hp_suppl
+			if mob.param["hp"] > mob.param["hp_max"]:
+				mob.param["hp"] = mob.param["hp_max"]
 		if self.stamina_aviable_suppl: 
-			being.param["stamina"]+=self.stamina_aviable_suppl
-			if being.param["stamina_aviable"] > being.param["stamina_max"]:
-				being.param["stamina_aviable"] = being.param["stamina_max"]
+			mob.param["stamina"]+=self.stamina_aviable_suppl
+			if mob.param["stamina_aviable"] > mob.param["stamina_max"]:
+				mob.param["stamina_aviable"] = mob.param["stamina_max"]
 		if self.stamina_suppl: 
-			being.param["stamina"]+=self.stamina_suppl
-			if being.param["stamina"] > being.param["stamina_aviable"]:
-				being.param["stamina"] = being.param["stamina_aviable"]
+			mob.param["stamina"]+=self.stamina_suppl
+			if mob.param["stamina"] > mob.param["stamina_aviable"]:
+				mob.param["stamina"] = mob.param["stamina_aviable"]
 		if self.mana_suppl: 
-			being.param["mana"]+=self.hp_suppl
-			if being.param["mana"] > being.param["mana_max"]:
-				being.param["mana"] = being.param["mana_max"]
+			mob.param["mana"]+=self.mana_suppl
+			if mob.param["mana"] > mob.param["mana_max"]:
+				mob.param["mana"] = mob.param["mana_max"]
 				
-		if self.bonus["strength"]: being.active_bonus.append(["strength", self.bonus["strength"], self.duration])
-		if self.bonus["agility"]: being.active_bonus.append(["agility", self.bonus["agility"], self.duration])
-		if self.bonus["speed"]: being.active_bonus.append(["speed", self.bonus["speed"], self.duration])
-		if self.bonus["defence"]: being.active_bonus.append(["defence", self.bonus["defence"], self.duration])
-		if self.bonus["perceptivity"]: being.active_bonus.append(["perceptivity", self.bonus["perceptivity"], self.duration])
-		if self.bonus["visibility"]: being.active_bonus.append(["visibility", self.bonus["visibility"], self.duration])
-		if self.bonus["hp"]: being.active_bonus.append(["hp", self.bonus["hp"], self.duration])
-		if self.bonus["mana"]: being.active_bonus.append(["mana", self.bonus["mana"], self.duration])
+		if self.bonus["strength"]: mob.activeBonus.append(["strength", self.bonus["strength"], self.duration])
+		if self.bonus["agility"]: mob.activeBonus.append(["agility", self.bonus["agility"], self.duration])
+		if self.bonus["speed"]: mob.activeBonus.append(["speed", self.bonus["speed"], self.duration])
+		if self.bonus["defence"]: mob.activeBonus.append(["defence", self.bonus["defence"], self.duration])
+		if self.bonus["perceptivity"]: mob.activeBonus.append(["perceptivity", self.bonus["perceptivity"], self.duration])
+		if self.bonus["stealth"]: mob.activeBonus.append(["stealth", self.bonus["stealth"], self.duration])
+		if self.bonus["hp"]: mob.activeBonus.append(["hp", self.bonus["hp"], self.duration])
+		if self.bonus["mana"]: mob.activeBonus.append(["mana", self.bonus["mana"], self.duration])
+
+		if info: print("Wypiłeś "+self.name)
+		mob.equip.remove(self)
 
 class Weapon(Item):
-	def __init__(self, n, desc, x, y, z, loc, w, price, **kwargs):
-		super(Weapon, self).__init__(n, desc, x, y, z, loc, w, price)
+	def __init__(self, itemId, n, ali, desc, w, price, **kwargs):
+		super(Weapon, self).__init__(itemId, n, ali, desc, w, price)
 		self.actions.append("dobądź")
-		self.type = kwargs['w_type']
-		self.damage = kwargs["dm"]
-		self.strength_req = kwargs["str_r"]
-		self.agility_req = kwargs["agl_r"]
-		self.skill_req = kwargs["skill_r"]
-	#def grab
+		self.type = kwargs.get("type", "weapon")
+		self.damage = kwargs.get("damage", 10)
+		self.strength_req = kwargs.get("strength_req", 5)
+		self.agility_req = kwargs.get("agility_req", 5)
 
 class CloseRange(Weapon):
-	def __init__(self, n, desc, x, y, z, loc, w, price, **kwargs):
-		super(CloseRange, self).__init__(n, desc, x, y, z, loc, w, price, **kwargs) 
-		self.thoughness = kwargs["though"]
-		self.cut = kwargs["cut"]
-		self.stab = kwargs["stab"]
-		self.crush = kwargs["crush"]
-		self.block = kwargs['block']
+	def __init__(self, itemId, n, ali, desc, w, price, **kwargs):
+		super(CloseRange, self).__init__(itemId, n, ali, desc, w, price, **kwargs) 
+		self.condition = kwargs.get("condition", 100)
+		self.durability = kwargs.get("durability", 90)
+		self.cut = kwargs.get("cut", 34)
+		self.stab = kwargs.get("stab", 33)
+		self.crush = kwargs.get("crush", 33)
+		self.block = kwargs.get("block", 5)
 
 class Ranged(Weapon):
-	def __init__(self, n, desc, x, y, z, loc, w, price, **kwargs):
-		super(Ranged, self).__init__(n, desc, x, y, z, loc, w, price, **kwargs)       
-		self.ammo_type = kwargs['ammo_type']
-		self.range = kwargs['range'] #10 to jedna kratka
+	def __init__(self, itemId, n, ali, desc, w, price, **kwargs):
+		super(Ranged, self).__init__(itemId, n, ali, desc, w, price, **kwargs)       
+		self.ammo_type = kwargs.get("ammo_type", "arrows") #arrows, bolt, rock
+		self.range = kwargs.get("range", 20) #10 to jedna kratka
 
 class Armor(Item):
-	def __init__(self, n, desc, x, y, z, loc, w, price, **kwargs):
-		super(Armor, self).__init__(n, desc, x, y, z, loc, w, price)
+	def __init__(self, itemId, n, ali, desc, w, price, **kwargs):
+		super(Armor, self).__init__(itemId, n, ali, desc, w, price)
 		self.actions.append("załóż")
-		self.body_part = kwargs["body"] #head, torso, legs, arms, hands, feet, shoulders, shield
-		self.material = kwargs["material"]
-		self.defence = kwargs["defe"]
-		self.strength_req = kwargs["str_r"]
-		self.agility_minus = kwargs["agl_min"]
-		self.speed_minus = kwargs["spd_min"]
-	#def put_on
+		self.body_part = kwargs.get("body_part", 5) #head, torso, legs, arms, hands, feet, shoulders, shield
+		self.material = kwargs.get("material", 5)
+		self.defence = kwargs.get("defence", 5)
+		self.strength_req = kwargs.get("strength_req", 5)
+		self.agility_minus = kwargs.get("agility_minus", 5)
+		self.speed_minus = kwargs.get("speed_minus", 5)
 
 class Shield(Armor):
-	def __init__(self, n, desc, x, y, z, loc, w, price, **kwargs):
-		super(Shield, self).__init__(n, desc, x, y, z, loc, w, price, **kwargs)
+	def __init__(self, itemId, n, ali, desc, w, price, **kwargs):
+		super(Shield, self).__init__(itemId, n, ali, desc, w, price, **kwargs)
+		self.condition = kwargs.get("condition", 100)
+		self.durability = kwargs.get("durability", 90)
 		self.actions.remove("załóż")
 		self.actions.append("dobądź")
 
 class Clothes(Item):
-	def __init__(self, n, desc, x, y, z, loc, w, price, **kwargs):
-		super(Clothes, self).__init__(n, desc, x, y, z, loc, w, price)
+	def __init__(self, itemId, n, ali, desc, w, price, **kwargs):
+		super(Clothes, self).__init__(itemId, n, ali, desc, w, price)
 		self.actions.append("ubierz")
-		self.body_part = kwargs["body"]
-		self.cold_protection = kwargs["cold"]
-		self.water_protection = kwargs["water"]
+		self.body_part = kwargs.get("body_part", 5)
+		self.cold_protection = kwargs.get("cold_protection", 30)
+		self.water_protection = kwargs.get("water_protection", 5)
 
 class Tool(Item):
-	def __init__(self, n, desc, x, y, z, loc, w, price, **kwargs):
-		super(Tool, self).__init__(n, desc, x, y, z, loc, w, price)
+	def __init__(self, itemId, n, ali, desc, w, price, **kwargs):
+		super(Tool, self).__init__(itemId, n, ali, desc, w, price)
 		self.actions.append("dobądź")
-		self.task = []
+		self.function = kwargs.get("function", None)
 
 class Jewellery(Item):
-	def __init__(self, n, desc, x, y, z, loc, w, price, **kwargs):
-		super(Jewellery, self).__init__(n, desc, x, y, z, loc, w, price)
+	def __init__(self, itemId, n, ali, desc, w, price, **kwargs):
+		super(Jewellery, self).__init__(itemId, n, ali, desc, w, price)
 		self.actions.append("załóż")
-		self.body_part = kwargs["body"] #finger, wrist, neck, forehead, hair
+		self.body_part = kwargs.get("body_part", 5) #finger, wrist, neck, forehead, hair
 
 class Machine(Item):
-	def __init__(self, n, desc, x, y, z, loc, w, price, **kwargs):
-		super(Machine, self).__init__(n, desc, x, y, z, loc, w, price)
+	def __init__(self, itemId, n, ali, desc, w, price, **kwargs):
+		super(Machine, self).__init__(itemId, n, ali, desc, w, price)
 		self.actions.remove("podnieś")
 		self.actions.append("użyj")
+		self.liftable = False
+		self.function = kwargs.get("function", None)
 
 class Vehicle(Item):
-	def __init__(self, n, desc, x, y, z, loc, w, price, **kwargs):
-		super(Vehicle, self).__init__(n, desc, x, y, z, loc, w, price)
+	def __init__(self, itemId, n, ali, desc, w, price, **kwargs):
+		super(Vehicle, self).__init__(itemId, n, ali, desc, w, price)
 		self.actions.append("prowadź")
 		self.actions.remove("podnieś")
-		self.strength_req = kwargs["str_r"]
+		self.liftable = False
+		self.strength_req = kwargs.get("strength_req", 5)
 		#self.capacity = kwargs["capacity"]
 		#self.stored = None
-		self.speed_minus = kwargs["spd_min"]
+		self.speed_minus = kwargs.get("speed_minus", 20)
 
 class Container(Item):
-	def __init__(self, n, desc, x, y, z, loc, w, price, **kwargs):
-		super(Container, self).__init__(n, desc, x, y, z, loc, w, price)
-		self.capacity = kwargs["capacity"]
+	def __init__(self, itemId, n, ali, desc, w, price, **kwargs):
+		super(Container, self).__init__(itemId, n, ali, desc, w, price)
+		self.capacity = kwargs.get("capacity", 5)
+		self.liftable = False
 		self.current_amount = 0
 		self.for_liquids = kwargs.get("liquids",False)
 		self.stored = None
 	def fill(self, source, substance, quantity):
-		if substance.type == "liquid" and self.for_liquids == false:
+		if substance.type == "liquid" and self.for_liquids == False:
 			print("Nie możesz tego tu wlać, znajdź jakiś szczelny pojemnik")
 			return
 		if not substance.name == self.stored.name:
@@ -252,53 +252,61 @@ class Container(Item):
 		else: self.current_amount += quantity
 
 class Furniture(Item):
-	def __init__(self, n, desc, x, y, z, loc, w, price, **kwargs):
-		super(Furniture, self).__init__(n, desc, x, y, z, loc, w, price)
+	def __init__(self, itemId, n, ali, desc, w, price, **kwargs):
+		super(Furniture, self).__init__(itemId, n, ali, desc, w, price)
 		self.actions.append("podejdź do")
+		self.liftable = False
 		self.openable = kwargs.get("open",False)
+		self.function = kwargs.get("function", None) #table, bed
 		self.content_on_top = []
 		if self.openable:
 			self.content_inside = []
 			self.actions.append("otwórz")
-		def come_closer(self):
-			print(self.description)
-			if len(self.content_on_top) > 1:
-				print("Leży tu kilka rzeczy: ")
-				i = 0
-				for item in self.content_on_top:
-					item.display(i)
-					i+=1
-			elif len(self.content_on_top) == 1:
-				print("Leży tu:")
-				self.content_on_top[0].display(0)
-			if openable: print("Możesz otworzyć, żeby zajrzeć do środka")
-		def open(self):
-			if not openable:
-				print("Nie da się tego otworzyć")
-				return
-			if len(self.content_inside) > 1:
-				print("Leży tu kilka rzeczy: ")
-				i = 0
-				for item in self.content_inside:
-					item.display(i)
-					i+=1
-			elif len(self.content_inside) == 1:
-				print("Leży tu:")
-				self.content_inside[0].display(0)
+	def come_closer(self):
+		print(self.description)
+		if len(self.content_on_top) > 1:
+			print("Leży tu kilka rzeczy: ")
+			i = 0
+			for item in self.content_on_top:
+				item.display(i)
+				i+=1
+		elif len(self.content_on_top) == 1:
+			print("Leży tu:")
+			self.content_on_top[0].display(0)
+		if self.openable: print("Możesz otworzyć, żeby zajrzeć do środka")
+	def open(self):
+		if not self.openable:
+			print("Nie da się tego otworzyć")
+			return
+		if len(self.content_inside) > 1:
+			print("Leży tu kilka rzeczy: ")
+			i = 0
+			for item in self.content_inside:
+				item.display(i)
+				i+=1
+		elif len(self.content_inside) == 1:
+			print("Leży tu:")
+			self.content_inside[0].display(0)
 
 class Heap(Item):
-	def __init__(self, n, desc, x, y, z, loc, w, price, **kwargs):
-		super(Container, self).__init__(n, desc, x, y, z, loc, w, price)
-		self.actions.append("podejdź do")
+	def __init__(self, itemId, n, ali, desc, w, price):
+		super(Heap, self).__init__(itemId, n, ali, desc, w, price)
+		self.actions.append("podejdź")
+		self.liftable = False
 		self.content = []
-		def come_closer(self):
-			print(self.description)
-			if len(self.content_on_top) > 1:
-				print("Leżą tu: ")
-				i = 0
-				for item in self.content_on_top:
-					item.display(i)
-					i+=1
-			elif len(self.content_on_top) == 1:
-				print("Leży tu:")
-				self.content_on_top[0].display(0)
+	def come_closer(self):
+		print(self.description)
+		if len(self.content_on_top) > 1:
+			print("Leżą tu: ")
+			i = 0
+			for item in self.content_on_top:
+				item.display(i)
+				i+=1
+		elif len(self.content_on_top) == 1:
+			print("Leży tu:")
+			self.content_on_top[0].display(0)
+
+class DeadBody(Item):
+	def __init__(self, itemId, n, ali, desc, w, price):
+		super(DeadBody, self).__init__(itemId, n, ali, desc, w, price)
+		self.actions.append("sekcja")

@@ -1,0 +1,250 @@
+{
+  "name": "map0",
+  "x": 2,
+  "y": 3,
+  "size_x": 3,
+  "size_y": 3,
+  "size_z": 3,
+  "ground_level": 2,
+  "square": [
+		{
+      "name" : "Podziemny korytarz",
+      "description" : "Idziesz pod ziemią",
+      "coord" : {"x" : 2, "y" : 0, "z" : 1},
+      "surface" : 2,
+			"exit" : [1,0,0,0,1,0,0,0,0,0]
+    },
+		{
+      "name" : "Podziemny korytarz",
+      "description" : "Dotarłeś do końca korytarza. Pod korzeniem widzisz zejście jeszcze niżej.",
+      "coord" : {"x" : 2, "y" : 1, "z" : 1},
+      "surface" : 2,
+			"exit" : [1,0,0,0,0,0,0,0,0,1]
+    },
+		{
+      "name" : "Podziemny korytarz",
+      "description" : "Zeszedłeś jeszcze niżjeszcze niżej.",
+      "coord" : {"x" : 2, "y" : 1, "z" : 0},
+      "surface" : 2,
+			"exit" : [0,0,0,0,0,0,1,0,1,0]
+    },
+		{
+      "name" : "Podziemny korytarz",
+      "description" : "Dalej już nic nie ma.",
+      "coord" : {"x" : 1, "y" : 1, "z" : 0},
+      "surface" : 2,
+			"exit" : [0,0,1,0,0,0,0,0,0,0]
+    },
+    {
+      "name": "Łąka",
+      "description": "W tym miejscu trawa jest dużo niższa i drobna.",
+      "coord": {
+        "x": 0,
+        "y": 0,
+        "z": 2
+      },
+      "surface": 3,
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Łąka",
+      "description": "W tym miejscu trawa jest dużo niższa i drobna.",
+      "coord": {
+        "x": 1,
+        "y": 0,
+        "z": 2
+      },
+      "surface": 3,
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Droga",
+      "description": "Poruszasz się po szerokiej i utwardzonej drodze. Poruszasz się po szerokiej i utwardzonej drodze. Lorem ipsum dolor sit amet. Poruszasz się po szerokiej i utwardzonej drodze. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. utwardzonej drodzeutwardzonej drodzeutwardzonej drodzeutwardzonej drodze",
+      "coord": {
+        "x": 2,
+        "y": 0,
+        "z": 2
+      },
+      "surface": 1,
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Łąka",
+      "description": "Przedzierasz się przez wysoką trawę.",
+      "coord": {
+        "x": 0,
+        "y": 1,
+        "z": 2
+      },
+      "surface": 3,
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Łąka",
+      "description": "Przedzierasz się przez wysoką trawę.",
+      "coord": {
+        "x": 1,
+        "y": 1,
+        "z": 2
+      },
+      "surface": 3,
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Droga",
+      "description": "Poruszasz się po szerokiej i utwardzonej drodze",
+      "coord": {
+        "x": 2,
+        "y": 1,
+        "z": 2
+      },
+      "surface": 1,
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Droga",
+      "description": "Idziesz drogą, która prowadzi do miasta",
+      "coord": {
+        "x": 0,
+        "y": 2,
+        "z": 2
+      },
+      "surface": 1,
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Droga",
+      "description": "Poruszasz się po szerokiej i utwardzonej drodze",
+      "coord": {
+        "x": 1,
+        "y": 2,
+        "z": 2
+      },
+      "surface": 1,
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Droga",
+      "description": "Poruszasz się po szerokiej i utwardzonej drodze",
+      "coord": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      },
+      "surface": 1,
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "door": [
+    {
+      "id": 0,
+      "coord": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "direction": 4,
+      "open": 0,
+      "key": "qweqwe"
+    }
+  ]
+}

@@ -1,15 +1,12 @@
-from colorama import Fore, Back, Style
-import sys 
-import time
-
+from konsola import Konsola
 
 class Square:
-	def __init__(self, x, y, z, surf, name, desc, **kwargs):
+	def __init__(self, x, y, z, surf, name, desc, ids, **kwargs):
 		self.x = x
 		self.y = y
 		self.z = z
 		self.surface = surf
-		self.surf_color = self.surf_color(self.surface)
+		#self.surfColor = self.surfColor(self.surface)
 		self.name = name
 		self.description = desc
 		self.north = kwargs['n']
@@ -22,50 +19,16 @@ class Square:
 		self.northwest = kwargs['nw']
 		self.up = kwargs['u']
 		self.down = kwargs['d']
-		
-	def show_content(self, location):
-		print(Fore.LIGHTYELLOW_EX + self.name + Style.RESET_ALL)
-		print(Fore.LIGHTWHITE_EX, end='')
-		#for char in self.description:
-			#sys.stdout.write(char)
-			#time.sleep(0.005)
-		#data = self.description.split()
-		#for w in data:
-			#sys.stdout.write('%s\r' % pad)
-			#sys.stdout.write("%s " % w)
-			#time.sleep(0.03)
-		print(self.description)
-		print(Style.RESET_ALL, end='')
-		#nw n ne up
-		#w    e	down
-		#sw s se
-		try: 
-			print(location.s[self.x-1][self.y-1][self.z].surf_color, end="") if self.northwest else print(Fore.BLACK + Style.BRIGHT, end="")
-			print("nw" + Style.RESET_ALL, end="")
-			print(location.s[self.x][self.y-1][self.z].surf_color, end="") if self.north else print(Fore.BLACK + Style.BRIGHT, end="")
-			print(" n " + Style.RESET_ALL, end="")
-			print(location.s[self.x+1][self.y-1][self.z].surf_color, end="") if self.northeast else print(Fore.BLACK + Style.BRIGHT, end="")
-			print("ne" + Style.RESET_ALL, end="")
-			print(" ", end="")
-			print(location.s[self.x][self.y][self.z+1].surf_color, end="") if self.up else print(Fore.BLACK + Style.BRIGHT, end="")
-			print("up" + Style.RESET_ALL)
-			print(location.s[self.x-1][self.y][self.z].surf_color, end="") if self.west else print(Fore.BLACK + Style.BRIGHT, end="")
-			print("w " + Style.RESET_ALL, end="")
-			print("   ", end="")
-			print(location.s[self.x+1][self.y][self.z].surf_color, end="") if self.east else print(Fore.BLACK + Style.BRIGHT, end="")
-			print(" e" + Style.RESET_ALL, end="")
-			print(" ", end="")
-			print(location.s[self.x][self.y][self.z-1].surf_color, end="") if self.down else print(Fore.BLACK + Style.BRIGHT, end="")
-			print("down" + Style.RESET_ALL)
-			print(location.s[self.x-1][self.y+1][self.z].surf_color, end="") if self.southwest else print(Fore.BLACK + Style.BRIGHT, end="")
-			print("sw" + Style.RESET_ALL, end="")
-			print(location.s[self.x][self.y+1][self.z].surf_color, end="") if self.south else print(Fore.BLACK + Style.BRIGHT, end="")
-			print(" s " + Style.RESET_ALL, end="")
-			print(location.s[self.x+1][self.y+1][self.z].surf_color, end="") if self.southeast else print(Fore.BLACK + Style.BRIGHT, end="")
-			print("sw" + Style.RESET_ALL)
-		except IndexError:
-			print("")
-	def check_exit(self, direction):
+		self.doorN = None
+		self.doorE = None
+		self.doorS = None
+		self.doorW = None
+		self.doorU = None
+		self.doorD = None
+		self.itemIds = []
+		self.itemIds = ids
+		self.items = []
+	def checkExit(self, direction):
 		exits = {
 			0: self.down,
 			1: self.southwest,
@@ -78,29 +41,54 @@ class Square:
 			8: self.north,
 			9: self.northeast
 		}
+		doors = {
+			0: True,
+			1: True,
+			2: True,
+			3: True,
+			4: True,
+			5: True,
+			6: True,
+			7: True,
+			8: True,
+			9: True
+		}
+		try: doors[0] = self.doorD.open
+		except: pass
+		try: doors[2] = self.doorS.open
+		except: pass
+		try: doors[4] = self.doorW.open
+		except: pass
+		try: doors[5] = self.doorU.open
+		except: pass
+		try: doors[6] = self.doorE.open
+		except: pass
+		try: doors[8] = self.doorN.open
+		except: pass
+			
 		if direction in exits: 
 			if exits[direction] == False:
 				print("Nie da się tam przejść")
-			return exits[direction]
+			elif exits[direction] and doors[direction] == False:
+				komunikat = ["Drzwi nie dają się otworzyć", "Drzwi ani drgną", "Drzwi są zamknięte"]
+				Konsola.printRandom(komunikat)
+			return exits[direction]*doors[direction] #zwraca true w przypadku gdy oba są true, w pozostałych zwraca false
 		else: 
 			print("Nie da się tam przejść")
 			return False
-	def surf_color(self, surf):
-		# 1 droga
-		# 2 budynek
-		# 3 łąka
-		# 4 las
-		# 5 góry
-		# 6 bagna
-		if surf == 1:
-			return  Back.YELLOW + Fore.BLACK
-		elif surf == 2:
-			return Back.RED + Style.BRIGHT
-		elif surf == 3:
-			return Back.GREEN + Fore.BLACK
-		elif surf == 4:
-			return Back.GREEN + Style.BRIGHT
-		elif surf == 5:
-			return Back.BLACK + Style.BRIGHT
-		elif surf == 6:
-			return Back.CYAN + Style.BRIGHT
+	def showSquare(self, world, mob):
+		Konsola.print(self.name, "lyellow")
+		Konsola.wrap(self.description, "lwhite")
+		Konsola.compas(self, world, mob)
+		for i in self.items:
+			Konsola.print(i.name, "lcyan")
+		for m in mob.currentLocation.mobs:
+			if m.x == mob.x and m.y == mob.y and m.z == mob.z and m.id != 0:
+				print("  ", end="")
+				Konsola.print(m.name, "lmagenta")
+	def addItem(self, item):
+		self.items.append(item)
+		self.itemIds.append(item.id)
+	def removeItem(self, item):
+		self.itemIds.remove(item.id)
+		self.items.remove(item)

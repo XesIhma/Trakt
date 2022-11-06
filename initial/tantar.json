@@ -1,0 +1,4122 @@
+{ 
+	"name" : "Tantar",
+	"x" : 10,
+	"y" : 4,
+	"size_x" : 17,
+	"size_y" : 17,
+	"size_z" : 6,
+	"ground_level" : 2,
+	"square" : [
+  {
+    "name": "Głębsza spiżarnia",
+    "alias" : [],
+			"description": "Stoi tu własciwie tylko jeden regał a na nim kilka butelek wina datowanych na wiele lat wstecz. Możesz wrócić na górę.",
+    "coord": {"x": 8,"y": 4,"z": 0},
+    "surface": 2,
+    "items": [2],
+		"exit": [0,0,0,0,0,0,0,0,1,0]
+  },
+  {
+    "name": "Tajny Skarbiec",
+    "alias" : [],
+			"description": "Znalazłeś się w najgłębszej części zamku. Sufit jest tu bardzo nisko. Stoi tu skrzynia i kufer. Możesz przejść w głąb na południe.",
+    "coord": {"x": 10,"y": 4,"z": 0},
+    "surface": 2,
+    "items" : [5,13],
+		"exit": [0,0,0,0,1,0,0,0,1,0]
+  },
+  {
+    "name": "Tajny Skarbiec",
+    "alias" : [],
+			"description": "Dotarłeś w głąb skarbca stoją tu dwie amfory i sarkofag. Możesz wrócić na północ.",
+    "coord": {"x": 10,"y": 5,"z": 0},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,0,0,0,0,0,0,0,0]
+  },
+  {
+    "name": "Niższy loch",
+    "alias" : [],
+			"description": "Znalazłeś się na początku wąskiego korytarza prowadzącego do celi na wschodzie. Możesz wrócić kamiennymi schodami na górę.",
+    "coord": {"x": 8,"y": 7,"z": 0},
+    "surface": 9,
+    "items": [14],
+		"exit": [0,0,1,0,0,0,0,0,1,0]
+  },
+  {
+    "name": "Niższy loch",
+    "alias" : [],
+			"description": "Idziesz korytarzem prowadzącym na wschód do pojedynczej celi, która znajduje się za grubą ścianą i podwójnymi drzwiami. Możesz wrócić na zachód.",
+    "coord": {"x": 9,"y": 7,"z": 0},
+    "surface": 9,
+    "items": [],
+		"exit": [0,0,1,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Samotna cela",
+    "alias" : [],
+			"description": "Stoisz w celi. Jest tu drewniane łóżko, szafka i stolik. Wyjścia na zachód bronią potężne podwójne drzwi.",
+    "coord": {"x": 10,"y": 7,"z": 0},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Pokoik",
+    "alias" : [],
+			"description": "Wspiąłeś się do małego pomieszczenia. Jest tu leżanka, stolik. ",
+    "coord": {"x": 12,"y": 2,"z": 3},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,0,0,0,0,0,1]
+  },
+  {
+    "name": "Spiżarnia",
+    "alias" : [],
+			"description": "Dotarłeś do dalszej części podziemi spichlerza, złożona w stos leży tu rzepa, korpiele i buraki. W beczkach fermentuje kapusta. Stoi tu także kilka skrzyń. Możesz wrócić na południe.",
+    "coord": {"x": 6,"y": 4,"z": 1},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Piwnica",
+    "alias" : [],
+			"description": "Wszedłeś do zamkowej piwnicy. Kucharze przechowują tu trunki dla bywalców zamku, w regale leżą butelki wina, obok ustawione są beczki z piwem. Dalsza część piwnicy znajduje się na wschodzie. Możesz stąd przejść do korytarza na południe. W kącie jest małe zejście niżej.",
+    "coord": {"x": 8,"y": 4,"z": 1},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,1,0,1,0,0,0,0,1]
+  },
+  {
+    "name": "Piwnica",
+    "alias" : [],
+			"description": "Znalazłeś się w głębi piwnicy. W workach przechowywana jest marchew, pietruszka, a takze zapasy maki. Pod sklepieniem wisi cebula i czosnek.",
+    "coord": {"x": 9,"y": 4,"z": 1},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Skarbiec",
+    "alias" : [],
+			"description": "Znalazłeś sie w ciemnym pomieszczeniu. Dookoła stoją skrzynie ze złotem, srebrem i kamieniami szlachetnymi. Na regale ustawione są sakwy i kuferki, a także plik papierów wartościowych. W kamiennej podłodze znajduje się stalowa klapa. Możesz stąd przejść na południe do gabinetu skarbnika.",
+    "coord": {"x": 10,"y": 4,"z": 1},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,1,0,0,0,0,1]
+  },
+  {
+    "name": "Spiżarnia",
+    "alias" : [],
+			"description": "Zszedłeś do podziemi spichlerza. Przechowuje się tu warzywa, część w workach, część luzem. Stoi tu skrzynia. Możesz stąd przejśćw głąb spiżarni na północ, lub wrócić na górę.",
+    "coord": {"x": 6,"y": 5,"z": 1},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,0,0,0,0,0,0,1,0]
+  },
+  {
+    "name": "Korytarz",
+    "alias" : [],
+			"description": "Stoisz w podziemnym przejsciu. Idąc na wschód dotrzesz do schodów na górę. Na północy znajduje się wejście do piwnicy, a na południu do lochów.",
+    "coord": {"x": 8,"y": 5,"z": 1},
+    "surface": 9,
+    "items": [],
+		"exit": [1,0,1,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Korytarz",
+    "alias" : [],
+			"description": "Znalazłeś się w podziemiach zamku. Na górę prowadzą kamienne schody. Na wschodzie jest biuro skarbnika, na zachodzie dlasza część korytarza, możesz dojść nim do lochów lub piwnicy.",
+    "coord": {"x": 9,"y": 5,"z": 1},
+    "surface": 9,
+    "items": [],
+		"exit": [0,0,1,0,0,0,1,0,1,0]
+  },
+  {
+    "name": "Biuro Skarbnika",
+    "alias" : [],
+			"description": "Wszedłeś do miejsca urzędowania skarbnika. Pomieszczenie jest bardzo skromne. Na wyposażenie składa się głównie biurko i regał. Pełno tu papierów, przy biurku stoi kuferek. Na północnej ścianie znajdują się pancerne drzwi do skarbca. Możesz stąd wyjśćna zachód.",
+    "coord": {"x": 10,"y": 5,"z": 1},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,0,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Piwnica Browaru",
+    "alias" : [],
+			"description": "Zszedłeś do miejsca w którym dojrzewa piwo uwarzone pietro wyżej, a w kadziach fermentuje młode piwo. Możesz wrócić na górę.",
+    "coord": {"x": 6,"y": 6,"z": 1},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,0,0,0,0,1,0]
+  },
+  {
+    "name": "Cela",
+    "alias" : [],
+			"description": "Stoisz w ciasnym pomieszczeniu, z zimnymi kamiennymi ścianami. Stoją tu dwie prycze i wiadro. Od wschodu pomieszczenie ograniczone jest kratami z drzwiami po środku.",
+    "coord": {"x": 7,"y": 6,"z": 1},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,1,0,0,0,0,0,0,0]
+  },
+  {
+    "name": "Lochy",
+    "alias" : [],
+			"description": "Idziesz podziemnym korytarzem, dotarłeś do początkowej części lochów, na wschodzie znajduje się cela. Możesz przejść dalej na południe, lub wrócić do korytarza na północ.",
+    "coord": {"x": 8,"y": 6,"z": 1},
+    "surface": 9,
+    "items": [],
+		"exit": [1,0,0,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Cela",
+    "alias" : [],
+			"description": "Stoisz w więziennej celi, ustawiono tu piętrową pryczę. Od południa pomieszczenie ograniczone jest kratami z drzwiami po środku.",
+    "coord": {"x": 9,"y": 6,"z": 1},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Cela",
+    "alias" : [],
+			"description": "Stoisz w więziennej celi, ustawiono tu piętrową pryczę. Od południa pomieszczenie ograniczone jest kratami z drzwiami po środku.",
+    "coord": {"x": 10,"y": 6,"z": 1},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Spiżarnia",
+    "alias" : [],
+			"description": "Zszedłeś do malutkiej spiżarni, w której przechowywana jest żywność dla mieszkańców kamienicy. Możesz wrócić na górę.",
+    "coord": {"x": 12,"y": 6,"z": 1},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,0,0,0,0,1,0]
+  },
+  {
+    "name": "Cela",
+    "alias" : [],
+			"description": "Stoisz w więziennej celi, znajduje się tu jedna prycza. W kamiennej ścianie od wschodu wstawiono wzmocnione dębowe drzwi z małą kratką na wysokości oczu i podłużnym otworem przy ziemi.",
+    "coord": {"x": 7,"y": 7,"z": 1},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,1,0,0,0,0,0,0,0]
+  },
+  {
+    "name": "Lochy",
+    "alias" : [],
+			"description": "Dotarłeś do zakrętu podziemnego korytarza. Na zachodzie i południu znajdują się cele. Korytarz biegnie dalej na wschód. Stoi tu stołek strażnika. Małe kamienne schody prowadzą piętro niżej.",
+    "coord": {"x": 8,"y": 7,"z": 1},
+    "surface": 9,
+    "items": [],
+		"exit": [1,0,1,0,1,0,1,0,0,1]
+  },
+  {
+    "name": "Lochy",
+    "alias" : [],
+			"description": "Idziesz podziemnym korytarzem, na północy widzisz za kratami wnętrze celi, na południu w kamiennej ścianie dostępu do następnej bronią solidne drzwi. Dalej na wschodzie jest koniec korytarza.",
+    "coord": {"x": 9,"y": 7,"z": 1},
+    "surface": 9,
+    "items": [],
+		"exit": [1,0,1,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Lochy",
+    "alias" : [],
+			"description": "Dotarłeś do końca korytarza. Na północy i południu są cele więzienne. Możesz stąd wrócić na zachód.",
+    "coord": {"x": 10,"y": 7,"z": 1},
+    "surface": 9,
+    "items": [],
+		"exit": [1,0,0,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Cela",
+    "alias" : [],
+			"description": "Stoisz w celi, znajduje się tu jedna prycza i jeden materac leżący na posadzce. Wyjście na północ ograniczają ciężkie dębowe drzwi.",
+    "coord": {"x": 8,"y": 8,"z": 1},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,0,0,0,0,0,0,0,0]
+  },
+  {
+    "name": "Cela",
+    "alias" : [],
+			"description": "Stoisz w celi, znajduje się tu dwie prycze i stolik. Wyjście na północ ograniczają ciężkie dębowe drzwi.",
+    "coord": {"x": 9,"y": 8,"z": 1},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,0,0,0,0,0,0,0,0]
+  },
+  {
+    "name": "Cela",
+    "alias" : [],
+			"description": "Stoisz w celi, znajduje się tu dwie prycze i stolik. Wyjście na północ ograniczają ciężkie dębowe drzwi.",
+    "coord": {"x": 10,"y": 8,"z": 1},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,0,0,0,0,0,0,0,0]
+  },
+  {
+    "name": "Spiżarnia",
+    "alias" : [],
+			"description": "Zszedłeś do pomieszczenia w którym karczmarz przechowuje żywność i alkohol.",
+    "coord": {"x": 12,"y": 8,"z": 1},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,0,0,0,0,1,0]
+  },
+  {
+    "name": "Podziemny magazyn",
+    "alias" : [],
+			"description": "Dotarłeś do końca korytarzyka podziemnego magazynu portowego. Stoją tu beczki.",
+    "coord": {"x": 7,"y": 14,"z": 1},
+    "surface": 9,
+    "items": [],
+		"exit": [0,0,1,0,0,0,0,0,0,0]
+  },
+  {
+    "name": "Podziemny magazyn",
+    "alias" : [],
+			"description": "Przechadzasz się korytarzami pod portem. Stoi tu sporo skrzyń, a każda jest oznaczona małą karteczką. ",
+    "coord": {"x": 8,"y": 14,"z": 1},
+    "surface": 9,
+    "items": [],
+		"exit": [0,0,0,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Podziemny magazyn",
+    "alias" : [],
+			"description": "Doszedłeś do małego zaułka. Stoi tu małe biurko i parę rupieci.",
+    "coord": {"x": 10,"y": 14,"z": 1},
+    "surface": 9,
+    "items": [],
+		"exit": [0,0,1,0,0,0,0,0,0,0]
+  },
+  {
+    "name": "Podziemny magazyn",
+    "alias" : [],
+			"description": "Tutaj korytrarz rozwidla się na wschód i zachód.  ",
+    "coord": {"x": 11,"y": 14,"z": 1},
+    "surface": 9,
+    "items": [],
+		"exit": [0,0,1,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Podziemny magazyn",
+    "alias" : [],
+			"description": "W tym miejscu kortarz zakręca, w kącie stoją poustawiane skrzynki jedna na drugiej.",
+    "coord": {"x": 12,"y": 14,"z": 1},
+    "surface": 9,
+    "items": [],
+		"exit": [0,0,0,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Podziemny magazyn",
+    "alias" : [],
+			"description": "Koniec długiego korytarza, na południe stąd znajduje się spora komórka, a ty możesz odejsć stąd na wschód. ",
+    "coord": {"x": 6,"y": 15,"z": 1},
+    "surface": 9,
+    "items": [],
+		"exit": [0,0,1,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Podziemny magazyn",
+    "alias" : [],
+			"description": "Zbliżasz się do końca długiego korytarza, na południu widzisz duże pomieszczenie. Możesz przejść jeszcze kawałek na zachód lub wrócić do głównej części na wschodzie.",
+    "coord": {"x": 7,"y": 15,"z": 1},
+    "surface": 9,
+    "items": [],
+		"exit": [0,0,1,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Podziemny magazyn",
+    "alias" : [],
+			"description": "Zszedłeś w podziemia portu. Rozciąga się tu plątanina korytarzyków i komórek, postaraj się nie zgubić. Na ścianie przed tobą wisi plan tych korytarzy. Długi korytarz niknący w mroku biegnie gdzieś na wschód i zachód. Na północ jest jakieś przejście, a na górę możesz wyjść po schodach. ",
+    "coord": {"x": 8,"y": 15,"z": 1},
+    "surface": 9,
+    "items": [],
+		"exit": [1,0,1,0,0,0,1,0,1,0]
+  },
+  {
+    "name": "Podziemny magazyn",
+    "alias" : [],
+			"description": "Idziesz pozdiemnym korytarzem. Wszystko jest tu otulone półmrokiem. Nad swoją głową słyszysz co chwila tupot stóp albo terkotanie kół, twoja orientacja w przestrzeni podpowiada ci, że nad tobą przebiega brama portowa. ",
+    "coord": {"x": 9,"y": 15,"z": 1},
+    "surface": 9,
+    "items": [],
+		"exit": [0,0,1,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Podziemny magazyn",
+    "alias" : [],
+			"description": "Korytarz, którym się poruszasz nieznacznie się tu rozszerza. Nad głową widzisz kwadratowy otwór, którym może tu zjechać winda towarowa. Korytarz rozwidla się zaraz na wschodzie, a sam biegnie daleko w przeciwną stronę.",
+    "coord": {"x": 10,"y": 15,"z": 1},
+    "surface": 9,
+    "items": [],
+		"exit": [0,0,1,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Podziemny magazyn",
+    "alias" : [],
+			"description": "Korytarz rozwidla się tu na północ i południe. ",
+    "coord": {"x": 11,"y": 15,"z": 1},
+    "surface": 9,
+    "items": [],
+		"exit": [1,0,0,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Podziemny magazyn",
+    "alias" : [],
+			"description": "Korytarz rozrzerza się tu znacznie tworząc obszerne pomieszczenie magazynowe z regasłami poustawianymi pod ścianą. Na środku leży stera paczek. ",
+    "coord": {"x": 12,"y": 15,"z": 1},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,0,0,0,0,0,0,0,0]
+  },
+  {
+    "name": "Komórka",
+    "alias" : [],
+			"description": "Wszedłeś do dużej komórki, w której przechowuje sięłątwo psujące towary. Czujesz, że jest tu znacznie zimniej niż w pozostałej częsci. ",
+    "coord": {"x": 6,"y": 16,"z": 1},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,0,0,0,0,0,0,0,0]
+  },
+  {
+    "name": "Podziemny magazyn",
+    "alias" : [],
+			"description": "Wszedłeś do sporego pomieszczenia. Stoją tu poustawiane różnej wielkości i kształtu beczki. Jak na wszystkim tu też są poprzyklejane do wszystkiego karteczki.",
+    "coord": {"x": 7,"y": 16,"z": 1},
+    "surface": 9,
+    "items": [],
+		"exit": [1,0,0,0,0,0,0,0,0,0]
+  },
+  {
+    "name": "Podziemny magazyn",
+    "alias" : [],
+			"description": "Wszedłeś do szerokiego, aczkolwiek niskiego pomeiszczenia. Sufit jest tu trochę popękany. Stoja tu duże skrzynie. ",
+    "coord": {"x": 10,"y": 16,"z": 1},
+    "surface": 9,
+    "items": [],
+		"exit": [0,0,1,0,0,0,0,0,0,0]
+  },
+  {
+    "name": "Podziemny magazyn",
+    "alias" : [],
+			"description": "Korytarz zakręca tu na zachód do kolejnego pomieszczenia magazynowego. W kącie są poustawiane worki. ",
+    "coord": {"x": 11,"y": 16,"z": 1},
+    "surface": 9,
+    "items": [],
+		"exit": [1,0,0,0,0,0,1,0,0,0]
+  },
+	{
+    "name": "Łąka",
+    "alias" : [],
+			"description": "Idziesz łąką, rośnie tu gęsta trawa.",
+    "coord": {
+      "x": 0,
+      "y": 0,
+      "z": 2
+    },
+    "surface": 3,
+    "items": [],
+		"exit": [1,1,1,1,1,1,1,1,0,0]
+  },
+  {
+    "name": "Łąka",
+    "alias" : [],
+			"description": "Przedzierasz się przez wysoką trawę.",
+    "coord": {
+      "x": 1,
+      "y": 0,
+      "z": 2
+    },
+    "surface": 3,
+    "items": [],
+		"exit": [1,1,1,1,1,1,1,1,0,0]
+  },
+  {
+    "name": "Łąka",
+    "alias" : [],
+			"description": "Przedzierasz się przez wysoką trawę.",
+    "coord": {
+      "x": 2,
+      "y": 0,
+      "z": 2
+    },
+    "surface": 3,
+    "items": [],
+		"exit": [1,1,1,1,1,1,1,1,0,0]
+  },
+  {
+    "name": "Łąka",
+    "alias" : [],
+			"description": "W tym miejscu trawa jest dużo niższa i drobna.",
+    "coord": {
+      "x": 3,
+      "y": 0,
+      "z": 2
+    },
+    "surface": 3,
+    "items": [],
+		"exit": [1,1,1,1,1,1,1,1,0,0]
+  },
+  {
+    "name": "Łąka",
+    "alias" : [],
+			"description": "W tym miejscu trawa jest dużo niższa i drobna.",
+    "coord": {
+      "x": 4,
+      "y": 0,
+      "z": 2
+    },
+    "surface": 3,
+    "items": [],
+		"exit": [1,1,1,1,1,1,1,1,0,0]
+  },
+  {
+    "name": "Łąka",
+    "alias" : [],
+			"description": "Przedzierasz się przez wysoką trawę.",
+    "coord": {
+      "x": 5,
+      "y": 0,
+      "z": 2
+    },
+    "surface": 3,
+    "items": [],
+		"exit": [1,1,1,1,1,1,1,1,0,0]
+  },
+  {
+    "name": "Łąka",
+    "alias" : [],
+			"description": "Przedzierasz się przez wysoką trawę.",
+    "coord": {
+      "x": 6,
+      "y": 0,
+      "z": 2
+    },
+    "surface": 3,
+    "items": [],
+		"exit": [1,1,1,1,1,1,1,1,0,0]
+  },
+  {
+    "name": "Droga",
+    "alias" : [],
+			"description": "Idziesz drogą, która prowadzi do miasta",
+    "coord": {
+      "x": 7,
+      "y": 0,
+      "z": 2
+    },
+    "surface": 1,
+    "items": [],
+		"exit": [1,1,1,1,1,1,1,1,0,0]
+  },
+  {
+    "name": "Łąka",
+    "alias" : [],
+			"description": "Przedzierasz się przez wysoką trawę.",
+    "coord": {
+      "x": 8,
+      "y": 0,
+      "z": 2
+    },
+    "surface": 3,
+    "items": [],
+		"exit": [1,1,1,1,1,1,1,1,0,0]
+  },
+  {
+    "name": "Łąka",
+    "alias" : [],
+			"description": "Przedzierasz się przez wysoką trawę.",
+    "coord": {
+      "x": 9,
+      "y": 0,
+      "z": 2
+    },
+    "surface": 3,
+    "items": [],
+		"exit": [1,1,1,1,1,1,1,1,0,0]
+  },
+  {
+    "name": "Łąka",
+    "alias" : [],
+			"description": "Idziesz łąką, rośnie tu gęsta trawa.",
+    "coord": {
+      "x": 10,
+      "y": 0,
+      "z": 2
+    },
+    "surface": 3,
+    "items": [],
+		"exit": [1,1,1,1,1,1,1,1,0,0]
+  },
+  {
+    "name": "Łąka",
+    "alias" : [],
+			"description": "Dotarłeś pod mury miasta, które widzisz na wschód od siebie. Zaraz na północy zakręcają, a na południu ciągną sięjeszcze kawałek.",
+    "coord": {
+      "x": 11,
+      "y": 0,
+      "z": 2
+    },
+    "surface": 3,
+    "items": [],
+		"exit": [1,0,0,0,1,1,1,1,0,0]
+  },
+	
+  {
+    "name": "Stajnia",
+    "alias" : [],
+			"description": "Wszedłeś w zaułek stajni. Po lewej i prawej stronie widzisz boksy dla koni. Na południu w kącie są małe zielone drzwi. W drewnianym suficie zauważasz dużą klapę, do której prowadzi drabina.",
+    "coord": {"x": 12,"y": 0,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,1,0,1,0,0,0,1,0]
+  },
+  {
+    "name": "Stajnia",
+    "alias" : [],
+			"description": "Jesteś przy wyjściu ze stajni. po dwóch stronach znajdują się dwa boksy dla koni. W kierunku południowym oraz zachodnim dostrzegasz kolejne. Na wschodzie obok boksu zmajdują się szerokie drzwi na zewnątrz.",
+    "coord": {"x": 13,"y": 0,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,1,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Ulica Przestronna",
+    "alias" : [],
+			"description": "Dotarłeś pod bramę miejską. Część kostki brukowej jest mniej wytarta lub w innym odcieniu co dowodzi, że niedawno byly wymieniane. Na zachodzie znajduje się wejście do stajni, a na zachodzie za murem wznosi się wieża.",
+    "coord": {"x": 14,"y": 0,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,0,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Zbrojownia",
+    "alias" : [],
+			"description": "Wszedłeś do pomieszczenia z kamiennymi ścianami i drewnianą podłogą. Stojaki, ustawione wzdłóż ścian, połyskują za sprawą strażniczej broni. W ścianach nastomiast, wystają uchwyty na pochodnie. Na zewnątrz prowadzą drzwi w południowej ścianie. W zachodniej ścianie za jednym ze stojaków widzisz inne, mniejsze. W podłodze umieszczono klapę.",
+    "coord": {"x": 15,"y": 0,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,1,0,1,0,0,0,0,1]
+  },
+  {
+    "name": "Wieża",
+    "alias" : [],
+			"description": "Znalazleś się u podstawy wieży. Ściany są tu grube i surowe. Na górę prowadzą schody biegnące spiralą dookoła ścian. Na południe prowadzą ciężkie dębowe drzwi. Na zachodniej ścianie widać zabite deskami drzwiczki.",
+    "coord": {"x": 16,"y": 0,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,1,0,1,0,1,0]
+  },
+	{
+    "name": "Łąka",
+    "alias" : [],
+			"description": "W tym miejscu trawa jest dużo niższa i drobna.",
+    "coord": {
+      "x": 0,
+      "y": 1,
+      "z": 2
+    },
+    "surface": 3,
+    "items": [],
+		"exit": [1,1,1,1,1,1,1,1,0,0]
+  },
+  {
+    "name": "Łąka",
+    "alias" : [],
+			"description": "W tym miejscu trawa jest dużo niższa i drobna. Stoisz pod północno- zachodnim rogiem miata. ",
+    "coord": {
+      "x": 1,
+      "y": 1,
+      "z": 2
+    },
+    "surface": 3,
+    "items": [],
+		"exit": [1,1,1,0,1,1,1,1,0,0]
+  },
+  {
+    "name": "Łąka",
+    "alias" : [],
+			"description": "W tym miejscu trawa jest dużo niższa i drobna. Leży też tu parę kamieni. W tym miejscu zaczynają się mury miejskie",
+    "coord": {
+      "x": 2,
+      "y": 1,
+      "z": 2
+    },
+    "surface": 3,
+    "items": [],
+		"exit": [1,1,1,0,0,0,1,1,0,0]
+  },
+  {
+    "name": "Łąka",
+    "alias" : [],
+			"description": "Idziesz łąką, rośnie tu gęsta trawa. Idziesz wzdłuż murów.",
+    "coord": {
+      "x": 3,
+      "y": 1,
+      "z": 2
+    },
+    "surface": 3,
+    "items": [],
+		"exit": [1,1,1,0,0,0,1,1,0,0]
+  },
+  {
+    "name": "Łąka",
+    "alias" : [],
+			"description": "Przedzierasz się przez wysoką trawę. Idziesz wzdłuż murów.",
+    "coord": {
+      "x": 4,
+      "y": 1,
+      "z": 2
+    },
+    "surface": 3,
+    "items": [],
+		"exit": [1,1,1,0,0,0,1,1,0,0]
+  },
+  {
+    "name": "Łąka",
+    "alias" : [],
+			"description": "Idziesz łąką, rośnie tu gęsta trawa. Idziesz wzdłuż murów.",
+    "coord": {
+      "x": 5,
+      "y": 1,
+      "z": 2
+    },
+    "surface": 3,
+    "items": [],
+		"exit": [1,1,1,0,0,0,1,1,0,0]
+  },
+  {
+    "name": "Łąka",
+    "alias" : [],
+			"description": "W tym miejscu trawa jest dużo niższa i drobna. Idziesz wzdłuż murów.",
+    "coord": {
+      "x": 6,
+      "y": 1,
+      "z": 2
+    },
+    "surface": 3,
+    "items": [],
+		"exit": [1,1,1,0,0,0,1,1,0,0]
+  },
+  {
+    "name": "Droga",
+    "alias" : [],
+			"description": "Idziesz drogą, która prowadzi do miasta. Na południu widzisz wielką bramę.",
+    "coord": {
+      "x": 7,
+      "y": 1,
+      "z": 2
+    },
+    "surface": 1,
+    "items": [],
+		"exit": [1,1,1,0,1,0,1,1,0,0]
+  },
+  {
+    "name": "Łąka",
+    "alias" : [],
+			"description": "W tym miejscu trawa jest dużo niższa i drobna. Idziesz wzdłuż murów.",
+    "coord": {
+      "x": 8,
+      "y": 1,
+      "z": 2
+    },
+    "surface": 3,
+    "items": [],
+		"exit": [1,1,1,0,0,0,1,1,0,0]
+  },
+  {
+    "name": "Łąka",
+    "alias" : [],
+			"description": "W tym miejscu trawa jest dużo niższa i drobna. Idziesz wzdłuż murów.",
+    "coord": {
+      "x": 9,
+      "y": 1,
+      "z": 2
+    },
+    "surface": 3,
+    "items": [],
+		"exit": [1,1,1,0,0,0,1,1,0,0]
+  },
+  {
+    "name": "Łąka",
+    "alias" : [],
+			"description": "W tym miejscu trawa jest dużo niższa i drobna. Niedaleko na wschodzie dotrzesz do kąta utworzonego przez zakręcający mur. ",
+    "coord": {
+      "x": 10,
+      "y": 1,
+      "z": 2
+    },
+    "surface": 3,
+    "items": [],
+		"exit": [1,1,1,0,0,0,1,1,0,0]
+  },
+  {
+    "name": "Łąka",
+    "alias" : [],
+			"description": "Znalazłeś się pod murem, który zakręca tu z północy za zachód. trawa jest tu bardzo wysoka. ",
+    "coord": {
+      "x": 11,
+      "y": 1,
+      "z": 2
+    },
+    "surface": 3,
+    "items": [],
+		"exit": [1,0,0,0,0,0,1,1,0,0]
+  },
+	
+  {
+    "name": "Składzik",
+    "alias" : [],
+			"description": "Wszedłeś do bardzo zagraconego pomieszczenia. Na półkach leżą szczotki, wędzidła, derki. W kącie, w nieładzie poskładano siodła. Możesz stąd wyjść na północ zielonymi drzwiami, lub na południe, przeskakując nad stertą gratów. ",
+    "coord": {"x": 12,"y": 1,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,0,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Stajnia",
+    "alias" : [],
+			"description": "Idziesz wzdłuż stajni. Po obu stronach są boksy. Na podłodze leży porozrzucana słoma. Stajnia ciągnie się dalej na północ i południe.",
+    "coord": {"x": 13,"y": 1,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,0,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Ulica Przestronna",
+    "alias" : [],
+			"description": "Wybrukowana ulica. Na zachodzie widać budynek stajni, do uszu dobiega rżenie koni. Na wschodzie za murem jest plac treningowy.",
+    "coord": {"x": 14,"y": 1,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,0,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Plac treningowy",
+    "alias" : [],
+			"description": "Teren pokryty udeptaną ziemią. Stoją tu dwie kukły, jedna z nich jest mocno zniszczona. nieopodal dostrzegasz też mały ring. Plac ciągnie się dalej na wschód, gdzie widać tarcze strzeleckie. Możesz przejść na południe lub wejść do zbrojowni na północy",
+    "coord": {"x": 15,"y": 1,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Plac treningowy",
+    "alias" : [],
+			"description": "Dalsza część placu. Pod murem na zachodzie są ustawione cztery tarcze strzeleckie z powbijanymi weń strzałami. Możesz stąd przejść na zachód.",
+    "coord": {"x": 16,"y": 1,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [0,0,0,0,0,0,1,0,0,0]
+  },
+	{
+    "name": "Łąka",
+    "alias" : [],
+			"description": "Przedzierasz się przez wysoką trawę.",
+    "coord": {
+      "x": 0,
+      "y": 2,
+      "z": 2
+    },
+    "surface": 3,
+    "items": [],
+		"exit": [1,1,1,1,1,1,1,1,0,0]
+  },
+  {
+    "name": "Łąka",
+    "alias" : [],
+			"description": "Rośnie tu gęsta trawa. Stoisz pod murem, który zaraz na północy zakręca na wschód.",
+    "coord": {
+      "x": 1,
+      "y": 2,
+      "z": 2
+    },
+    "surface": 3,
+    "items": [],
+		"exit": [1,0,0,0,1,1,1,1,0,0]
+  },
+  {
+    "name": "Opuszczona strażnica",
+    "alias" : [],
+			"description": "Przeszedłeś do opuszczonej strażnicy. Nie widać śladów życia od dawna. ",
+    "coord": {"x": 2,"y": 2,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,1,0,0,0,1,0]
+  },
+  {
+    "name": "Przędzalnia",
+    "alias" : [],
+			"description": "Małe pomieszczenie w którym stoi kądziel, wrzeciono, kołowrotek i dużo włókna roślinnego.",
+    "coord": {"x": 3,"y": 2,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Tkacz",
+    "alias" : [],
+			"description": "Wszedłeś do warsztatu tkackiego. Znajduje się tu krosno tkackcie. Na zachód znajduje się przejście do przędzalni. Pod ścianą znajdują się strome, drewniane schody na górę.",
+    "coord": {"x": 4,"y": 2,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,1,0,0,0,1,0]
+  },
+  {
+    "name": "Krawiec",
+    "alias" : [],
+			"description": "Znalazłeś się w uprzątniętym pomieszczeniu. Widać, że rzemieślnik pracujący tu ceni sobie czystosć. Na stołach leżą stosy równo ułożonych tkanin. Na górę prowadzą schody.",
+    "coord": {"x": 5,"y": 2,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,1,0,0,0,1,0]
+  },
+  {
+    "name": "Stróżówka",
+    "alias" : [],
+			"description": "Wszedłeś do obszernego pomieszczenia. Stoją tu ławy i szafki. Na wschód wychodzi rozsuwane okno, a na południe drewniane drzwi. Na górę prowadzą schody.",
+    "coord": {"x": 6,"y": 2,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,1,0,0,0,1,0]
+  },
+  {
+    "name": "Wylot na północ",
+    "alias" : [],
+			"description": "Stanąłeś pomiędzy dwoma budynkami, na północy widząc bramę wejściową do miasta. W zachodniej ścianie widzisz okno ze składanym parapetem. Na południu od ciebie przebiega ulica Przestronna. ",
+    "coord": {"x": 7,"y": 2,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,0,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Warsztat kopisty",
+    "alias" : [],
+			"description": "",
+    "coord": {"x": 8,"y": 2,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,0,0,0,0,0,0]
+  },
+  {
+    "name": "Warsztat introligatora",
+    "alias" : [],
+			"description": "",
+    "coord": {"x": 9,"y": 2,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,0,0,0,0,0,0]
+  },
+  {
+    "name": "Warsztat malarza",
+    "alias" : [],
+			"description": "",
+    "coord": {"x": 10,"y": 2,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,0,0,0,0,0,0]
+  },
+  {
+    "name": "Dom",
+    "alias" : [],
+			"description": "Wszedłeś do zadbanego domu...",
+    "coord": {"x": 11,"y": 2,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,0,0,0,0,0,0]
+  },
+  {
+    "name": "Przedsionek",
+    "alias" : [],
+			"description": "Wszedłeś do przytulnego pomieszczenia. Pod ścianą ustawiono długa ławkę, a nad nią wisi szafka. Możesz stąd przejsć do stajni na wschodzie, albo do składzika na północ. Na południu jest wyjście. Na piętro prowadzą strome, lekko spruchniałe schody.",
+    "coord": {"x": 12,"y": 2,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,1,0,1,0,0,0,1,0]
+  },
+  {
+    "name": "Stajnia",
+    "alias" : [],
+			"description": "Znajdujesz się na początku stajni. Po wschodniej stronie są boksy, które znajdują się po obu stronach pomieszczenia, które ciagnie się dalej na północ. Na zachodzie są drzwi, na południe brama. ",
+    "coord": {"x": 13,"y": 2,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,0,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Ulica Przestronna",
+    "alias" : [],
+			"description": "Wybrukowana ulica. Na zachodzie jest stajnia. Na wschodzie znajduje się wejście na teren garnizonu, pod kamiennym łukiem w murze. Ulica biegnie na północ i południe.",
+    "coord": {"x": 14,"y": 2,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Plac",
+    "alias" : [],
+			"description": "Znalazłeś się na terenie garnizonu. w centrum dostrzegasz duże kamienne ognisko. Nad nim zamontowano duży żeliwny ruszt. idąc na północ, dotrzesz na plac treningowy. Na wschodzie jest wejście do koszar, a na zachodzie pod kamiennym łukiem dojdziesz do przejścia na ulicę Przestronną. ",
+    "coord": {"x": 15,"y": 2,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Wejście do koszar",
+    "alias" : [],
+			"description": "Znajdujesz sie w przedsionku gdzie dostrzegasz jedynie biurko i regał. Z tego pomieszczenia, możesz przejść na południe do stołówki lub schodami na górę. ",
+    "coord": {"x": 16,"y": 2,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,1,0,0,0,1,0]
+  },
+	  {
+    "name": "Łąka",
+    "alias" : [],
+			"description": "Idziesz łąką, rośnie tu gęsta trawa.",
+    "coord": {
+      "x": 0,
+      "y": 3,
+      "z": 2
+    },
+    "surface": 3,
+    "items": [],
+		"exit": [1,1,1,1,1,1,1,1,0,0]
+  },
+  {
+    "name": "Łąka",
+    "alias" : [],
+			"description": "Przedzierasz się przez wysoką trawę idąc wzdł€ż murów zamku. ",
+    "coord": {
+      "x": 1,
+      "y": 3,
+      "z": 2
+    },
+    "surface": 3,
+    "items": [],
+		"exit": [1,0,0,0,1,1,1,1,0,0]
+  },
+  {
+    "name": "Przedsionek Strażnicy",
+    "alias" : [],
+			"description": "Wszedłeś do niskiej, kamiennej dobudówki. Zawalone belki niegdyś podtrzymywały pochyły dach. Możesz przejść na północ do Strażnicy, lub wyjsćna drogę na wschód.",
+    "coord": {"x": 2,"y": 3,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,1,0,0,0,0,0,0,0]
+  },
+  {
+    "name": "Róg ulicy Przestronnej",
+    "alias" : [],
+			"description": "Dotarłeś do rogu długiej ulicy. Na północy jest przędzalnia, na zachodzie wejście do wieży poprzez dobudówkę. Ulica biegnie dalej na wschód i południe.",
+    "coord": {"x": 3,"y": 3,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Ulica Przestronna",
+    "alias" : [],
+			"description": "",
+    "coord": {"x": 4,"y": 3,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Ulica Przestronna",
+    "alias" : [],
+			"description": "",
+    "coord": {"x": 5,"y": 3,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Ulica Przestronna",
+    "alias" : [],
+			"description": "Jesteś na ulicy, na południu widzisz róg zamku, na północy stróżówkę. Ulica biegnie dalej na wschód i zachód.",
+    "coord": {"x": 6,"y": 3,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Ulica Przestronna",
+    "alias" : [],
+			"description": "Jesteś na ulicy, na południu jest wejście do zamku, na nółnocy przejście do bramy miejskiej. Ulica biegnie dalej na wschód i zachód.",
+    "coord": {"x": 7,"y": 3,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Ulica Przestronna",
+    "alias" : [],
+			"description": "Jesteś na ulicy, na południu jest zamek, na nółnocy wejście do warsztatu. Ulica biegnie dalej na wschód i zachód.",
+    "coord": {"x": 8,"y": 3,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Ulica Przestronna",
+    "alias" : [],
+			"description": "Jesteś na ulicy, na południu jest zamek, na nółnocy wejście do warsztatu. Ulica biegnie dalej na wschód i zachód.",
+    "coord": {"x": 9,"y": 3,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Ulica Przestronna",
+    "alias" : [],
+			"description": "Jesteś na ulicy, na południu jest zamek, na nółnocy wejście do warsztatu. Ulica biegnie dalej na wschód i zachód.",
+    "coord": {"x": 10,"y": 3,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Ulica Przestronna",
+    "alias" : [],
+			"description": "Jesteś na ulicy, na południu jest wejście do zamku, na nółnocy wejście do sporego domu.. Ulica biegnie dalej na wschód i zachód.",
+    "coord": {"x": 11,"y": 3,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Ulica Przestronna",
+    "alias" : [],
+			"description": "Wybrukowana ulica. Na tym odcinku jest całkiem zadbana. Na północy jest wejście do pomieszczenia w stajni. Ulica biegnie dalej na wschód i zachód.",
+    "coord": {"x": 12,"y": 3,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Skrzyżowanie Przestronnna - Spora",
+    "alias" : [],
+			"description": "Dotarłeś do skrzyżowania dwóch ulic. Uliczka na połodnie jest zdecydowanie węższa ale co ciekawe znacznie częściej uczęszczana na co wskazuje stan nawierzchni. Ulica przestronna biegnie ze wschodu na zachód, na północy nastomiast widać wrota do stajni.",
+    "coord": {"x": 13,"y": 3,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Róg ulicy Przestronnej",
+    "alias" : [],
+			"description": "Znalazłeś się w miejścu, w którym ulica zakręca. Na północnym zachodzie widać duży budynek stajni. Na wschodzie i południu drogę odcinają kamienne ściany zabudowań. ",
+    "coord": {"x": 14,"y": 3,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,0,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Kuchnia",
+    "alias" : [],
+			"description": "Wszedłeś do kuchni. Od progu uderza Cię zapach gotowanego grochu i kapusty. To musi byc miejsce, w którym gotują dla żołnierzy. Możesz stąd przejsć na wschód.",
+    "coord": {"x": 15,"y": 3,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,1,0,0,0,0,0,0,0]
+  },
+  {
+    "name": "Stołówka",
+    "alias" : [],
+			"description": "Jesteś w stołówce. W dwóch rzędach ustawione są tu stoły, a przy nich ławy. Na zachodzie jest wejście do kuchni, a na połnocy przejscie do przedsionka.",
+    "coord": {"x": 16,"y": 3,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,0,0,0,0,1,0,0,0]
+  },
+	  {
+    "name": "Łąka",
+    "alias" : [],
+			"description": "W tym miejscu trawa jest dużo niższa i drobna.",
+    "coord": {
+      "x": 0,
+      "y": 4,
+      "z": 2
+    },
+    "surface": 3,
+    "items": [],
+		"exit": [1,1,1,1,1,1,1,1,0,0]
+  },
+  {
+    "name": "Łąka",
+    "alias" : [],
+			"description": "Przedzierasz się przez wysoką trawę.",
+    "coord": {
+      "x": 1,
+      "y": 4,
+      "z": 2
+    },
+    "surface": 3,
+    "items": [],
+		"exit": [1,0,0,0,1,1,1,1,0,0]
+  },
+  {
+    "name": "Warsztat galanteryjny",
+    "alias" : [],
+			"description": "Wchodząc do warsztatu od razu poczułeś intensywny zapach skórzanych wyrobów. ",
+    "coord": {"x": 2,"y": 4,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,1,0,0,0,0,0,0,0]
+  },
+  {
+    "name": "Ulica Przestronna",
+    "alias" : [],
+			"description": "Stoisz na ulicy pomiędzy dwoima budynkami, na wschodzie przed wejściem do warsztatu stoją nieukończone strzały i włócznie, na zachodzie jest warsztat galanteryjny.",
+    "coord": {"x": 3,"y": 4,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Grotnik",
+    "alias" : [],
+			"description": "Znalazłeś się w pracowni grotnika. W pomieszczeniu znajduje mały piec oraz zestaw foremek. W kącie stoi stojak na gotowe włócznie, ma on postać wąskiej, wysokiej, drewnianej beczki. Wyjście znajduje się na zachodniej ścianie",
+    "coord": {"x": 4,"y": 4,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Ulica Przymurna",
+    "alias" : [],
+			"description": "Idziesz ulicą biegnącą wzdłuż murów zamkowych",
+    "coord": {"x": 5,"y": 4,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,0,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Spichlerz",
+    "alias" : [],
+			"description": "Znalazłeś się w budynku, w którym przechowywana jest żywność dla mieszkańców zamku. Możesz stąd wyjść na wschód przez szerokie drzwi, albo przejść w głąb budynku na południe.",
+    "coord": {"x": 6,"y": 4,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,1,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Przejście",
+    "alias" : [],
+			"description": "Stoisz w pobliżu zamku. Na północy jest wyjście do miasta, na wschodzie wznoszą się mury zamku, na zachodzie jest wejście do Spichlerza. Idąc na południe dotrzesz do placu zamkowego.",
+    "coord": {"x": 7,"y": 4,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,0,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Jadalnia",
+    "alias" : [],
+			"description": "Znalazłeś się w rozległym pomieszczeniu. Stoją tu dwa rzędy stołów. Przy zachodniej ścianie na podwyższeniu stoi jeszcze jeden stół z bogato zdobionym obrusem. Jadalnia przechodzi w salę tronową na wschodzie. Na południu są drzwi do kuchni.",
+    "coord": {"x": 8,"y": 4,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,1,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Sala Tronowa",
+    "alias" : [],
+			"description": "Stoisz wewnątrz wielkiej sali, na podwyższeniu ustawiono tu tron. Na ścianach wiszą obrazy oraz godła. Na zachodzie jest Jadalnia. Na południu ciężkie drzwi prowadzą do westybulu.",
+    "coord": {"x": 9,"y": 4,"z": 2},
+    "surface": 2,
+    "items": [10],
+		"exit": [0,0,0,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Biblioteka",
+    "alias" : [],
+			"description": "Wszedłeś do Królewskiej Biblioteki, jednego z najwięszych zbiorów pism na kontynencie. Na regałach ustawione są równo ksiązki. Przy drzwiach od południa jest biurko.",
+    "coord": {"x": 10,"y": 4,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Przejście",
+    "alias" : [],
+			"description": "Stoisz w pobliżu zamku. Na północy jest wyjście do miasta, na zachodzie wznoszą się mury zamku. Idąc na południe dotrzesz do placu zamkowego.",
+    "coord": {"x": 11,"y": 4,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,0,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Mieszkanie Zarządcy",
+    "alias" : [],
+			"description": "Wszedłeś do przytulnego mieszkanka. Jest tu łóżko, stół, krzesła i skrzynia. Na południu są drzwi do holu.",
+    "coord": {"x": 12,"y": 4,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Ulica Spora",
+    "alias" : [],
+			"description": "Jesteś na początku ulicy biegnącej pomiędzy kamienicą, a zamkiem, na północy wpada ona do dużo szerszej, poprzecznej ulicy",
+    "coord": {"x": 13,"y": 4,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,0,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Kamienica",
+    "alias" : [],
+			"description": "Wszedłeś do przytulnego mieszkania na parterze, jest tu fotel, kanapa, stolik.",
+    "coord": {"x": 14,"y": 4,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Zaułek",
+    "alias" : [],
+			"description": "Dotarłeś do końca uliczki pomiędzy kamienicami. Stoją tu kosze na śmieci i różne rupiecie. ",
+    "coord": {"x": 15,"y": 4,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [0,0,0,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Kamienica",
+    "alias" : [],
+			"description": "Wszedłeś do zwyczajnego mieszkanka. W ścianie wprawiono tylko jedno, małe okiengo, dlatego jest tu trochę ciemno. ",
+    "coord": {"x": 16,"y": 4,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,1,0,0,0,0,0]
+  },
+	  {
+    "name": "Łąka",
+    "alias" : [],
+			"description": "Idziesz łąką, rośnie tu gęsta trawa.",
+    "coord": {
+      "x": 0,
+      "y": 5,
+      "z": 2
+    },
+    "surface": 3,
+    "items": [],
+		"exit": [1,1,1,1,1,1,1,1,0,0]
+  },
+  {
+    "name": "Łąka",
+    "alias" : [],
+			"description": "W tym miejscu trawa jest dużo niższa i drobna.",
+    "coord": {
+      "x": 1,
+      "y": 5,
+      "z": 2
+    },
+    "surface": 3,
+    "items": [],
+		"exit": [1,0,0,0,1,1,1,1,0,0]
+  },
+  {
+    "name": "Sklep skórzany",
+    "alias" : [],
+			"description": "Wszedłeś do szeroniego, niskiego sklepu. Dwa małe okna po obu stronach drzwi zapewniają przyjemny półmrok wewnątrz, który uzupełniany przez zapach skórzanych wyrobów stwarza wrażenie przytulności. Właściciel uznał, że woli mieć sklep blisko wytwórcy, aniżeli klientów, ale jak widać nie wpływa to źle na zarobek.",
+    "coord": {"x": 2,"y": 5,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,1,0,0,0,0,0,0,0]
+  },
+  {
+    "name": "Ulica Przestronna",
+    "alias" : [],
+			"description": "Przy tym fragmencie ulicy znajduje się warsztat łuczarza na wschodzie, który można poznać po długich kawałkach drewna i wnętrzu, które można dostrzec przez wybite okienko. Na zachodzie wielki szyld Galanteryja wszelka zachęca do zakupienia wyrobów skórzanych. Ulica biegnie dalej na północ i południe. ",
+    "coord": {"x": 3,"y": 5,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Łuczarz",
+    "alias" : [],
+			"description": "Wszedłeś do pracowni wytwórcy łuków. Delikatny zapach impregnowanego drewna dociera do twojego nosa. W pomieszczeniu jest kilka gotowych łuków i kilka w przygotowaniu.",
+    "coord": {"x": 4,"y": 5,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Ulica Przymurna",
+    "alias" : [],
+			"description": "Idziesz ulicą biegnącą wzdłuż murów zamkowych",
+    "coord": {"x": 5,"y": 5,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,0,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Spichlerz",
+    "alias" : [],
+			"description": "Znalazłeś się w głębi spichlerza. Dookoła pod ścianami stoją sąsieki i worki. Na górę prowadzi drabina, z otworu w suficie zwisa lina kołowrotu. Na północy znajduje się dlasza część spichlerza. W kącie znajdują się kamienne schody na dół.",
+    "coord": {"x": 6,"y": 5,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,0,0,0,0,0,0,1,1]
+  },
+  {
+    "name": "Przejście",
+    "alias" : [],
+			"description": "Znajdujesz się pomiędzy spichlerzem a zamkiem. Możesz przejsć dalej na północ lub do placu zamkowego na południe.",
+    "coord": {"x": 7,"y": 5,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,0,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Kuchnia",
+    "alias" : [],
+			"description": "Wszedłeś do zamkowej kuchni. Dookoła stoją szafki kuchenne i blaty. Pod zachodnią ścianą jest duże palenisko. Na północ jest przejście do Jadalni, na wschód wyjście do Westybulu.",
+    "coord": {"x": 8,"y": 5,"z": 2},
+    "surface": 2,
+    "items": [1],
+		"exit": [1,0,1,0,0,0,0,0,0,0]
+  },
+  {
+    "name": "Westybul",
+    "alias" : [],
+			"description": "Stoisz w centralnej części zamku. Na każdej ścianie są drzwi, na górę prowadzą piękne schody biegnące po obu stronach pomieszczenia, pod jednymi z nich znajdują się mniejsze schody do podziemi zamku. Możesz przejść na północ do sali tronowej, na wschód do gabinetu, na zachód do kuchni.",
+    "coord": {"x": 9,"y": 5,"z": 2},
+    "surface": 9,
+    "items": [],
+		"exit": [1,0,1,0,1,0,1,0,1,1]
+  },
+  {
+    "name": "Gabinet",
+    "alias" : [],
+			"description": "Wszedłeś do miejsca urzędowania sekretarza. Stoi tu biurko, regał, skrzynia. W rogu pomieszczenia na północy są drzwi do biblioteki.",
+    "coord": {"x": 10,"y": 5,"z": 2},
+    "surface": 2,
+    "items": [3],
+		"exit": [1,0,0,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Przejście",
+    "alias" : [],
+			"description": "Stoisz w pobliżu zamku. Na północy jest wyjście do miasta, na zachodzie wznoszą się mury zamku. Na wschodzie jest wejście do kamienicy. Idąc na południe dotrzesz do placu zamkowego.",
+    "coord": {"x": 11,"y": 5,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Hol",
+    "alias" : [],
+			"description": "Wszedłeś do kamienicy, wnętrze jest skromne ale zadbane. W górę prowadzą schody. Na północy znajdują się drzwi do mieszkania zarządcy, na południu przejście do kuchni.",
+    "coord": {"x": 12,"y": 5,"z": 2},
+    "surface": 9,
+    "items": [],
+		"exit": [1,0,0,0,1,0,1,0,1,0]
+  },
+  {
+    "name": "Ulica Spora",
+    "alias" : [],
+			"description": "Idziesz ulicą, która biegnie pomiędzy kamienicą a zamkiem. Nie ma tu nic ciekawego.",
+    "coord": {"x": 13,"y": 5,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,0,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Kamienica",
+    "alias" : [],
+			"description": "Wejście do budynku, na górę prowadzą mocno zużyte, drewniane schody, a na północ drzwi pomalowane drzwi. ",
+    "coord": {"x": 14,"y": 5,"z": 2},
+    "surface": 9,
+    "items": [],
+		"exit": [1,0,1,0,1,0,0,0,1,0]
+  },
+  {
+    "name": "Uliczka",
+    "alias" : [],
+			"description": "Idziesz małą uliczką pomiędzy kamienicami, do których wejścia są na wschodzie i zachodzie. ",
+    "coord": {"x": 15,"y": 5,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Kamienica",
+    "alias" : [],
+			"description": "Jesteś na parterze kamienicy. Na przeciwko siebie jest tu dwoje drzwi do imeszkań. Na górę prowadzą krzywe schody. ",
+    "coord": {"x": 16,"y": 5,"z": 2},
+    "surface": 9,
+    "items": [],
+		"exit": [1,0,0,0,1,0,1,0,1,0]
+  },
+	  {
+    "name": "Łąka",
+    "alias" : [],
+			"description": "W tym miejscu trawa jest dużo niższa i drobna.",
+    "coord": {
+      "x": 0,
+      "y": 6,
+      "z": 2
+    },
+    "surface": 3,
+    "items": [],
+		"exit": [1,1,1,1,1,1,1,1,0,0]
+  },
+  {
+    "name": "Łąka",
+    "alias" : [],
+			"description": "Idziesz łąką, rośnie tu gęsta trawa.",
+    "coord": {
+      "x": 1,
+      "y": 6,
+      "z": 2
+    },
+    "surface": 3,
+    "items": [],
+		"exit": [1,0,0,0,1,1,1,1,0,0]
+  },
+  {
+    "name": "Warsztat kaletnika",
+    "alias" : [],
+			"description": "Znalazłeś się w warsztacie kaletnika, widzisz pełno skrawków skóry oraz ostrych noży. ",
+    "coord": {"x": 2,"y": 6,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,0,0,0,0,0,0]
+  },
+  {
+    "name": "Ulica Przestronna",
+    "alias" : [],
+			"description": "Stoisz u wejścia do warsztatu kaletnika na zachodzie. Ulica biegnie na północ i południe. Na wschodzie pomiędzy budynkami jest wąskie przejście.",
+    "coord": {"x": 3,"y": 6,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Przejście",
+    "alias" : [],
+			"description": "Wszedłeś pomiędzy dwa budynki, widzisz jak ich dachy łączą się nad twoją głową. ",
+    "coord": {"x": 4,"y": 6,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [0,0,1,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Ulica Przymurna",
+    "alias" : [],
+			"description": "Idziesz ulicą biegnącą wzdłuż murów zamkowych, na zachodzie jest wąskie przejście miedzy budynkami.",
+    "coord": {"x": 5,"y": 6,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,0,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Browar",
+    "alias" : [],
+			"description": "Znalazłeś się we wnętrzu browaru zamkowego. Stoją tu dwie kadzie i kilka beczek. Na górę i na dół prowadzą schody.",
+    "coord": {"x": 6,"y": 6,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,1,0,0,0,0,0,1,1]
+  },
+  {
+    "name": "Plac Zamkowy",
+    "alias" : [],
+			"description": "Dotarłeś do północno-zachodniego rogu placu zamkowego. Dociera do ciebie zapach fermentującego piwa z browaru na zachodzie. Idąc na północ dotrzesz do wyjścia do miasta. Na północym wschodzie wznosi się zamek.",
+    "coord": {"x": 7,"y": 6,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,1,1,0,1,0,0,0]
+  },
+  {
+    "name": "Plac Zamkowy",
+    "alias" : [],
+			"description": "Znajdujesz się w zachodniej części placu zamkowego, przed tobą na północy wznosi się zamek, jego zachodnia wieża wygląda majestatycznie. Możesz stąd przejść na wschód, południe i zachód.",
+    "coord": {"x": 8,"y": 6,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [0,0,1,1,1,1,1,0,0,0]
+  },
+  {
+    "name": "Plac Zamkowy",
+    "alias" : [],
+			"description": "Znajdujesz się w centralnej części placu zamkowego, na północy znajduje się wejście do zamku, poprzedzone pięcioma marmurowymi stopniami. Na każdym z nich po obu stronach stoi kamienny lew. Możesz stąd przejść na wschód, południe i zachód.",
+    "coord": {"x": 9,"y": 6,"z": 2},
+    "surface": 1,
+    "items" : [15, 16, 17, 18, 22],
+		"exit": [1,0,1,1,1,1,1,0,0,0]
+  },
+  {
+    "name": "Plac Zamkowy",
+    "alias" : [],
+			"description": "Znajdujesz się we wschodniej części placu zamkowego, przed tobą na północy wznosi się wschodnia wieża zamku. Możesz stąd przejść na wschód, południe i zachód.",
+    "coord": {"x": 10,"y": 6,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [0,0,1,1,1,1,1,0,0,0]
+  },
+  {
+    "name": "Plac Zamkowy",
+    "alias" : [],
+			"description": "Dotarłeś do północno wschodniego rogu placu zamkowego. Zamek znajduje się na północym-zachodzie od ciebie. Idąc na północ dotrzesz do wyjścia do miasta. Idąc na wschód dotrzesz do bramy głównej.",
+    "coord": {"x": 11,"y": 6,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,0,0,1,1,1,0,0,0]
+  },
+  {
+    "name": "Kuchnia w kamienicy",
+    "alias" : [],
+			"description": "Jesteś w kuchni, w której przygotowuje się jedzenie dla mieszkańców kamienicy. Jest tu palenisko, stoły, szafki. W kącie jest zejście po drabinie do spiżarni. Możesz stąd wyjśc na północ.",
+    "coord": {"x": 12,"y": 6,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,0,0,0,0,0,0,0,1]
+  },
+  {
+    "name": "Ulica Spora",
+    "alias" : [],
+			"description": "",
+    "coord": {"x": 13,"y": 6,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Uliczka",
+    "alias" : [],
+			"description": "",
+    "coord": {"x": 14,"y": 6,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [0,0,1,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Uliczka",
+    "alias" : [],
+			"description": "",
+    "coord": {"x": 15,"y": 6,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,0,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Kamienica",
+    "alias" : [],
+			"description": "",
+    "coord": {"x": 16,"y": 6,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,0,0,0,0,0,0,0,0]
+  },
+	  {
+    "name": "Łąka",
+    "alias" : [],
+			"description": "Przedzierasz się przez wysoką trawę.",
+    "coord": {
+      "x": 0,
+      "y": 7,
+      "z": 2
+    },
+    "surface": 3,
+    "items": [],
+		"exit": [1,1,1,1,1,1,1,1,0,0]
+  },
+  {
+    "name": "Łąka",
+    "alias" : [],
+			"description": "Przedzierasz się przez wysoką trawę.",
+    "coord": {
+      "x": 1,
+      "y": 7,
+      "z": 2
+    },
+    "surface": 3,
+    "items": [],
+		"exit": [1,0,0,0,1,1,1,1,0,0]
+  },
+  {
+    "name": "Garbarz",
+    "alias" : [],
+			"description": "Chwilę po wejściu zaczął cię dławić zapach wyprawianych skór. W pomieszczeniu jest ustawionych kilka miednic, oraz stojaków, na któych suszą się skóry.",
+    "coord": {"x": 2,"y": 7,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,1,0,0,0,0,0,0,0]
+  },
+  {
+    "name": "Ulica Przestronna",
+    "alias" : [],
+			"description": "Jesteś na ulicy pomiędzy dwoma budynkami. Na wschodzie poprzez maleńki ganek możesz się przedostać do warsztatu szewca. Na zachodzie jest warsztat garbarza, suszą się pred nim skóry.",
+    "coord": {"x": 3,"y": 7,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Szewc",
+    "alias" : [],
+			"description": "Przeszedłeś z zadaszonego ganku do wnętrza warsztatu. Najróniejsze buty są tu rozrzucone wszędzie, ale szewc potrafi się odnaleźć w tym nieładzie.",
+    "coord": {"x": 4,"y": 7,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Ulica Przymurna",
+    "alias" : [],
+			"description": "Idziesz ulicą biegnącą wzdłuż murów zamkowych",
+    "coord": {"x": 5,"y": 7,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,0,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Skład kupca",
+    "alias" : [],
+			"description": "Wszedłeś do magazynku kupca. Znjadują się tu skrzynie, worki, dokumenty. Na górę prowadzą drewniane schody. Mozesz stąd wyjść na wschód.",
+    "coord": {"x": 6,"y": 7,"z": 2},
+    "surface": 2,
+    "items": [4],
+		"exit": [0,0,1,0,0,0,0,0,1,0]
+  },
+  {
+    "name": "Plac Zamkowy",
+    "alias" : [],
+			"description": "Dotarłeś do południowo-zachodniego rogu placu zamkowego. Na zachodzie jest mieszkanie kupca, na południu wejscie do kuźni.",
+    "coord": {"x": 7,"y": 7,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,1,1,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Plac Zamkowy",
+    "alias" : [],
+			"description": "Znajdujesz się w zachodniej części placu zamkowego. Na południu jest wejście do zbrojowni, która znajduje się na najniższym pietrze wieży przy bramie. Możesz stąd przejść na północ, wschód i zachód.",
+    "coord": {"x": 8,"y": 7,"z": 2},
+    "surface": 1,
+    "items": [12],
+		"exit": [1,1,1,0,1,0,1,1,0,0]
+  },
+  {
+    "name": "Plac Zamkowy",
+    "alias" : [],
+			"description": "Znajdujesz się w centralnej części placu zamkowego. Na południu jest brama. Możesz stąd przejść na północ, wschód i zachód.",
+    "coord": {"x": 9,"y": 7,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,1,1,0,1,0,1,1,0,0]
+  },
+  {
+    "name": "Plac Zamkowy",
+    "alias" : [],
+			"description": "Znajdujesz się we wschodniej części placu zamkowego. Na południu wznosi się wieża przy bramie. Możesz stąd przejść na północ, wschód i zachód.",
+    "coord": {"x": 10,"y": 7,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,1,1,0,0,0,1,1,0,0]
+  },
+  {
+    "name": "Plac Zamkowy",
+    "alias" : [],
+			"description": "Dotarłeś do południowo-zachodniego rogu placu zamkowego. Na wschodzie jest wejscie do Gospody. Na południu jest wejście do kwatery straży. Idąc na północ dotrzesz do wyjścia do miasta. Idąc na zachód dotrzesz do bramy głównej.",
+    "coord": {"x": 11,"y": 7,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,1,0,1,1,0,0]
+  },
+  {
+    "name": "Gospoda",
+    "alias" : [],
+			"description": "Wszedłeś do gospody, wnętrze jest zadbane, jak na obiekt tego przeznaczenia, w kilku rzędach stoją ławy, od południa stoi bar, za którym jest przejscie do kuchni. Na górę prowadzą schody.",
+    "coord": {"x": 12,"y": 7,"z": 2},
+    "surface": 2,
+    "items": [24],
+		"exit": [0,0,0,0,1,0,1,0,1,0]
+  },
+  {
+    "name": "Ulica Spora",
+    "alias" : [],
+			"description": "",
+    "coord": {"x": 13,"y": 7,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,0,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Straż Pożarna",
+    "alias" : [],
+			"description": "",
+    "coord": {"x": 14,"y": 7,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Uliczka",
+    "alias" : [],
+			"description": "",
+    "coord": {"x": 15,"y": 7,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Sklepik",
+    "alias" : [],
+			"description": "",
+    "coord": {"x": 16,"y": 7,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,1,0,0,0,0,0]
+  },
+	  {
+    "name": "Łąka",
+    "alias" : [],
+			"description": "W tym miejscu trawa jest dużo niższa i drobna.",
+    "coord": {
+      "x": 0,
+      "y": 8,
+      "z": 2
+    },
+    "surface": 3,
+    "items": [],
+		"exit": [1,1,1,1,1,1,1,1,0,0]
+  },
+  {
+    "name": "Łąka",
+    "alias" : [],
+			"description": "Przedzierasz się przez wysoką trawę.",
+    "coord": {
+      "x": 1,
+      "y": 8,
+      "z": 2
+    },
+    "surface": 3,
+    "items": [],
+		"exit": [1,0,0,0,1,1,1,1,0,0]
+  },
+  {
+    "name": "Dom myśliwego",
+    "alias" : [],
+			"description": "Wkraczasz do domu wielkieg myśliwego znanego w sąsiedich krainach",
+    "coord": {"x": 2,"y": 8,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,1,0,0,0,0,0,0,0]
+  },
+  {
+    "name": "Ulica Przestronna",
+    "alias" : [],
+			"description": "Znalazłeś się na początku bardzo długiej ulicy prowadzącej na północ. Na wschodzie jest mały budynek, a przed nim strażnik. Na zachodzie jest dom myśliwego. Na południu przebiega szeroka i ruchliwa ulica.",
+    "coord": {"x": 3,"y": 8,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Posterunek",
+    "alias" : [],
+			"description": "Jesteś w małym budynku przylegajacym do warsztatu szewca. Jest tu kilka sztuk broni. ",
+    "coord": {"x": 4,"y": 8,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Ulica Przymurna",
+    "alias" : [],
+			"description": "Idziesz ulicą biegnącą wzdłuż murów zamkowych.",
+    "coord": {"x": 5,"y": 8,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,0,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Zaplecze Kuźni",
+    "alias" : [],
+			"description": "Znalazłeś się w głębi warsztatu kowala, stoi tu stół, kilka skrzyń, oraz stojaków na broń. Leży tu trochę zniszczonego sprzętu jak miechy, młoty i tym podobne. Możesz sttąd przejść do kuźni na wschód.",
+    "coord": {"x": 6,"y": 8,"z": 2},
+    "surface": 2,
+    "items" : [9,11],
+		"exit": [0,0,1,0,0,0,0,0,0,0]
+  },
+  {
+    "name": "Kuźnia",
+    "alias" : [],
+			"description": "Wszedłeś do kuźni. Na środku ustawione jest kowadło, pod południową ścianą wielkie palenisko z miechem, znajduje się tu też wiadro z wodą. Na piętro prowadzą kamienne schody. Możesz stąd przejść na zachód na zaplecze lub do placu zamkowego, gdyż kuźnia w zasadzie nie posiada północnej ściany.",
+    "coord": {"x": 7,"y": 8,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,0,0,0,0,1,0,1,0]
+  },
+  {
+    "name": "Zbrojownia",
+    "alias" : [],
+			"description": "W najniższym pomieszczeniu wieży urządzono zbrojownię straży. Ustawiono tu stojaki na miecze i łuki. Strome schody prowadzą na górę. Większe drzwi prowadzą na północ, na plac zamkowy, mniejsze na wschód, do bramy głównej.",
+    "coord": {"x": 8,"y": 8,"z": 2},
+    "surface": 2,
+    "items" : [6,7,8],
+		"exit": [1,0,1,0,0,0,0,0,1,0]
+  },
+  {
+    "name": "Brama główna",
+    "alias" : [],
+			"description": "Jesteś we wnętrzu bramy głównej, od północy znajduje się wyjście na plac zamkowy, na południu do miasta. Obydwa są zamknięte kamiennym łukiem od góry. W zachodniej ścianie znajdują się małe drzwi do zbrojowni. Stalowe kraty mogą być opuszczone w razie potrzeby. ",
+    "coord": {"x": 9,"y": 8,"z": 2},
+    "surface": 9,
+    "items": [20],
+		"exit": [1,0,0,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Kwatera Straży",
+    "alias" : [],
+			"description": "Znajdujesz się w pokoju, w którym nocują strażnicy, są tu łóżka i szafki, dalsza część pomieszczenia znajduje się na wschodzie.",
+    "coord": {"x": 10,"y": 8,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,1,0,0,0,0,0,1,0]
+  },
+  {
+    "name": "Kwatera Straży",
+    "alias" : [],
+			"description": "Wszedłeś do budynku, w którym mieszkaja strażnicy, stoi tu kilka łóżek i szafek, w których żołnierze przechowują swoją własność. Na górę prowadzą wąskie strome schody. Dalsza część pomieszczenia znajduje się na zachodzie. Możesz stąd wyjść drzwiami na północ.",
+    "coord": {"x": 11,"y": 8,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,0,0,0,0,1,0,1,0]
+  },
+  {
+    "name": "Kuchnia",
+    "alias" : [],
+			"description": "Przeszedłeś do kuchni, w której przygotowywane jest jedzenie dla gości Gospody. Na palenisku jest tu ustawiony wielki kocioł, oprócz tego stoi tu stół, szafki. Wąskie schody prowadzą w dół do spiżarni.",
+    "coord": {"x": 12,"y": 8,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,0,0,0,0,0,0,0,1]
+  },
+  {
+    "name": "Ulica Spora",
+    "alias" : [],
+			"description": "",
+    "coord": {"x": 13,"y": 8,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Straż pożarna",
+    "alias" : [],
+			"description": "Plac przed budynkiem straży",
+    "coord": {"x": 14,"y": 8,"z": 2},
+    "surface": 9,
+    "items": [],
+		"exit": [1,0,0,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Uliczka",
+    "alias" : [],
+			"description": "",
+    "coord": {"x": 15,"y": 8,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Kamienica",
+    "alias" : [],
+			"description": "",
+    "coord": {"x": 16,"y": 8,"z": 2},
+    "surface": 9,
+    "items": [],
+		"exit": [0,0,0,0,0,0,1,0,1,0]
+  },
+	  {
+    "name": "Droga",
+    "alias" : [],
+			"description": "Idziesz drogą, która prowadzi do miasta. Na zachodzie odbija ona lekko na północny-zachód",
+    "coord": {
+      "x": 0,
+      "y": 9,
+      "z": 2
+    },
+    "surface": 1,
+    "items": [],
+		"exit": [1,1,1,1,1,1,1,1,0,0]
+  },
+  {
+    "name": "Droga",
+    "alias" : [],
+			"description": "Stoisz pod zachodnią bramą Tantaru. Na południu niedaleko zaczyna się gęsty las.",
+    "coord": {
+      "x": 1,
+      "y": 9,
+      "z": 2
+    },
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,1,1,1,1,0,0]
+  },
+  {
+    "name": "Ulica Królewska",
+    "alias" : [],
+			"description": "Dotarłeś na początek długiej ulicy przecinającej miasto. Na zachodzie widzisz masywna bramę z wielkimi wrotami. Ulica biegnie daleko na wschód w linii prostej i jesteś w stanie dostrzec zarys bramy po przeciwnej stronie daleko, daleko. Na północy widzisz drewniana chatę, na południu szerokie wejście do karczemnej stajni.",
+    "coord": {"x": 2,"y": 9,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [0,0,1,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Skrzyżowanie Królewska - Przestronna",
+    "alias" : [],
+			"description": "W tym miejscu na północ odchodzi szeroka ulica, na południu jest wejście do karczmy. Ulica biegnie dalej na wschód, a na zachodzie zbliżasz się do bramy miejskiej.",
+    "coord": {"x": 3,"y": 9,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Skrzyżowanie Królewska - Wesoła",
+    "alias" : [],
+			"description": "Stoisz przed posterunkiem straży. Ulica ciągnie się jak okiem sięgnąć na wschód i zachód. Na południe odchodzi uliczka.",
+    "coord": {"x": 4,"y": 9,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [0,0,1,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Skrzyżowanie Królewska - Przymurna",
+    "alias" : [],
+			"description": "W tym miejscu na północ odchodzi uliczka biegnąca wzdłuż murów zamku. Na południu widzisz budynek porośnięty bluszczem, a przez okienko możesz dostrzec rośliny w doniczkach. Ulica biegnie na wschód i zachód.",
+    "coord": {"x": 5,"y": 9,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Skrzyżowanie Królewska - Otwarta",
+    "alias" : [],
+			"description": "Stoisz na skrzyżowaniu pod zachodnim rogiem zamku. Na południe odchodzi stąd długa ulica.",
+    "coord": {"x": 6,"y": 9,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [0,0,1,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Ulica Królewska",
+    "alias" : [],
+			"description": "Idziesz wzdłuż murów zamku, na południu widzisz wysoki budynek sukiennic.",
+    "coord": {"x": 7,"y": 9,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [0,0,1,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Ulica Królewska",
+    "alias" : [],
+			"description": "Idziesz wzdłuż murów zamku, na południu widzisz wysoki budynek sukiennic.",
+    "coord": {"x": 8,"y": 9,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [0,0,1,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Ulica Królewska",
+    "alias" : [],
+			"description": "Dotarłeś pod bramę do zamku, która jest na północy. Po lewej i prawej stronie bramy wznoszą się dwie wieże. Na południu znajduje się przejście do rynku pomiędzy budynkami sukiennic. ",
+    "coord": {"x": 9,"y": 9,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Ulica Królewska",
+    "alias" : [],
+			"description": "Idziesz wzdłuż murów zamku, na południu widzisz wysoki budynek sukiennic.",
+    "coord": {"x": 10,"y": 9,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [0,0,1,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Ulica Królewska",
+    "alias" : [],
+			"description": "Idziesz wzdłuż murów zamku, na południu widzisz wysoki budynek sukiennic.",
+    "coord": {"x": 11,"y": 9,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [0,0,1,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Ulica Królewska",
+    "alias" : [],
+			"description": "Idziesz wzdłuż murów zamku, na południu widzisz wysoki budynek sukiennic.",
+    "coord": {"x": 12,"y": 9,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [0,0,1,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Skrzyżowanie Królewska - Spora",
+    "alias" : [],
+			"description": "",
+    "coord": {"x": 13,"y": 9,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Ulica Królewska",
+    "alias" : [],
+			"description": "",
+    "coord": {"x": 14,"y": 9,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [0,0,1,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Ulica Królewska",
+    "alias" : [],
+			"description": "",
+    "coord": {"x": 15,"y": 9,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Ulica Królewska",
+    "alias" : [],
+			"description": "",
+    "coord": {"x": 16,"y": 9,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [0,0,1,0,0,0,1,0,0,0]
+  },
+	  {
+    "name": "Łąka",
+    "alias" : [],
+			"description": "Idziesz łąką, rośnie tu gęsta trawa.",
+    "coord": {
+      "x": 0,
+      "y": 10,
+      "z": 2
+    },
+    "surface": 3,
+    "items": [],
+		"exit": [1,1,1,1,1,1,1,1,0,0]
+  },
+  {
+    "name": "Łąka",
+    "alias" : [],
+			"description": "Idziesz łąką, rośnie tu gęsta trawa.",
+    "coord": {
+      "x": 1,
+      "y": 10,
+      "z": 2
+    },
+    "surface": 3,
+    "items": [],
+		"exit": [1,0,0,0,1,1,1,1,0,0]
+  },
+  {
+    "name": "Stajnia",
+    "alias" : [],
+			"description": "Jesteś w karczemnej stajni. Jest to przestronne miejsce. Wzdłuż ścian przymocowano belki, do których można uwiązać konie. Na górę prowadzi drabina. Nie ma północnej ściany, po prostu możesz wyjść na ulicę.",
+    "coord": {"x": 2,"y": 10,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,0,0,0,0,0,0,1,0]
+  },
+  {
+    "name": "Karczma",
+    "alias" : [],
+			"description": "Znalazłeś się w Karczmie. Ustawione są tu stoły i lawy. Z sufitu zwisa żyrandol świecznik. Możesz wyjść na północ i wschód przez szerokie drzwi lub przejść na południe w głąb pomieszczenia.",
+    "coord": {"x": 3,"y": 10,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,1,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Ulica Wesoła",
+    "alias" : [],
+			"description": "Stoisz na bocznej uliczce, która na północy wpada do Królewskiej, a sama prowadzi na południe. Na wschodzie widzisz sklep zielarza, a na zachodzie wejście do karczmy.",
+    "coord": {"x": 4,"y": 10,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Zielarz",
+    "alias" : [],
+			"description": "Wszedłeś do małego sklepiku. Od progu uderza cię intensywny zapach ziół. Całe pomieszczenie zastawione jest półkami, na których stoją słoiki z suszonymi liśćmi, owocami, nasionami. Na północnej ścianie, w której wprawiono duże okno, na pólkach stoją doniczki z najróżniejszymi roślinami. Przed tobą jest lada na której leży pełno woreczków, fiolek i papierów. Wyjście jest na zachodzie.",
+    "coord": {"x": 5,"y": 10,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Ulica Otwarta",
+    "alias" : [],
+			"description": "Idziesz długą ulicą. Na wschodzie widzisz wejście do sukiennic pod łukowym sklepieniem. ",
+    "coord": {"x": 6,"y": 10,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Sukiennice",
+    "alias" : [],
+			"description": "Znajdujesz się pod kamiennym łukowym sklepieniem. Po obu stronach widzisz stanowiska sprzedawców. ",
+    "coord": {"x": 7,"y": 10,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,1,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Sukiennice",
+    "alias" : [],
+			"description": "Znajdujesz się pod kamiennym łukowym sklepieniem. Po obu stronach widzisz stanowiska sprzedawców. ",
+    "coord": {"x": 8,"y": 10,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,1,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Przejście",
+    "alias" : [],
+			"description": "Na południe od siebie widzisz rynek miejski, a niedaleko na północy widzisz bramę zamku. Na wschodzie i zachodzie są wejścia do sukiennic. ",
+    "coord": {"x": 9,"y": 10,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Sukiennice",
+    "alias" : [],
+			"description": "Znajdujesz się pod kamiennym łukowym sklepieniem. Po obu stronach widzisz stanowiska sprzedawców. ",
+    "coord": {"x": 10,"y": 10,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,1,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Sukiennice",
+    "alias" : [],
+			"description": "Znajdujesz się pod kamiennym łukowym sklepieniem. Po obu stronach widzisz stanowiska sprzedawców. ",
+    "coord": {"x": 11,"y": 10,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,1,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Sukiennice",
+    "alias" : [],
+			"description": "Znajdujesz się pod kamiennym łukowym sklepieniem. Po obu stronach widzisz stanowiska sprzedawców. ",
+    "coord": {"x": 12,"y": 10,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,1,0,0,0,1,0,0,0]
+  },
+	  {
+    "name": "Łąka",
+    "alias" : [],
+			"description": "Przedzierasz się przez wysoką trawę.",
+    "coord": {
+      "x": 0,
+      "y": 11,
+      "z": 2
+    },
+    "surface": 3,
+    "items": [],
+		"exit": [1,1,1,1,1,1,1,1,0,0]
+  },
+  {
+    "name": "Las",
+    "alias" : [],
+			"description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+    "coord": {
+      "x": 1,
+      "y": 11,
+      "z": 2
+    },
+    "surface": 4,
+    "items": [],
+		"exit": [1,0,0,0,1,1,1,1,0,0]
+  },
+  {
+    "name": "Kuchnia",
+    "alias" : [],
+			"description": "Wszedłeś do kuchni przy karczmie. Są tu stoły, szafki. Na środku wielkie palenisko. Do jadalni na wschodzie możesz przejść przez futrynę, przejście zasłaniają koraliki zwisające na sznurkach.",
+    "coord": {"x": 2,"y": 11,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,1,0,0,0,0,0,0,0]
+  },
+  {
+    "name": "Karczma",
+    "alias" : [],
+			"description": "Przeszedłeś do dalszej części jadalni. Pod oknami stoją stoły. W zachodniej części jest blat baru, a za nim przejście do kuchni. Możesz wrócić na północ.",
+    "coord": {"x": 3,"y": 11,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,0,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Ulica Wesoła",
+    "alias" : [],
+			"description": "toisz pomiędzy budynkiem karczmy na zachodzie, a wejściem do apteki na wschodzie. ",
+    "coord": {"x": 4,"y": 11,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Apteka",
+    "alias" : [],
+			"description": "Wszedłeś do bardzo czystego sklepu. Ściany są obielone wapnem. Jest tu kilka półek z medykamentami-butelkami, maściami.",
+    "coord": {"x": 5,"y": 11,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Ulica Otwarta",
+    "alias" : [],
+			"description": "Idziesz długą ulicą. ",
+    "coord": {"x": 6,"y": 11,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,0,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Sukiennice",
+    "alias" : [],
+			"description": "Wszedłeś do sklepu przy sukiennicach. Na południe i zachód możesz wyjżeć przez półokrągło zakończone okna. Pod ścianą są szerokie schody na górę. Możesz wyjść na wschód",
+    "coord": {"x": 7,"y": 11,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,1,0,0,0,0,0,1,0]
+  },
+  {
+    "name": "Rynek",
+    "alias" : [],
+			"description": "Dotarłeś do zachodniej części rynku, widzisz tu budynek sukiennic na północy i duży sklep stanowiacy ich część na zachodzie. ",
+    "coord": {"x": 8,"y": 11,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [0,0,1,1,1,0,1,0,0,0]
+  },
+  {
+    "name": "Rynek",
+    "alias" : [],
+			"description": "Stoisz na środku rynku. Widzisz tu wielką fontannę.",
+    "coord": {"x": 9,"y": 11,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,1,1,1,1,0,0,0]
+  },
+  {
+    "name": "Rynek",
+    "alias" : [],
+			"description": "Dotarłeś do wschodniej części rynku. ",
+    "coord": {"x": 10,"y": 11,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [0,0,1,0,1,1,1,0,0,0]
+  },
+  {
+    "name": "Sukiennice",
+    "alias" : [],
+			"description": "W południowej części sukiennic dominują wystawki drobnych wytwórców sprzedajacych swoje wyroby. ",
+    "coord": {"x": 11,"y": 11,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,1,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Sukiennice",
+    "alias" : [],
+			"description": "W południowej części sukiennic dominują wystawki drobnych wytwórców sprzedajacych swoje wyroby. ",
+    "coord": {"x": 12,"y": 11,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,1,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Las",
+    "alias" : [],
+			"description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+    "coord": {
+      "x": 0,
+      "y": 12,
+      "z": 2
+    },
+    "surface": 4,
+    "items": [],
+		"exit": [1,1,1,1,1,1,1,1,0,0]
+  },
+  {
+    "name": "Las",
+    "alias" : [],
+			"description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+    "coord": {
+      "x": 1,
+      "y": 12,
+      "z": 2
+    },
+    "surface": 4,
+    "items": [],
+		"exit": [1,0,0,0,1,1,1,1,0,0]
+  },
+  {
+    "name": "Cukiernia",
+    "alias" : [],
+			"description": "Od samego wejścia uderzył cię mdlący zapach lukru i karmelu. Na ukośnym stole poukładane są różne słodycze i ciastka. Za tą ladą stoi cukiernik. Możesz stąd wyjść na wschód",
+    "coord": {"x": 2,"y": 12,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,1,0,0,0,0,0,0,0]
+  },
+  {
+    "name": "Ulica Spora",
+    "alias" : [],
+			"description": "Stoisz na początku długiej ulicy. Na północy widzisz budynek karczmy, na zachodzie wejście do cukierni. Na południu widzisz rozjeżdżoną drogę bez utwarodzionej nawierzchni. Ulica biegnie daleko na wschód. ",
+    "coord": {"x": 3,"y": 12,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [0,0,1,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Ulica Spora",
+    "alias" : [],
+			"description": "Droga, którą się poruszasz jest wyłożona kamiennymi płytami, na północ odchodzi od niej wąska uliczka. Na południu widzisz w skrzynkach wyłożone owoce i warzywa. Ulica biegnie dalej na wschód.",
+    "coord": {"x": 4,"y": 12,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Uloica Spora",
+    "alias" : [],
+			"description": "Idziesz dalej kamienną ulicą. ",
+    "coord": {"x": 5,"y": 12,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [0,0,1,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Skrzyżowanie Spora - Otwarta",
+    "alias" : [],
+			"description": "Stoisz na skrzyżowaniu dwóch dużych ulic. Idąc an północ możesz dojśćdo zamku, na południu zaczynasz dostrzegać most. Druga ulica biegnie ze wschodu na zachód przez rynek. ",
+    "coord": {"x": 6,"y": 12,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Ulica Spora",
+    "alias" : [],
+			"description": "Idziesz ulicą prowadzącą do rynku na wschodzie. ",
+    "coord": {"x": 7,"y": 12,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [0,0,1,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Rynek",
+    "alias" : [],
+			"description": "Dotarłeś do zachodniej części rynku. Na południu jest wejście do Giełdy. ",
+    "coord": {"x": 8,"y": 12,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,1,1,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Rynek",
+    "alias" : [],
+			"description": "Stoisz na środku rynku, możesz stąd przejść do pozostałych części rynku, lub na południe w stronę portu. ",
+    "coord": {"x": 9,"y": 12,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,1,1,0,1,0,1,1,0,0]
+  },
+  {
+    "name": "Rynek",
+    "alias" : [],
+			"description": "Dotarłeś do wschodniej części rynku. Na południu jest wejście do banku. Stoi tu też słup ogłoszeniowy. ",
+    "coord": {"x": 10,"y": 12,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,1,0,1,1,0,0]
+  },
+  {
+    "name": "Ulica Spora",
+    "alias" : [],
+			"description": "Ta ulica wpada do rynku na zachodzie. Na południu jest jakiś budynek. ",
+    "coord": {"x": 11,"y": 12,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [0,0,1,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Ulica Spora",
+    "alias" : [],
+			"description": "Stoisz na ulicy biegnącej od rynku. Na południe odchodzi stąd wąska uliczka.",
+    "coord": {"x": 12,"y": 12,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [0,0,0,0,1,0,1,0,0,0]
+  },
+	  {
+    "name": "Las",
+    "alias" : [],
+			"description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+    "coord": {
+      "x": 0,
+      "y": 13,
+      "z": 2
+    },
+    "surface": 4,
+    "items": [],
+		"exit": [1,1,1,1,1,1,1,1,0,0]
+  },
+  {
+    "name": "Las",
+    "alias" : [],
+			"description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+    "coord": {
+      "x": 1,
+      "y": 13,
+      "z": 2
+    },
+    "surface": 4,
+    "items": [],
+		"exit": [1,0,0,0,1,1,1,1,0,0]
+  },
+  {
+    "name": "Plac piekarni",
+    "alias" : [],
+			"description": "Znalazłeś się na wybrukowanym placu przed piekarnią. Stoją tu wozy. Na południu jest wejscie do piekarni, na prawo od drzwi jest zadaszony magazynek.",
+    "coord": {"x": 2,"y": 13,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [0,0,1,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Rozjazd",
+    "alias" : [],
+			"description": "Znalazłeś się na niewybrukowanym odcinku. Na zachodzie w niskim murmku widzisz szeroką bramę piekarni. Na wschodzie widzisz sklep z warzywami, wchodzi się do niego pomiędzy dwoma drewnianymi filarami, za którymi stoją poustawiane skrzynki. Na północy i południu widać wybrukowane ulice. ",
+    "coord": {"x": 3,"y": 13,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Sklep z jarzynami",
+    "alias" : [],
+			"description": "Wszedłeś pod nadbudówkę wspartą na dwóch drewnianych filarach od zachodu. Na wschodzie jest wejście do budynku, w którym znajduje się reszta towarów sprzedawcy. Możesz przejść do ulicy w każdą stronę.",
+    "coord": {"x": 4,"y": 13,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,1,0,1,1,1,1,0,0]
+  },
+  {
+    "name": "Sklep z jarzynami",
+    "alias" : [],
+			"description": "Wszedłeś do środka sklepu. Widzisz tu ustawione w mniejszych skrzynkach egzotyczne owoce oraz suszone warzywa w zawiniątkach. Na górę możesz wejść po schodach przy południowej ścianie, a na dół zejściem pod tymi schodami.",
+    "coord": {"x": 5,"y": 13,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,0,0,1,0,1,1]
+  },
+  {
+    "name": "Ulica Otwarta",
+    "alias" : [],
+			"description": "Idziesz ulicą która prowadzi na południu do mostu. ",
+    "coord": {"x": 6,"y": 13,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,0,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Giełda",
+    "alias" : [],
+			"description": "",
+    "coord": {"x": 7,"y": 13,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,1,0,0,0,0,0,0,0]
+  },
+  {
+    "name": "Giełda",
+    "alias" : [],
+			"description": "Jesteś w budynku tantarskiej giełdy. Wielkie pomieszczenie ciągnie siędalej na zachód, a na galerię prowadzą zakręcone schody po obu stronach.",
+    "coord": {"x": 8,"y": 13,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,0,0,0,0,1,0,1,0]
+  },
+  {
+    "name": "Droga do portu",
+    "alias" : [],
+			"description": "Stoisz pomiędzy dwoma budynkami z wielkimi oknami. Na północy masz rynek, a na południu widzisz przejście do portu.  ",
+    "coord": {"x": 9,"y": 13,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,0,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Bank",
+    "alias" : [],
+			"description": "Wszedłeś do wielkiego budynku z szerokim, wypolerowanym, dębowym blatem po środku. Możesz tu złożyć swoje środki. ",
+    "coord": {"x": 10,"y": 13,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,0,0,0,0,0,0]
+  },
+  {
+    "name": "Notariusz",
+    "alias" : [],
+			"description": "Surowe pomieszczenie. Nic tu nei załatwisz",
+    "coord": {"x": 11,"y": 13,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,0,0,0,0,0,0,0,0]
+  },
+  {
+    "name": "Ulica Mostowa",
+    "alias" : [],
+			"description": "Stoisz w wąskiej uliczce, która na południu prowadzi do portu.",
+    "coord": {"x": 12,"y": 13,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,0,0,1,0,0,0,0,0]
+  },
+	  {
+    "name": "Las",
+    "alias" : [],
+			"description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+    "coord": {
+      "x": 0,
+      "y": 14,
+      "z": 2
+    },
+    "surface": 4,
+    "items": [],
+		"exit": [1,1,1,1,1,1,1,1,0,0]
+  },
+  {
+    "name": "Las",
+    "alias" : [],
+			"description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+    "coord": {
+      "x": 1,
+      "y": 14,
+      "z": 2
+    },
+    "surface": 4,
+    "items": [],
+		"exit": [1,0,0,0,1,1,1,1,0,0]
+  },
+  {
+    "name": "Piekarnia",
+    "alias" : [],
+			"description": "Wszedłeś do piekarni. W tym miejscu na przesuwnanych regałach leżą świeżo odpieczone bułki i chleby. Posadzka jest wykonana z gładkich płyt, a ściany są obielone wapnem. Pomieszczenie ciągnie się dalej na południe. Możesz też wyjść przez szerokie drzwi na północy.",
+    "coord": {"x": 2,"y": 14,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,0,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Ulica Prosta",
+    "alias" : [],
+			"description": "Stoisz na początku długiej ulicy biegnącej w poprzek miasta. Na zachodzie jest budynek piekarni, a na południu wejście do młyna, który jest wysokim kompleksem budynków. Na północy jest rozjazd, a ulica na której stoisz biegnie na wschód. ",
+    "coord": {"x": 3,"y": 14,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Ulica Prosta",
+    "alias" : [],
+			"description": "Idziesz dalej ulicą. Na północy jest przejście do sklepu z jarzynami, pod nadbudówką w skrzynkach są wyłorzone warzywa. Ulica biegnie na wschód i kawałek na zachód. Na południe prowadzi zaułek.",
+    "coord": {"x": 4,"y": 14,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Ulica Prosta",
+    "alias" : [],
+			"description": "Posuwasz się naprzód. Na południu widzisz wejście do sklepu rybnego. Ulica biegnie dalej na wschód i zachód.",
+    "coord": {"x": 5,"y": 14,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [0,0,1,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Skrzyżowanie Prosta - Spora",
+    "alias" : [],
+			"description": "W tym miejscu przecinają siedwie ważne ulice. Na południu widzisz już całkiem niedaleko most.",
+    "coord": {"x": 6,"y": 14,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Ulica Prosta",
+    "alias" : [],
+			"description": "Idziesz wzdłuż magazynu portowego. Na zachodzie widzisz duże skrzyżowanie. ",
+    "coord": {"x": 7,"y": 14,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [0,0,1,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Ulica Prosta",
+    "alias" : [],
+			"description": "Znalazłeś się przed wejściem do magazynu, są to szerokie, dwuskrzydłowe, zielone drzwi. ",
+    "coord": {"x": 8,"y": 14,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [0,0,1,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Ulica Prosta",
+    "alias" : [],
+			"description": "Dotarłeś do słynnej bramy - żuraw. Przed tobą na południu wznosi się wysoki i długi budynek magazynu portowego. Możesz przez niego przejsć na południe przez bramę. Droga biegnie dalej na wsxhód i zachód. MOżesz też udać się stąd na północ w stronę rynku. ",
+    "coord": {"x": 9,"y": 14,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Ulica Prosta",
+    "alias" : [],
+			"description": "Idziesz dalej ulicą. Na północy widzisz ściany dużych kamiennych budynków, a na południu masywny magazyn portowy. ",
+    "coord": {"x": 10,"y": 14,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [0,0,1,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Ulica Prosta",
+    "alias" : [],
+			"description": "Idziesz dalej ulicą. Na północy widzisz ściany dużych kamiennych budynków, a na południu masywny magazyn portowy. ",
+    "coord": {"x": 11,"y": 14,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [0,0,1,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Ulica Prosta",
+    "alias" : [],
+			"description": "W tym miejscu ulica krzyżuje się z mniejszą uliczką która na południu prowadzi do mostu. ",
+    "coord": {"x": 12,"y": 14,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,1,0,1,0,0,0]
+  },
+	  {
+    "name": "Las",
+    "alias" : [],
+			"description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+    "coord": {
+      "x": 0,
+      "y": 15,
+      "z": 2
+    },
+    "surface": 4,
+    "items": [],
+		"exit": [1,1,1,1,1,1,1,1,0,0]
+  },
+  {
+    "name": "Las",
+    "alias" : [],
+			"description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+    "coord": {
+      "x": 1,
+      "y": 15,
+      "z": 2
+    },
+    "surface": 4,
+    "items": [],
+		"exit": [1,0,0,0,1,1,1,1,0,0]
+  },
+  {
+    "name": "Piekarnia",
+    "alias" : [],
+			"description": "Przeszedłeś do dalszej części piekarni. W ścianę są wmurowane dwa kamienne piece, a pod jedną ze ścian jest duży drewniany stół. Przy przeciwnej ścianie są schody na górę.",
+    "coord": {"x": 2,"y": 15,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,0,0,0,0,0,0,1,0]
+  },
+  {
+    "name": "Młyn",
+    "alias" : [],
+			"description": "Wszedłeś do młyna. Ściany są kamienne z widoczną w nich drewnianą strukturą. Pod ścianami poustawiane są worki z maką. Dalsza część pomieszczenia jest na południu. ",
+    "coord": {"x": 3,"y": 15,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,0,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Uliczka",
+    "alias" : [],
+			"description": "Idziesz zaułkiem prowadzącym nad rzekę. W drodze są głębokie koleiny. ",
+    "coord": {"x": 4,"y": 15,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,0,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Sklep rybny",
+    "alias" : [],
+			"description": "Jesteś w sklepiku z owocami morza. Unosi się tu intensywny zapach ryb. Na ścianie wisi sieć rybacka, ale prawdopodobnie stanowi tylko ozdobę. Za ladą na południowej ścianie są drzwi.",
+    "coord": {"x": 5,"y": 15,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,0,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Ulica Spora",
+    "alias" : [],
+			"description": "Poruszasz się szeroką ulicą. Na zachodzie widzisz mały budyek, od któego roznosi się zapach ryb. Za to na wschodzie widzisz potężny budynek, którego parter jest wykonany z dużych kamiebu, a wyższe pietra z drewna. Idąc na południe dostaniesz siędo wielkiego kamiennego mostu.",
+    "coord": {"x": 6,"y": 15,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,0,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Biuro Zarządcy Portu",
+    "alias" : [],
+			"description": "Wszedłeś do przestronnego pomieszczenia z kamiennymi ścianami. Stoją tu dwie szafy i biurko. Drzwi do pomieszczenia są na wschodzie",
+    "coord": {"x": 7,"y": 15,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,1,0,0,0,0,0,0,0]
+  },
+  {
+    "name": "Magazyn portowy",
+    "alias" : [],
+			"description": "Wejście do budynku. Pod zachodnią ścianą są szerokie schody prowadzące w górę i w dół. W zachodniej ścianie sądrzwi na zachód do udynku ",
+    "coord": {"x": 8,"y": 15,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,0,0,0,0,1,0,1,1]
+  },
+  {
+    "name": "Brama Żuraw",
+    "alias" : [],
+			"description": "Znalazłeś się w przejściu do portu pod wielkim budynkiem magazynu. Nad tobą zamyka siękamienne półokrągłe sklepienie. Brukowana droga prowadzi do miasta na północ lub do portu na południe. ",
+    "coord": {"x": 9,"y": 15,"z": 2},
+    "surface": 9,
+    "items": [],
+		"exit": [1,0,0,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Magazyn portowy",
+    "alias" : [],
+			"description": "Znalazłeś się za wrotami, które wychodzą na południe. Stoją tu beczki i skrzynie. W podłodze jest kwadratowy otwór nad którym zbudowano drewnianą konstrukcję, w której porusza się platforma dźwigu. Nie ma tu sufitu, schody wychodzą po prostu na górę. Dalsza część pomieszczenia jest na wschodzie",
+    "coord": {"x": 10,"y": 15,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,1,0,1,0,0,0,1,0]
+  },
+  {
+    "name": "Magazyn portowy",
+    "alias" : [],
+			"description": "Dalsza część pomieszczenia na parterze. Sufit, wsparty na drewnianych legarach jest dość wysoko nad głową. Leżą tu worki i paczki. ",
+    "coord": {"x": 11,"y": 15,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Uliczka",
+    "alias" : [],
+			"description": "Może tu będzie tawerna idk. Do edycji. ",
+    "coord": {"x": 12,"y": 15,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,0,0,1,0,0,0,0,0]
+  },
+	  {
+    "name": "Las",
+    "alias" : [],
+			"description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie. Na południu płynie rzeka.",
+    "coord": {
+      "x": 0,
+      "y": 16,
+      "z": 2
+    },
+    "surface": 4,
+    "items": [],
+		"exit": [1,1,1,0,0,0,1,1,0,0]
+  },
+  {
+    "name": "Las",
+    "alias" : [],
+			"description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie. Na południu widzisz wartką rzekę wpływającą do miasta, obok muru, któy widzisz na wschodzie. ",
+    "coord": {
+      "x": 1,
+      "y": 16,
+      "z": 2
+    },
+    "surface": 4,
+    "items": [],
+		"exit": [1,0,0,0,0,0,1,1,0,0]
+  },
+  {
+    "name": "Młyn",
+    "alias" : [],
+			"description": "Na środku pomieszczenia stoją duże żarna, czyli dwa potężne kamienie młyńskie, jeden na drugim, przez których środek przechodzi okrągły pal. W kącie, w podłodze jest mała klapa. ",
+    "coord": {"x": 2,"y": 16,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,1,0,0,0,0,0,0,1]
+  },
+  {
+    "name": "Młyn",
+    "alias" : [],
+			"description": "Jesteś pośrodku młynu. Do stropu wysoko nad twoją głową prowadzą szerokie schody na południowej ścianie. na środku sufitu jest kwadratowy otwór na windę towarową. Możesz przejść się po młynie na północ i zachód, lub wyjść szerokimi wrotami na wschód.",
+    "coord": {"x": 3,"y": 16,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,1,0,0,0,1,0,1,0]
+  },
+  {
+    "name": "Uliczka",
+    "alias" : [],
+			"description": "Dotarłeś do końca zaułka, nad rzekę, która płynie parę metrów niżej. Na zachodzie są wielkie wrota do młyna.",
+    "coord": {"x": 4,"y": 16,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,0,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Sklep rybny",
+    "alias" : [],
+			"description": "Wszedłeś na zaplecze sklepu rybnego. Są tu puste skrzynki i suszone ryby. We wschodniej ścianie są drzwi na zewnątrz. Kamienne schodki prowadzą pod ziemię. ",
+    "coord": {"x": 5,"y": 16,"z": 2},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,1,0,0,0,0,0,0,1]
+  },
+  {
+    "name": "Ulica Spora",
+    "alias" : [],
+			"description": "Dotarłeś do portu, rozciąga się on na wschodzie. Na południu widzisz duży kamienny most, który łukiem przecina rzekę. W przeciwną stronę ulica biegnie daleko na północ. ",
+    "coord": {"x": 6,"y": 16,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Port",
+    "alias" : [],
+			"description": "Idziesz wzdłuż kamiennego nabrzeża. Rzeka płynie około dwa metry niżej. Na północy wznosi się potężny budynek magazynu. ",
+    "coord": {"x": 7,"y": 16,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [0,0,1,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Port",
+    "alias" : [],
+			"description": "Idziesz wzdłuż kamiennego nabrzeża. Rzeka płynie około dwa metry niżej. Na północy wznosi się potężny budynek magazynu. ",
+    "coord": {"x": 8,"y": 16,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [0,0,1,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Port",
+    "alias" : [],
+			"description": "Znalazłeś się przed bramą portową. Jeśli popatrzysz w górę to zauważysz kilkanaście metrów nad sobą, z fasady magazynu wystaje dobudówka z której zwisa lina z hakiem na końcu. To jest ten słynny żuraw. Na południu, przy krawędzi jest kilka drewnianych słupków. ",
+    "coord": {"x": 9,"y": 16,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Port",
+    "alias" : [],
+			"description": "Idziesz wzdłuż kamiennego nabrzeża. Rzeka płynie około dwa metry niżej. Na północy wznosi się potężny budynek magazynu, a w ścianie przed tobą są szerokie zielone wrota. ",
+    "coord": {"x": 10,"y": 16,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,1,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Port",
+    "alias" : [],
+			"description": "Idziesz wzdłuż kamiennego nabrzeża. Rzeka płynie około dwa metry niżej. Na północy wznosi się potężny budynek magazynu. Płyty w drodze są tu bardziej zniszczone niż w pozostałej części portu.",
+    "coord": {"x": 11,"y": 16,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [0,0,1,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Port",
+    "alias" : [],
+			"description": "Dotarłeś do rogu. Może tu będzie tawerna albo coś. ",
+    "coord": {"x": 12,"y": 16,"z": 2},
+    "surface": 1,
+    "items": [],
+		"exit": [1,0,0,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Poddasze stajni",
+    "alias" : [],
+			"description": "Jesteś na piętrze stajni. Podłoga jest drewniana i skrzypi przy każdym kroku. Pomieszczenie jest w przekroju trójkątne, a dach opada na wschód. Pod ścianą ułożone są worki z owsem, obok w stosie leży siano. Możesz przejsć do dalszej części na południe, lub zejść w dół przez klapę.",
+    "coord": {"x": 12,"y": 0,"z": 3},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,1,0,0,0,0,1]
+  },
+  {
+    "name": "Wieża",
+    "alias" : [],
+			"description": "Poruszasz się po spiralnych schodach. W ścianach są małe okienka wychodzące na północ i wschód.",
+    "coord": {"x": 16,"y": 0,"z": 3},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,0,0,0,0,1,1]
+  },
+  {
+    "name": "Poddasze stajni",
+    "alias" : [],
+			"description": "Przeszełeś wgłąb pomieszczenia. Jest tu pełno słomy i siana.",
+    "coord": {"x": 12,"y": 1,"z": 3},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,0,0,0,0,0,0,0,0]
+  },
+  {
+    "name": "Piętro koszar",
+    "alias" : [],
+			"description": "Znalazłeś się na pierwszym piętrze koszar, możesz przejść do części sypialnej na południe. ",
+    "coord": {"x": 16,"y": 2,"z": 3},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,1,0,0,0,0,1]
+  },
+  {
+    "name": "Kwatera",
+    "alias" : [],
+			"description": "Duże przestronne pomieszczenie w którym stoją piętrowe łóżka ustawione w rzędach. Ciągnie się dalej na zachód. ",
+    "coord": {"x": 15,"y": 3,"z": 3},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,0,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Kwatera",
+    "alias" : [],
+			"description": "Dalsza część pomieszczenia, są tu łóżka, pod zachodnią ścianą jest duży stół. ",
+    "coord": {"x": 16,"y": 3,"z": 3},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,1,0,0,0,0,0,0,0]
+  },
+  {
+    "name": "Spichlerz",
+    "alias" : [],
+			"description": "Znajdujesz się na piętrze spichlerza. Przechowywany jest tu len, konopie oraz suszą się cebula oraz czosnek. Możesz przejść do dalszej części spichlerza na południe.",
+    "coord": {"x": 6,"y": 4,"z": 3},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Pokój",
+    "alias" : [],
+			"description": "Wszedłeś do jednego z zamkowych pokoi. Mieszka tu doradca lorda. Jest tu ustawione dwuosobowe łóżko i inne meble. Możesz stąd wyjsć na wschód.",
+    "coord": {"x": 8,"y": 4,"z": 3},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,1,0,0,0,0,0,0,0]
+  },
+  {
+    "name": "Korytarz",
+    "alias" : [],
+			"description": "Znajdujesz się na piętrze zamku. Na ścianach wiszą obrazy. Na wschodzie i zachodzie są drzwi do komnat. Możesz przejsć w stronę schodów na południe.",
+    "coord": {"x": 9,"y": 4,"z": 3},
+    "surface": 9,
+    "items": [],
+		"exit": [0,0,1,0,1,0,1,0,0,0]
+  },
+  {
+    "name": "Komnata Lorda",
+    "alias" : [],
+			"description": "Wszedłeś do pokoju Lorda. Na środku stoi wielkie łóżko z baldachimem. Po obu stronach stoi stolik, na jednym stoi świecznik. Możesz stąd wyjsć na zachód.",
+    "coord": {"x": 10,"y": 4,"z": 3},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Pokój w kamienicy",
+    "alias" : [],
+			"description": "Prosty pokój w którym mieszkają osoby pracujące na terenie zamku. Są tu dwa piętrowe łóżka. Można stąd wyjsć na klatkę schodową na południe.",
+    "coord": {"x": 12,"y": 4,"z": 3},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Spichlerz",
+    "alias" : [],
+			"description": "Stoisz na piętrze spichlerza. Przechowuje się tu przede wszystkim zboże w sąsiekach i workach. Pod południową ścianą znajduje się winda towarowa. Możesz przejść w głąb na północ, lub użyć schodów by wejść w górę lub w dół.",
+    "coord": {"x": 6,"y": 5,"z": 3},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,0,0,0,0,0,0,1,1]
+  },
+  {
+    "name": "Pokój",
+    "alias" : [],
+			"description": "Wszedłeś do jednego z zamkowych pokoi. Mieszka tu sekretarz. Jest tu ustawione dwuosobowe łóżko regał pełny dokumentów i książek. Możesz stąd wyjsć na wschód.",
+    "coord": {"x": 8,"y": 5,"z": 3},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,1,0,0,0,0,0,0,0]
+  },
+  {
+    "name": "Korytarz",
+    "alias" : [],
+			"description": "Znajdujesz się na piętze zamku. W to miejsce prowadzą podwójne schody. Możesz wejść do pomieszczenia na wschodzie i zachodzie albo przjeść dalej korytarzem na północ lub skorzystać ze schodów by zejść piętro niżej lub wyżej.",
+    "coord": {"x": 9,"y": 5,"z": 3},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,1,0,0,0,1,0,1,1]
+  },
+  {
+    "name": "Pokój",
+    "alias" : [],
+			"description": "Wszedłeś do jednego z zamkowych pokoi. Mieszka tu namiestnik. Na podłodze leży wyprawiona skóra z dzika. Znajduje się tu duże łóżko. Możesz opuścić to pomieszczenie kierując się na zachód.",
+    "coord": {"x": 10,"y": 5,"z": 3},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Klatka schodowa",
+    "alias" : [],
+			"description": "Zmajdujesz się na schodach w kamienicy. Możesz wejśćdo jednego z pokoi na północ lub południe, lub przejść w górę albo w dół.",
+    "coord": {"x": 12,"y": 5,"z": 3},
+    "surface": 9,
+    "items": [],
+		"exit": [1,0,0,0,1,0,0,0,1,1]
+  },
+  {
+    "name": "Browar Zamkowy",
+    "alias" : [],
+			"description": "Znalazłeś się na poddaszu browaru. Piwowarzy przechowują tu sypkie surowce takie jak słód, ziarno, chmiele i zioła. W kątach leżą zużyte naczynia niegdyś używane w tym budynku. Możesz wrócić schodami w dół.",
+    "coord": {"x": 6,"y": 6,"z": 3},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,0,0,0,0,0,1]
+  },
+  {
+    "name": "Pokój w kamienicy",
+    "alias" : [],
+			"description": "W tym pokoju trzy łóżka są ustawione w literę U. Obok każdego stoi szafka, a w kącie umieszczono wielką szafę. Możesz stąd przejsć na klatkę schodową na północ.",
+    "coord": {"x": 12,"y": 6,"z": 3},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,0,0,0,0,0,0,0,0]
+  },
+  {
+    "name": "Mieszkanie kupca",
+    "alias" : [],
+			"description": "Wszedłeś do schludnego mieszkania, gdzie nad swoim składem rezyduje kupiec. Widać tu duże łóżko, szafę, skrzynie, regał z papierami i książkami. Na podłodze leży dywan, na ścianie rozpięty arras. Możesz stąd zejśćw dół.",
+    "coord": {"x": 6,"y": 7,"z": 3},
+    "surface": 2,
+    "items": [23],
+		"exit": [0,0,0,0,0,0,0,0,0,1]
+  },
+  {
+    "name": "Gospoda",
+    "alias" : [],
+			"description": "Znalazłeś się na piętrze gospody, gdzie znajdują się miejsca do spania. W rzędzie ustawiono kilka łóżek, przy każdym jest mała skrzynka, w której podróżny może złożyć swoje rzeczy. Pomieszczenie ciągnie się dalej na południe. Możesz zejsć schodami w dół.",
+    "coord": {"x": 12,"y": 7,"z": 3},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,1,0,0,0,0,1]
+  },
+  {
+    "name": "Mieszkanie Kowala",
+    "alias" : [],
+			"description": "Wszedłeś do mieszkania należącego do zamkowego kowala. Jest tu łóżko o metalowej konstrukcji, stół na którym leża różne projekty i prototypy, a także skrzynia. Możesz stąd wyjść na wschód.",
+    "coord": {"x": 6,"y": 8,"z": 3},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,1,0,0,0,0,0,0,0]
+  },
+  {
+    "name": "Pokój z przejściem",
+    "alias" : [],
+			"description": "Znalazłeś się na piętrze kuźni. Ustawiono tu trzy łóżka. Przy ścianie znajduje się oddzielone przejście prowadzące na zachód do pokoju Kowala. Możesz także zejść schodami w dół.",
+    "coord": {"x": 7,"y": 8,"z": 3},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,1,0,0,0,0,0,0,1]
+  },
+  {
+    "name": "Pokój Zbrojmistrza",
+    "alias" : [],
+			"description": "Znalazłeś się w mieszkaniu osoby pełniącej pieczę nad orężem straży. Znajduje się tu łóżko, stół i krzesła. Na stole leży kilka książek traktujących o różnych rodzajach broni. W kącie stoi skrzynia. Możesz zejść schodami w dół, lub przejść wąskimi drzwiami na wschód.",
+    "coord": {"x": 8,"y": 8,"z": 3},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,1,0,0,0,0,0,0,1]
+  },
+  {
+    "name": "Brama główna",
+    "alias" : [],
+			"description": "Stoisz nad głównym wejsciem prowadzącym do zamku. W kierunku południowym wychodzi wiele otwórów przez które łucznicy mogą prowadzić ostrzał w razie przedarcia się wroga. Pod ścianą znajduje się kołowrót umożliwiajacy sterowanie bramą. Możesz stąd przejść na wschód, lub zachód małymi drzwiami.",
+    "coord": {"x": 9,"y": 8,"z": 3},
+    "surface": 2,
+    "items": [19],
+		"exit": [0,0,1,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Kwatera Straży",
+    "alias" : [],
+			"description": "Znalazłeś się w pokoju o drewnianej podłodze. Na ustawionych w rzędach łóżkach nocują strażnicy. Możesz przejść do dalszej części pomieszczenia lub opuścić je drzwiami na zachodzie. W dół prowadzą drewniane schody..",
+    "coord": {"x": 10,"y": 8,"z": 3},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,1,0,0,0,1,0,0,1]
+  },
+  {
+    "name": "Kwatera Straży",
+    "alias" : [],
+			"description": "Jesteś na piętrze budynku straży. Stoi tu kilka łóżek i stołów. Na górę prowadzą schody. Możesz przejść do dalszej części pomieszczenia na zachód.",
+    "coord": {"x": 11,"y": 8,"z": 3},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,0,0,1,0,1,0]
+  },
+  {
+    "name": "Gospoda",
+    "alias" : [],
+			"description": "Dotarłeś do dalszej części pomieszczenia, w którym nocują goście gospody. Znajdują się tu łóżka i skrzynie. Na południowej ścianie wisi obraz.",
+    "coord": {"x": 12,"y": 8,"z": 3},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,0,0,0,0,0,0,0,0]
+  },
+  {
+    "name": "Wieża",
+    "alias" : [],
+			"description": "Idziesz po spiralnych schodach. W ścianach są małe okienka wychodzące na wszystkie kierunki świata. Nad sobą masz drewnianą podłogę i małą klapę. ",
+    "coord": {"x": 16,"y": 0,"z": 4},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,0,0,0,0,1,1]
+  },
+  {
+    "name": "Słodownia",
+    "alias" : [],
+			"description": "Dotarłeś w położoną najwyżej część spichlerza. Ziarno między innymi jęczmienia jest tu zwilżane, by zrobić z niego słód. Gotowy słód jest składowany w workach. Możesz stąd przejśćna południe.",
+    "coord": {"x": 6,"y": 4,"z": 4},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Pokój Skarbnika",
+    "alias" : [],
+			"description": "Wszedłeś do pomieszczenia, w którym mieszka skarbnik. Stoi tu łóżko, stół, regał z książkami. Na południu znajdują się drzwi.",
+    "coord": {"x": 8,"y": 4,"z": 4},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Pokój służby",
+    "alias" : [],
+			"description": "Znalazłeś sięna końcu długiego pokoju, w którym nocuje służba i pracownicy zamku. Stoją tu łóżka, szafki. Mozesz przjeść dalej na południe.",
+    "coord": {"x": 10,"y": 4,"z": 4},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Poddasze",
+    "alias" : [],
+			"description": "Przeszedłeś na północną część ostatniego piętra kamienicy. Leżą tu różne graty, stare łóżko, beczki. Wszędzie jest dużo pajęczyn. Możesz wyjść stąd drzwiami na południe.",
+    "coord": {"x": 12,"y": 4,"z": 4},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,1,0,0,0,0,0]
+  },
+  {
+    "name": "Spichlerz",
+    "alias" : [],
+			"description": "Znalazłeś się na najwyższym piętrze spichlerza. Stoją tu worki różnej wielkości. Przy południowej ścianie znajduje się otwór w podłodze dla windy towarowej, nad nim kołowrót umożliwiający sterowanie. Możesz przejść na północ do słodowni. Lub zejść schodami w dół.",
+    "coord": {"x": 6,"y": 5,"z": 4},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,0,0,0,0,0,0,0,1]
+  },
+  {
+    "name": "Pokój",
+    "alias" : [],
+			"description": "Wszedłeś do przytulnego pomieszczenia, znajdują się tu ława, kilka krzeseł, regał. Na ławie leży rozłożona plansza. Na północnej ścianie znajdują się drzwi. Do klapy w suficie prowadzi drabina. Możesz stąd wyjść na wschód.",
+    "coord": {"x": 8,"y": 5,"z": 4},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,1,0,0,0,0,0,1,0]
+  },
+  {
+    "name": "Przejście",
+    "alias" : [],
+			"description": "Dotarłeś do przejścia na drugim piętrze zamku. Na wschód i zachód prowadzą drzwi. Na południu przez szerokie okno otwiera się widok na plac zamkowy, na północnej ścianie wiszą godła i obrazy. Schody prowadzą w dół.",
+    "coord": {"x": 9,"y": 5,"z": 4},
+    "surface": 9,
+    "items": [],
+		"exit": [0,0,1,0,0,0,1,0,0,1]
+  },
+  {
+    "name": "Pokój służby",
+    "alias" : [],
+			"description": "Przeszedłeś do podłóżnego pomieszczenia, zastawionego w dwóch rzędach łóżkami. Przy drzwiach stoi szafa. Na podłodze leży dywanik. Możesz przejść w głąb pomieszczenia na północ, wrócić do przejścia na zachód. Do klapy w suficie prowadzi drabina.",
+    "coord": {"x": 10,"y": 5,"z": 4},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,0,0,0,0,1,0,1,0]
+  },
+  {
+    "name": "Poddasze",
+    "alias" : [],
+			"description": "Wszedłeś na strych kamienicy. Dwuspadowy dach schodzi się u szczytu tworząc trójkątną przestrzeń. Stoi tu skrzynia i szafa. Na północy są drzwi, na południu skonstruowano przegrodę za którą można przejść do dalszej części. Możesz wrócić schodami w dół.",
+    "coord": {"x": 12,"y": 5,"z": 4},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,0,0,1,0,0,0,0,1]
+  },
+  {
+    "name": "Poddasze",
+    "alias" : [],
+			"description": "Wszedłeś za przegrodę. Znajduje się tu ciasny ale bardzo przytulny kącik. Pod opadającym stropem ustawiono leżankę, obok której stoi stolik. Po drugiej stronie stoi niewielka szafa. Na środku pomieszczenia wisi umocowany u szczytu kociołek, a pod nim na blasze palenisko. W kącie stoi lutnia.",
+    "coord": {"x": 12,"y": 6,"z": 4},
+    "surface": 2,
+    "items": [],
+		"exit": [1,0,0,0,0,0,0,0,0,0]
+  },
+  {
+    "name": "Warsztat",
+    "alias" : [],
+			"description": "Przeszedłeś w głąb warsztatu. Stoją tu narzędzia ślusarskie, imadła. Na stole leżą rozłożone młotki i pilniki. Możesz cofnąć się na zachód.",
+    "coord": {"x": 6,"y": 8,"z": 4},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,1,0,0,0,0,0,0,0]
+  },
+  {
+    "name": "Warsztat",
+    "alias" : [],
+			"description": "Wszesłeś do warsztatu, znajdującego się nad częścią mieszkalną. Znajdują się tu urządzenia i materiały potrzebne do wytwarzania kusz, części ruchomych i tym podobnych. Możesz przejsć dalej na zachód, lub zejsć po schodach w dół.",
+    "coord": {"x": 7,"y": 8,"z": 4},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,0,0,1,0,0,1]
+  },
+  {
+    "name": "Wieża",
+    "alias" : [],
+			"description": "Wspiąłeś się na przedostatnie piętro wieży przy bramie. Nie ma tu zbyt wiele miejsca, pod ścianą stoi stojak na łuki, na południe wychodzi małe okienko. Na dół prowadzą strome drewniane schody, na górę drabina.",
+    "coord": {"x": 8,"y": 8,"z": 4},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,0,0,0,0,1,1]
+  },
+  {
+    "name": "Wieża",
+    "alias" : [],
+			"description": "Znalazłeś się w wieży przy bramie. Stoi tu skrzynia. Na dół prowadzą strome drewniane schody, na górę drabina.",
+    "coord": {"x": 10,"y": 8,"z": 4},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,0,0,0,0,1,1]
+  },
+  {
+    "name": "Kwatera Straży",
+    "alias" : [],
+			"description": "Wszedłeś do pomieszczenia w którym nocują młodsi stażem strażnicy. Są tu wąskie piętrowe łóżka. Możesz przejść na wschód do dalszej części pomieszczenia lub zejść schodami w dół.",
+    "coord": {"x": 11,"y": 8,"z": 4},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,1,0,0,0,0,0,0,1]
+  },
+  {
+    "name": "Kwatera Straży",
+    "alias" : [],
+			"description": "Przeszedłeś do dalszej części pomieszczenia. Tu takze są łóżka, ale pod wschodnią ścianą znajduje się szeroki stół a przy nim kilka krzeseł. Możesz wrócić na zachód.",
+    "coord": {"x": 12,"y": 8,"z": 4},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,0,0,1,0,0,0]
+  },
+  {
+    "name": "Wieża",
+    "alias" : [],
+			"description": "Wspiąłeś się na szczyt wieży. Zza blanek masz widok na miasto i łąki rozciągające się na północ i wschód.",
+    "coord": {"x": 16,"y": 0,"z": 5},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,0,0,0,0,0,1]
+  },
+  {
+    "name": "Wieża",
+    "alias" : [],
+			"description": "Wspiąłeś się na sam szczyt wieży zamkowej. Rozciąga się stąd widok na cały teren zamku, ale widoczne są też miejscie zabudowania. Płaska podłoga otoczona jest niskim murem zwieńczonym blankami.",
+    "coord": {"x": 8,"y": 5,"z": 5},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,0,0,0,0,0,1]
+  },
+  {
+    "name": "Wieża",
+    "alias" : [],
+			"description": "Dostałeś się na sam szczyt wieży zamkowej. Rozciąga się stąd widok na cały teren zamku, ale widoczne są też miejscie zabudowania. Płaska podłoga otoczona jest niskim murem zwieńczonym blankami.",
+    "coord": {"x": 10,"y": 5,"z": 5},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,0,0,0,0,0,1]
+  },
+  {
+    "name": "Wieża",
+    "alias" : [],
+			"description": "Wspiąłeś się na sam szczyt wieży przy bramie. Rozciąga się stąd widok na plac zamkowy na północy oraz na południową część miasta. Mur sięga tu do brzucha, a blanki wznoszą się na wysokość wyprostowanego człowieka.",
+    "coord": {"x": 8,"y": 8,"z": 5},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,0,0,0,0,0,1]
+  },
+  {
+    "name": "Wieża",
+    "alias" : [],
+			"description": "Wszedłeś na sam szczyt wieży przy bramie. Rozciąga się stąd widok na plac zamkowy na północy oraz na południową część miasta. Mur sięga tu do brzucha, a blanki wznoszą się na wysokość wyprostowanego człowieka.",
+    "coord": {"x": 10,"y": 8,"z": 5},
+    "surface": 2,
+    "items": [],
+		"exit": [0,0,0,0,0,0,0,0,0,1]
+  }
+],
+	"door" : [
+	  {
+			"id" : 1,
+      "coord" : {"x" : 10, "y" : 7, "z" : 0},
+      "direction" : 4,
+      "open" : 0,
+			"key" : "8k7skqbn"
+    },
+		{
+			"id" : 2,
+      "coord" : {"x" : 10, "y" : 5, "z" : 1},
+      "direction" : 4,
+      "open" : 1,
+			"key" : "dw5kwt1d"
+    },
+		{
+			"id" : 3,
+      "coord" : {"x" : 10, "y" : 5, "z" : 1},
+      "direction" : 8,
+      "open" : 0,
+			"key" : "vfuse7tz"
+    },
+		{
+			"id" : 4,
+      "coord" : {"x" : 10, "y" : 7, "z" : 1},
+      "direction" : 0,
+      "open" : 0,
+			"key" : "lfa6rek1"
+    },
+		{
+			"id" : 5,
+      "coord" : {"x" : 8, "y" : 6, "z" : 1},
+      "direction" : 4,
+      "open" : 0,
+			"key" : "dzajqme5"
+    },
+		{
+			"id" : 6,
+      "coord" : {"x" : 8, "y" : 7, "z" : 1},
+      "direction" : 4,
+      "open" : 0,
+			"key" : "dzajqme5"
+    },
+		{
+			"id" : 7,
+      "coord" : {"x" : 8, "y" : 8, "z" : 1},
+      "direction" : 8,
+      "open" : 0,
+			"key" : "dzajqme5"
+    },
+		{
+			"id" : 8,
+      "coord" : {"x" : 9, "y" : 8, "z" : 1},
+      "direction" : 8,
+      "open" : 0,
+			"key" : "dzajqme5"
+    },
+		{
+			"id" : 9,
+      "coord" : {"x" : 10, "y" : 8, "z" : 1},
+      "direction" : 8,
+      "open" : 0,
+			"key" : "dzajqme5"
+    },
+		{
+			"id" : 10,
+      "coord" : {"x" : 9, "y" : 7, "z" : 1},
+      "direction" : 8,
+      "open" : 0,
+			"key" : "dzajqme5"
+    },
+		{
+			"id" : 11,
+      "coord" : {"x" : 10, "y" : 7, "z" : 1},
+      "direction" : 8,
+      "open" : 0,
+			"key" : "dzajqme5"
+    },
+		{
+			"id" : 12,
+      "coord" : {"x" : 10, "y" : 5, "z" : 2},
+      "direction" : 4,
+      "open" : 1,
+			"key" : "v86t1fnc"
+    },
+		{
+			"id" : 13,
+      "coord" : {"x" : 10, "y" : 5, "z" : 2},
+      "direction" : 8,
+      "open" : 1,
+			"key" : "nr1yge8m"
+    },
+		{
+			"id" : 14,
+      "coord" : {"x" : 7, "y" : 6, "z" : 2},
+      "direction" : 4,
+      "open" : 1,
+			"key" : "v0wpmke7"
+    },
+		{
+			"id" : 15,
+      "coord" : {"x" : 7, "y" : 7, "z" : 2},
+      "direction" : 4,
+      "open" : 1,
+			"key" : "l94rnl06"
+    },
+		{
+			"id" : 16,
+      "coord" : {"x" : 8, "y" : 8, "z" : 2},
+      "direction" : 8,
+      "open" : 1,
+			"key" : "lnc8byth"
+    },
+		{
+			"id" : 17,
+      "coord" : {"x" : 9, "y" : 8, "z" : 2},
+      "direction" : 4,
+      "open" : 1,
+			"key" : "lnc8byth"
+    },
+		{
+			"id" : 18,
+      "coord" : {"x" : 9, "y" : 8, "z" : 2},
+      "direction" : 8,
+      "open" : 1,
+			"key" : ""
+    },
+		{
+			"id" : 19,
+      "coord" : {"x" : 11, "y" : 8, "z" : 2},
+      "direction" : 8,
+      "open" : 0,
+			"key" : "o758wmyz"
+    }
+	],
+	"items" : [
+		{
+			"id": 1,
+			"class": "Food",
+			"name": "Chleb",
+			"alias" : [],
+			"description": "\u015awie\u017cy bochenek chleba",
+			"weight": 2,
+			"price": 2,
+			"keywords": {
+				"nourish": 10,
+				"stamina_suppl": 5
+			}
+		},
+		{
+			"id": 24,
+			"class": "Food",
+			"name": "Chleb",
+			"alias" : [],
+			"description": "\u015awie\u017cy bochenek chleba",
+			"weight": 2,
+			"price": 2,
+			"keywords": {
+				"nourish": 15,
+				"stamina_suppl": 5
+			}
+		},
+		{
+			"id": 2,
+			"class": "Drink",
+			"name": "Wino gronowe",
+			"alias" : ["wino"],
+			"description": "Butelka z zielonego szk\u0142a z puntem w denku. Znajduje si\u0119 w niej wytrawne wino z winogron z osadem na dnie.",
+			"weight": 2.5,
+			"price": 100,
+			"keywords": {
+				"nourish": 2,
+				"stamina_suppl": 1,
+				"alcohol": 13
+			}
+		},
+		{
+			"id": 3,
+			"class": "Heals",
+			"name": "Ma\u015b\u0107 z Argilli",
+			"alias" : ["masc z argilli", "masc"],
+			"description": "G\u0119sta ma\u017a o zielonkawym kolorze. Leczy rany",
+			"weight": 0.5,
+			"price": 30,
+			"keywords": {
+				"hp_suppl": 10
+			}
+		},
+		{
+			"id": 4,
+			"class": "Elixir",
+			"name": "Mikstura \u017cycia",
+			"alias" : ["mikstura zycia", "mikstura"],
+			"description": "Ma\u0142a fiolka z czerwonym p\u0142ynem.",
+			"weight": 0.5,
+			"price": 80,
+			"keywords": {
+				"duration": 3600,
+				"hp_sup": 10,
+				"st_av_sup": 0,
+				"st_sup": 0,
+				"mn_sup": 0,
+				"str": 5,
+				"agl": 0,
+				"spd": 0,
+				"dfc": 0,
+				"per": 0,
+				"stl": 0,
+				"hp_b": 10,
+				"mn_b": 0
+			}
+		},
+		{
+			"id": 5,
+			"class": "CloseRange",
+			"name": "Kr\u00f3lewski miecz",
+			"alias" : ["krolewski miecz", "miecz"],
+			"description": "D\u0142ugi miecz obosieczny. Na ko\u0144cach jelca oraz w g\u0142owni umieszczono klejnoty. W zbroczu znajduje si\u0119 otw\u00f3r.",
+			"weight": 3.5,
+			"price": 0,
+			"keywords": {
+				"type": "sword",
+				"damage": 50,
+				"strength_req": 15,
+				"agility_req": 10,
+				"thoughness": 80,
+				"cut": 60,
+				"stab": 40,
+				"crush": 0,
+				"block": 80
+			}
+		},
+		{
+			"id": 6,
+			"class": "Ranged",
+			"name": "D\u0142ugi \u0142uk",
+			"alias" : ["dlugi luk", "luk"],
+			"description": "D\u0142ugi \u0142uk z jesionu. Ci\u0119ciwa z liny konopnej.",
+			"weight": 0.7,
+			"price": 50,
+			"keywords": {
+				"type": "bow",
+				"damage": 40,
+				"strength_req": 20,
+				"agility_req": 10,
+				"ammo_type": "arrow",
+				"range": 30
+			}
+		},
+		{
+			"id": 7,
+			"class": "Armor",
+			"name": "Kolczuga",
+			"alias" : [],
+			"description": "Kamizelka wykonana z metalowych k\u00f3\u0142ek",
+			"weight": 8,
+			"price": 100,
+			"keywords": {
+				"body_part": "torso1",
+				"material": "iron",
+				"defence": 20,
+				"strength_req": 8,
+				"agility_minus": 5,
+				"speed_minus": 2
+			}
+		},
+		{
+			"id": 8,
+			"class": "Clothes",
+			"name": "Kontusz",
+			"alias" : [],
+			"description": "Monarsza szata z rozci\u0119tymi r\u0119kawami.",
+			"weight": 1.5,
+			"price": 0,
+			"keywords": {
+				"body_part": "torso2",
+				"cold_protection": 40,
+				"water_protection": 30
+			}
+		},
+		{
+			"id": 9,
+			"class": "Tool",
+			"name": "M\u0142otek",
+			"alias" : ["mlotek"],
+			"description": "Narz\u0119dzie z drewnian\u0105 r\u0105czk\u0105 i metalowym obuchem",
+			"weight": 5,
+			"price": 15,
+			"keywords" :{}
+		},
+		{
+			"id": 10,
+			"class": "Jewellery",
+			"name": "Pier\u015bcionek z brylantem",
+			"alias" : ["pierscionek z brylantem", "pierscionek"],
+			"description": "\u0141adny, z\u0142oty pier\u015bcionek z du\u017cym brylantem.",
+			"weight": 0,
+			"price": 0,
+			"keywords": {
+				"body_part": "finger"
+			}
+		},
+		{
+			"id": 23,
+			"class": "Jewellery",
+			"name": "Potężny brylant",
+			"alias" : ["potezny brylant", "brylant"],
+			"description": "\u0141adny, z\u0142oty pier\u015bcionek z du\u017cym brylantem.",
+			"weight": 100,
+			"price": 100,
+			"keywords": {
+				"body_part": "finger"
+			}
+		},
+		{
+			"id": 11,
+			"class": "Machine",
+			"name": "Miech kowalski",
+			"alias" : [],
+			"description": "Wykonany z metalu i sk\u00f3ry przyrz\u0105d do rozpalania paleniska.",
+			"weight": 0,
+			"price": 0,
+			"keywords": {}
+		},
+		{
+			"id": 12,
+			"class": "Vehicle",
+			"name": "Taczka",
+			"alias" : [],
+			"description": "Drewniane taczka z dwoma uchwytami i drewnianym k\u00f3\u0142kiem",
+			"weight": 30,
+			"price": 50,
+			"keywords": {
+				"strength_req": 8,
+				"speed_minus": 2
+			}
+		},
+		{
+			"id": 13,
+			"class": "Container",
+			"name": "Amfora",
+			"alias" : [],
+			"description": "Du\u017cy dzban z dwoma uchwytami i bardzo w\u0105sk\u0105 szyjk\u0105, wydaje si\u0119 by\u0107 pusta.",
+			"weight": 20,
+			"price": 0,
+			"keywords": {
+				"capacity": 10,
+				"for_liquids": "true"
+			}
+		},
+		{
+			"id": 14,
+			"class": "Furniture",
+			"name": "Sto\u0142ek",
+			"alias" : ["stolek"],
+			"description": "Ma\u0142y, tr\u00f3jnogi, drewniany sto\u0142ek.",
+			"weight": 8,
+			"price": 10,
+			"keywords": {
+				"openable": "false",
+				"function": "chair"
+			}
+		},
+		{
+			"id": 15,
+			"class": "Armor",
+			"name": "Napier\u015bnik",
+			"alias" : ["napiersnik"],
+			"description": "L\u015bni\u0105cy pancerz, spi\u0119ty sk\u00f3rzanymi rzemieniami",
+			"weight": 20.0,
+			"price": 200,
+			"keywords": {
+				"body_part": "torso2",
+				"material": "steel",
+				"defence": "20",
+				"strength_req": 20,
+				"agility_minus": 5,
+				"speed_minus": 3
+			}
+		},
+		{
+			"id": 16,
+			"class": "Shield",
+			"name": "Tarcza P\u00f3\u0142nocy",
+			"alias" : ["tarcza", "tarcza polnocy"],
+			"description": "Drewniana, okr\u0105\u0142a tarcza, okuta dooko\u0142a blach\u0105.",
+			"weight": 10.0,
+			"price": 80,
+			"keywords": {
+				"body_part": "left_hand",
+				"material": "wood",
+				"defence": "40",
+				"strength_req": 25,
+				"agility_minus": 5,
+				"speed_minus": 3
+			}
+		},
+		{
+			"id": 22,
+			"class": "Shield",
+			"name": "Tarcza Gwałtu",
+			"alias" : ["tarcza", "tarcza gwaltu"],
+			"description": "Drewniana, okr\u0105\u0142a tarcza, okuta dooko\u0142a blach\u0105.",
+			"weight": 10.0,
+			"price": 80,
+			"keywords": {
+				"body_part": "left_hand",
+				"material": "wood",
+				"defence": "40",
+				"strength_req": 25,
+				"agility_minus": 5,
+				"speed_minus": 3
+			}
+		},
+		{
+			"id": 17,
+			"class": "CloseRange",
+			"name": "Szabla",
+			"alias" : [],
+			"description": "Przyrdzewia\u0142a szabla",
+			"weight": 3.5,
+			"price": 100,
+			"keywords": {
+				"type": "sword",
+				"damage": 10,
+				"strength_req": 10,
+				"agility_req": 10,
+				"thoughness": 50,
+				"cut": 80,
+				"stab": 20,
+				"crush": 0,
+				"block": 80
+			}
+		},
+		{
+			"id": 18,
+			"class": "CloseRange",
+			"name": "Sztylet",
+			"alias" : [],
+			"description": "Bro\u0144 skrytob\u00f3jcy ze zdobion\u0105 r\u0119koje\u015bci\u0105",
+			"weight": 0.5,
+			"price": 40,
+			"keywords": {
+				"type": "sword",
+				"damage": 8,
+				"strength_req": 5,
+				"agility_req": 20,
+				"thoughness": 60,
+				"cut": 30,
+				"stab": 70,
+				"crush": 0,
+				"block": 10
+			}
+		},
+		{
+			"id": 19,
+			"class": "Machine",
+			"name": "Ko\u0142owr\u00f3t",
+			"alias" : ["kolowrot"],
+			"description": "Drewniany b\u0119b\u0119n z nawini\u0119tym na\u0144 \u0142a\u0144cuchem. Wystaj\u0105 z niego uchwyty, kt\u00f3rymi mo\u017cna go obraca\u0107.",
+			"weight": 100,
+			"price": 0,
+			"keywords": {}
+		},
+		{
+			"id": 20,
+			"class": "Machine",
+			"name": "Kraty",
+			"alias" : [],
+			"description": "Stalowe kraty umieszczone po obu stonach bramy",
+			"weight": 100,
+			"price": 0,
+			"keywords": {}
+		},
+		{
+			"id": 21,
+			"class": "Food",
+			"name": "Cukierek",
+			"alias" : [],
+			"description": "S\u0142odziutki cukierasek",
+			"weight": 0.05,
+			"price": 5,
+			"keywords": {
+				"nourish": 5,
+				"stamina_suppl": 1
+			}
+		},
+		{
+			"id": 25,
+			"class": "CloseRange",
+			"name": "Drewniany miecz",
+			"alias" : [],
+			"description": "Drewniany miecz, raczej nie wyrządzi ci wielkiej krzywdy",
+			"weight": 2,
+			"price": 10,
+			"keywords": {
+				"type": "sword",
+				"damage": 5,
+				"strength_req": 5,
+				"agility_req": 5,
+				"thoughness": 20,
+				"cut": 30,
+				"stab": 40,
+				"crush": 30,
+				"block": 10
+			}
+		},
+		{
+			"id": 26,
+			"class": "CloseRange",
+			"name": "Drewniany miecz",
+			"alias" : [],
+			"description": "Drewniany miecz, raczej nie wyrządzi ci wielkiej krzywdy",
+			"weight": 2,
+			"price": 10,
+			"keywords": {
+				"type": "sword",
+				"damage": 5,
+				"strength_req": 5,
+				"agility_req": 5,
+				"thoughness": 20,
+				"cut": 30,
+				"stab": 40,
+				"crush": 30,
+				"block": 10
+			}
+		},
+		{
+			"id": 27,
+			"class": "CloseRange",
+			"name": "Maczuga",
+			"alias" : [],
+			"description": "Wielki kawał drewna ponabijany kamieniami",
+			"weight": 20,
+			"price": 20,
+			"keywords": {
+				"type": "cudgel",
+				"damage": 50,
+				"strength_req": 30,
+				"agility_req": 20,
+				"thoughness": 50,
+				"cut": 0,
+				"stab": 0,
+				"crush": 100,
+				"block": 50
+			}
+		}
+	],
+	"mobs": [
+		{
+			"id" : 0,
+      "x": 9,
+      "y": 7,
+      "z": 2,
+			"name" : "Erlod",
+			"alias" : ["ja", "erlod", "hero"],
+			"description" : "Tylko ty",
+			"species" : "human",
+			"lift" : 70,
+      "current_location": 0,
+			"equip" : [
+				
+			],
+      "keywords": {
+        "hp": 60,
+        "hp_max": 70,
+        "st": 50,
+        "st_av": 90,
+        "st_max": 100,
+        "mn": 5,
+        "mn_max": 10,
+        "nou": 30,
+        "nou_max": 50,
+        "str": 10,
+        "agl": 50,
+        "spd": 5,
+        "dfc": 10,
+        "per": 20,
+        "vis": 20,
+        "sword": 5,
+        "axe": 5,
+        "spear": 5,
+        "cudgel": 5,
+        "bow": 2
+      }
+		},
+		{
+			"id" : 1,
+      "x": 15,
+      "y": 1,
+      "z": 2,
+			"name" : "Zwykła kukła",
+			"alias" : ["zwykla kukla", "kukla", "kukła"],
+			"description" : "Zwykła obrotowa kukła",
+			"species" : "dummy",
+			"lift" : 0,
+      "current_location": 0,
+			"equip" : [
+				25
+			],
+      "keywords": {
+        "hp": 20,
+        "hp_max": 20,
+        "st": 100,
+        "st_av": 100,
+        "st_max": 100,
+        "mn": 0,
+        "mn_max": 0,
+        "nou": 20,
+        "nou_max": 20,
+        "str": 5,
+        "agl": 10,
+        "spd": 15,
+        "dfc": 5,
+        "per": 10,
+        "vis": 20,
+        "sword": 10,
+        "axe": 0,
+        "spear": 0,
+        "cudgel": 0,
+        "bow": 0
+      }
+    },
+		{
+			"id" : 2,
+      "x": 15,
+      "y": 1,
+      "z": 2,
+			"name" : "Zniszczona kukła",
+			"alias" : ["kukla", "zniszczona kukla"],
+			"description" : "Ta kukła ma za sobą wiele pojedynków",
+			"species" : "dummy",
+			"lift" : 0,
+      "current_location": 0,
+			"equip" : [
+				26
+			],
+      "keywords": {
+        "hp": 10,
+        "hp_max": 20,
+        "st": 100,
+        "st_av": 100,
+        "st_max": 100,
+        "mn": 0,
+        "mn_max": 0,
+        "nou": 20,
+        "nou_max": 20,
+        "str": 5,
+        "agl": 10,
+        "spd": 15,
+        "dfc": 5,
+        "per": 10,
+        "vis": 20,
+        "sword": 10,
+        "axe": 0,
+        "spear": 0,
+        "cudgel": 0,
+        "bow": 0
+      }
+    },
+		{
+			"id" : 3,
+      "x": 16,
+      "y": 1,
+      "z": 2,
+			"name" : "Ogr Igor",
+			"alias" : ["ogr", "igor"],
+			"description" : "Gigantyczny ogr, sapie strasznie",
+			"species" : "ogre",
+			"lift" : 130,
+      "current_location": 0,
+			"equip" : [
+				27
+			],
+      "keywords": {
+        "hp": 100,
+        "hp_max": 100,
+        "st": 100,
+        "st_av": 100,
+        "st_max": 100,
+        "mn": 5,
+        "mn_max": 5,
+        "nou": 20,
+        "nou_max": 20,
+        "str": 20,
+        "agl": 5,
+        "spd": 5,
+        "dfc": 25,
+        "per": 10,
+        "vis": 20,
+        "sword": 5,
+        "axe": 10,
+        "spear": 0,
+        "cudgel": 25,
+        "bow": 0
+      }
+    }
+	]
+}

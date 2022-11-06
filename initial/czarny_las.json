@@ -1,0 +1,4844 @@
+{
+  "name": "Czarny las",
+  "x": 0,
+  "y": 0,
+  "size_x": 10,
+  "size_y": 21,
+  "size_z": 3,
+  "ground_level": 2,
+  "square": [
+    {
+      "name": "Łąka",
+      "description": "Idziesz łąką, rośnie tu gęsta trawa.",
+      "coord": {
+        "x": 0,
+        "y": 0,
+        "z": 2
+      },
+      "surface": 3,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Łąka",
+      "description": "Idziesz łąką, rośnie tu gęsta trawa.",
+      "coord": {
+        "x": 1,
+        "y": 0,
+        "z": 2
+      },
+      "surface": 3,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 2,
+        "y": 0,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 3,
+        "y": 0,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 4,
+        "y": 0,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 5,
+        "y": 0,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 6,
+        "y": 0,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 7,
+        "y": 0,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Łąka",
+      "description": "Przedzierasz się przez wysoką trawę.",
+      "coord": {
+        "x": 8,
+        "y": 0,
+        "z": 2
+      },
+      "surface": 3,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Łąka",
+      "description": "Przedzierasz się przez wysoką trawę.",
+      "coord": {
+        "x": 9,
+        "y": 0,
+        "z": 2
+      },
+      "surface": 3,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 0,
+        "y": 1,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 1,
+        "y": 1,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 2,
+        "y": 1,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 3,
+        "y": 1,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 4,
+        "y": 1,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 5,
+        "y": 1,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 6,
+        "y": 1,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 7,
+        "y": 1,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Łąka",
+      "description": "Przedzierasz się przez wysoką trawę.",
+      "coord": {
+        "x": 8,
+        "y": 1,
+        "z": 2
+      },
+      "surface": 3,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Łąka",
+      "description": "Przedzierasz się przez wysoką trawę.",
+      "coord": {
+        "x": 9,
+        "y": 1,
+        "z": 2
+      },
+      "surface": 3,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 0,
+        "y": 2,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 1,
+        "y": 2,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 3,
+        "y": 2,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew. Na południu widzisz wielki głaz.",
+      "coord": {
+        "x": 4,
+        "y": 2,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 5,
+        "y": 2,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 6,
+        "y": 2,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 7,
+        "y": 2,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 8,
+        "y": 2,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Łąka",
+      "description": "W tym miejscu trawa jest dużo niższa i drobna.",
+      "coord": {
+        "x": 9,
+        "y": 2,
+        "z": 2
+      },
+      "surface": 3,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 0,
+        "y": 3,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 1,
+        "y": 3,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 2,
+        "y": 3,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew. Na wschodzie widzisz wielki głaz.",
+      "coord": {
+        "x": 3,
+        "y": 3,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Głaz",
+      "description": "Wnętrze głazu.",
+      "coord": {
+        "x": 4,
+        "y": 3,
+        "z": 2
+      },
+      "surface": 5,
+      "items": [],
+      "exit": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie. Na zachodzie widzisz wielki głaz.",
+      "coord": {
+        "x": 5,
+        "y": 3,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 6,
+        "y": 3,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 7,
+        "y": 3,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 8,
+        "y": 3,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Łąka",
+      "description": "Idziesz łąką, rośnie tu gęsta trawa.",
+      "coord": {
+        "x": 9,
+        "y": 3,
+        "z": 2
+      },
+      "surface": 3,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 0,
+        "y": 4,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 1,
+        "y": 4,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 2,
+        "y": 4,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 3,
+        "y": 4,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie. Na północy widzisz wielki głaz.",
+      "coord": {
+        "x": 4,
+        "y": 4,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 5,
+        "y": 4,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 6,
+        "y": 4,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 7,
+        "y": 4,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 8,
+        "y": 4,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Łąka",
+      "description": "W tym miejscu trawa jest dużo niższa i drobna.",
+      "coord": {
+        "x": 9,
+        "y": 4,
+        "z": 2
+      },
+      "surface": 3,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 0,
+        "y": 5,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 1,
+        "y": 5,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 2,
+        "y": 5,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 3,
+        "y": 5,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 4,
+        "y": 5,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 5,
+        "y": 5,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 6,
+        "y": 5,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 7,
+        "y": 5,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 8,
+        "y": 5,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Łąka",
+      "description": "W tym miejscu trawa jest dużo niższa i drobna.",
+      "coord": {
+        "x": 9,
+        "y": 5,
+        "z": 2
+      },
+      "surface": 3,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Droga",
+      "description": "Poruszasz się po szerokiej i utwardzonej drodze",
+      "coord": {
+        "x": 0,
+        "y": 6,
+        "z": 2
+      },
+      "surface": 1,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Droga",
+      "description": "Poruszasz się po szerokiej i utwardzonej drodze",
+      "coord": {
+        "x": 1,
+        "y": 6,
+        "z": 2
+      },
+      "surface": 1,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 2,
+        "y": 6,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 3,
+        "y": 6,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 4,
+        "y": 6,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 5,
+        "y": 6,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 6,
+        "y": 6,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 7,
+        "y": 6,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Łąka",
+      "description": "Idziesz łąką, rośnie tu gęsta trawa.",
+      "coord": {
+        "x": 8,
+        "y": 6,
+        "z": 2
+      },
+      "surface": 3,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Łąka",
+      "description": "Idziesz łąką, rośnie tu gęsta trawa.",
+      "coord": {
+        "x": 9,
+        "y": 6,
+        "z": 2
+      },
+      "surface": 3,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 0,
+        "y": 7,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 1,
+        "y": 7,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Droga",
+      "description": "Poruszasz się po szerokiej i utwardzonej drodze",
+      "coord": {
+        "x": 2,
+        "y": 7,
+        "z": 2
+      },
+      "surface": 1,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Droga",
+      "description": "Poruszasz się po szerokiej i utwardzonej drodze",
+      "coord": {
+        "x": 3,
+        "y": 7,
+        "z": 2
+      },
+      "surface": 1,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Droga",
+      "description": "Poruszasz się po szerokiej i utwardzonej drodze",
+      "coord": {
+        "x": 4,
+        "y": 7,
+        "z": 2
+      },
+      "surface": 1,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 5,
+        "y": 7,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 6,
+        "y": 7,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Łąka",
+      "description": "Idziesz łąką, rośnie tu gęsta trawa.",
+      "coord": {
+        "x": 7,
+        "y": 7,
+        "z": 2
+      },
+      "surface": 3,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Łąka",
+      "description": "Przedzierasz się przez wysoką trawę.",
+      "coord": {
+        "x": 8,
+        "y": 7,
+        "z": 2
+      },
+      "surface": 3,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Łąka",
+      "description": "Idziesz łąką, rośnie tu gęsta trawa.",
+      "coord": {
+        "x": 9,
+        "y": 7,
+        "z": 2
+      },
+      "surface": 3,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 0,
+        "y": 8,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 1,
+        "y": 8,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 2,
+        "y": 8,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 3,
+        "y": 8,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 4,
+        "y": 8,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Droga",
+      "description": "Poruszasz się po szerokiej i utwardzonej drodze",
+      "coord": {
+        "x": 5,
+        "y": 8,
+        "z": 2
+      },
+      "surface": 1,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Łąka",
+      "description": "W tym miejscu trawa jest dużo niższa i drobna.",
+      "coord": {
+        "x": 6,
+        "y": 8,
+        "z": 2
+      },
+      "surface": 3,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Łąka",
+      "description": "Przedzierasz się przez wysoką trawę.",
+      "coord": {
+        "x": 7,
+        "y": 8,
+        "z": 2
+      },
+      "surface": 3,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Łąka",
+      "description": "W tym miejscu trawa jest dużo niższa i drobna.",
+      "coord": {
+        "x": 8,
+        "y": 8,
+        "z": 2
+      },
+      "surface": 3,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Łąka",
+      "description": "Przedzierasz się przez wysoką trawę.",
+      "coord": {
+        "x": 9,
+        "y": 8,
+        "z": 2
+      },
+      "surface": 3,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 0,
+        "y": 9,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 1,
+        "y": 9,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 2,
+        "y": 9,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 3,
+        "y": 9,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Łąka",
+      "description": "Idziesz łąką, rośnie tu gęsta trawa.",
+      "coord": {
+        "x": 4,
+        "y": 9,
+        "z": 2
+      },
+      "surface": 3,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Łąka",
+      "description": "Przedzierasz się przez wysoką trawę.",
+      "coord": {
+        "x": 5,
+        "y": 9,
+        "z": 2
+      },
+      "surface": 3,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Droga",
+      "description": "Poruszasz się po szerokiej i utwardzonej drodze",
+      "coord": {
+        "x": 6,
+        "y": 9,
+        "z": 2
+      },
+      "surface": 1,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Łąka",
+      "description": "Przedzierasz się przez wysoką trawę.",
+      "coord": {
+        "x": 7,
+        "y": 9,
+        "z": 2
+      },
+      "surface": 3,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Łąka",
+      "description": "Idziesz łąką, rośnie tu gęsta trawa.",
+      "coord": {
+        "x": 8,
+        "y": 9,
+        "z": 2
+      },
+      "surface": 3,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Łąka",
+      "description": "Idziesz łąką, rośnie tu gęsta trawa.",
+      "coord": {
+        "x": 9,
+        "y": 9,
+        "z": 2
+      },
+      "surface": 3,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 0,
+        "y": 10,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 1,
+        "y": 10,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 2,
+        "y": 10,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 3,
+        "y": 10,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 4,
+        "y": 10,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 5,
+        "y": 10,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Łąka",
+      "description": "Idziesz łąką, rośnie tu gęsta trawa.",
+      "coord": {
+        "x": 6,
+        "y": 10,
+        "z": 2
+      },
+      "surface": 3,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Droga",
+      "description": "Idziesz drogą, która prowadzi do miasta",
+      "coord": {
+        "x": 7,
+        "y": 10,
+        "z": 2
+      },
+      "surface": 1,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Łąka",
+      "description": "W tym miejscu trawa jest dużo niższa i drobna.",
+      "coord": {
+        "x": 8,
+        "y": 10,
+        "z": 2
+      },
+      "surface": 3,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Łąka",
+      "description": "W tym miejscu trawa jest dużo niższa i drobna.",
+      "coord": {
+        "x": 9,
+        "y": 10,
+        "z": 2
+      },
+      "surface": 3,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 0,
+        "y": 11,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 1,
+        "y": 11,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 2,
+        "y": 11,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 3,
+        "y": 11,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 4,
+        "y": 11,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 5,
+        "y": 11,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 6,
+        "y": 11,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Łąka",
+      "description": "Idziesz łąką, rośnie tu gęsta trawa.",
+      "coord": {
+        "x": 7,
+        "y": 11,
+        "z": 2
+      },
+      "surface": 3,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Droga",
+      "description": "Poruszasz się po szerokiej i utwardzonej drodze",
+      "coord": {
+        "x": 8,
+        "y": 11,
+        "z": 2
+      },
+      "surface": 1,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Łąka",
+      "description": "Idziesz łąką, rośnie tu gęsta trawa.",
+      "coord": {
+        "x": 9,
+        "y": 11,
+        "z": 2
+      },
+      "surface": 3,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 0,
+        "y": 12,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 1,
+        "y": 12,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 2,
+        "y": 12,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 3,
+        "y": 12,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 4,
+        "y": 12,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 5,
+        "y": 12,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 6,
+        "y": 12,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Łąka",
+      "description": "Przedzierasz się przez wysoką trawę.",
+      "coord": {
+        "x": 7,
+        "y": 12,
+        "z": 2
+      },
+      "surface": 3,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Łąka",
+      "description": "Przedzierasz się przez wysoką trawę.",
+      "coord": {
+        "x": 8,
+        "y": 12,
+        "z": 2
+      },
+      "surface": 3,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Droga",
+      "description": "Idziesz drogą, która prowadzi do miasta",
+      "coord": {
+        "x": 9,
+        "y": 12,
+        "z": 2
+      },
+      "surface": 1,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Jeziorko",
+      "description": "Powoli przemierzasz wodę, koło kostek przepływają ci rybki.",
+      "coord": {
+        "x": 0,
+        "y": 13,
+        "z": 2
+      },
+      "surface": 7,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 1,
+        "y": 13,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Łąka",
+      "description": "Przedzierasz się przez wysoką trawę.",
+      "coord": {
+        "x": 2,
+        "y": 13,
+        "z": 2
+      },
+      "surface": 3,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Łąka",
+      "description": "W tym miejscu trawa jest dużo niższa i drobna.",
+      "coord": {
+        "x": 3,
+        "y": 13,
+        "z": 2
+      },
+      "surface": 3,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 4,
+        "y": 13,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 5,
+        "y": 13,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 6,
+        "y": 13,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 7,
+        "y": 13,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Łąka",
+      "description": "W tym miejscu trawa jest dużo niższa i drobna.",
+      "coord": {
+        "x": 8,
+        "y": 13,
+        "z": 2
+      },
+      "surface": 3,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Łąka",
+      "description": "Przedzierasz się przez wysoką trawę.",
+      "coord": {
+        "x": 9,
+        "y": 13,
+        "z": 2
+      },
+      "surface": 3,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 0,
+        "y": 14,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Rzeka",
+      "description": "Brodzisz w wodzie po pas",
+      "coord": {
+        "x": 1,
+        "y": 14,
+        "z": 2
+      },
+      "surface": 7,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Łąka",
+      "description": "W tym miejscu trawa jest dużo niższa i drobna.",
+      "coord": {
+        "x": 2,
+        "y": 14,
+        "z": 2
+      },
+      "surface": 3,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Łąka",
+      "description": "Idziesz łąką, rośnie tu gęsta trawa.",
+      "coord": {
+        "x": 3,
+        "y": 14,
+        "z": 2
+      },
+      "surface": 3,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 4,
+        "y": 14,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 5,
+        "y": 14,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 6,
+        "y": 14,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 7,
+        "y": 14,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Łąka",
+      "description": "Idziesz łąką, rośnie tu gęsta trawa.",
+      "coord": {
+        "x": 8,
+        "y": 14,
+        "z": 2
+      },
+      "surface": 3,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Łąka",
+      "description": "W tym miejscu trawa jest dużo niższa i drobna.",
+      "coord": {
+        "x": 9,
+        "y": 14,
+        "z": 2
+      },
+      "surface": 3,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 0,
+        "y": 15,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Rzeka",
+      "description": "Powoli przemierzasz wodę, koło kostek przepływają ci rybki.",
+      "coord": {
+        "x": 1,
+        "y": 15,
+        "z": 2
+      },
+      "surface": 7,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Rzeka",
+      "description": "Powoli przemierzasz wodę, koło kostek przepływają ci rybki.",
+      "coord": {
+        "x": 2,
+        "y": 15,
+        "z": 2
+      },
+      "surface": 7,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Łąka",
+      "description": "W tym miejscu trawa jest dużo niższa i drobna.",
+      "coord": {
+        "x": 3,
+        "y": 15,
+        "z": 2
+      },
+      "surface": 3,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 4,
+        "y": 15,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 5,
+        "y": 15,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 6,
+        "y": 15,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 7,
+        "y": 15,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 8,
+        "y": 15,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Łąka",
+      "description": "Przedzierasz się przez wysoką trawę.",
+      "coord": {
+        "x": 9,
+        "y": 15,
+        "z": 2
+      },
+      "surface": 3,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 0,
+        "y": 16,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Rzeka",
+      "description": "Brodzisz w wodzie po pas",
+      "coord": {
+        "x": 1,
+        "y": 16,
+        "z": 2
+      },
+      "surface": 7,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Rzeka",
+      "description": "Brodzisz w wodzie po pas",
+      "coord": {
+        "x": 2,
+        "y": 16,
+        "z": 2
+      },
+      "surface": 7,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 3,
+        "y": 16,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 4,
+        "y": 16,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 5,
+        "y": 16,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 6,
+        "y": 16,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 7,
+        "y": 16,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 8,
+        "y": 16,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 9,
+        "y": 16,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 0,
+        "y": 17,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 1,
+        "y": 17,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 2,
+        "y": 17,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Rzeka",
+      "description": "Powoli przemierzasz wodę, koło kostek przepływają ci rybki.",
+      "coord": {
+        "x": 3,
+        "y": 17,
+        "z": 2
+      },
+      "surface": 7,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Rzeka",
+      "description": "Brodzisz w wodzie po pas",
+      "coord": {
+        "x": 4,
+        "y": 17,
+        "z": 2
+      },
+      "surface": 7,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 5,
+        "y": 17,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 6,
+        "y": 17,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 7,
+        "y": 17,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 8,
+        "y": 17,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 9,
+        "y": 17,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 0,
+        "y": 18,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 1,
+        "y": 18,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 2,
+        "y": 18,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 3,
+        "y": 18,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 4,
+        "y": 18,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Rzeka",
+      "description": "Powoli przemierzasz wodę, koło kostek przepływają ci rybki.",
+      "coord": {
+        "x": 5,
+        "y": 18,
+        "z": 2
+      },
+      "surface": 7,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 6,
+        "y": 18,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 7,
+        "y": 18,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 8,
+        "y": 18,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 9,
+        "y": 18,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 0,
+        "y": 19,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 1,
+        "y": 19,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 2,
+        "y": 19,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 3,
+        "y": 19,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 4,
+        "y": 19,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 5,
+        "y": 19,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Rzeka",
+      "description": "Brodzisz w wodzie po pas",
+      "coord": {
+        "x": 6,
+        "y": 19,
+        "z": 2
+      },
+      "surface": 7,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 7,
+        "y": 19,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 8,
+        "y": 19,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 9,
+        "y": 19,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 0,
+        "y": 20,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 1,
+        "y": 20,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 2,
+        "y": 20,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 3,
+        "y": 20,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 4,
+        "y": 20,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 5,
+        "y": 20,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Tutaj drzewa rosną jeszcze gęściej, łatwo się potknąć o korzenie.",
+      "coord": {
+        "x": 6,
+        "y": 20,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Rzeka",
+      "description": "Powoli przemierzasz wodę, koło kostek przepływają ci rybki.",
+      "coord": {
+        "x": 7,
+        "y": 20,
+        "z": 2
+      },
+      "surface": 7,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 8,
+        "y": 20,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Las",
+      "description": "Idziesz gęstym lasem, sporo tu wysokich drzew",
+      "coord": {
+        "x": 9,
+        "y": 20,
+        "z": 2
+      },
+      "surface": 4,
+      "items": [],
+      "exit": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "door": [],
+  "items": [],
+	"mobs": []
+}
