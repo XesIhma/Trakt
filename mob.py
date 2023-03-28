@@ -227,11 +227,12 @@ class Mob:
 			self.weaking(2, 8, False)
 			return damage
 	def die(self):
-		deadBody = DeadBody(self.deadBody, ["truchło", "truchlo", "zwłoki", "zwloki", "ciało", "cialo"], "Martwe ciało", -1, self.param["hp_max"]/3, 0)
+		deadBody = DeadBody(self.deadBody, "Martwe ciało", ["truchło", "truchlo", "zwłoki", "zwloki", "ciało", "cialo"], self.description, self.param["hp_max"]/3, 0)
 		self.currentLocation.s[self.x][self.y][self.z].addItem(deadBody)
 		for i in self.equip:
 			self.currentLocation.s[self.x][self.y][self.z].addItem(i)
 		self.currentLocation.mobs.remove(self)
+
 	def coordComp(self, that):
 		if self.x == that.x and self.y == that.y and self.z == that.z and self.currentLocation == that.currentLocation:
 			return 1
